@@ -1,0 +1,185 @@
+# What is VSlices actively exploring in the near term?
+
+> Status note
+>
+> These are current directions inferred from active project artifacts and experiments. They are not promises or a fixed release contract. Check the relevant repositories before treating any item as still pending.
+
+## Cross-suite direction
+
+The near-term direction is no longer simply "formalize the original four products".
+
+The active work is increasingly about making continuity executable and testable across:
+
+`knowledge -> structured semantics -> constrained realization -> executable evidence`
+
+without collapsing every form of knowledge into code or pretending that missing semantics can be generated safely.
+
+Important near-term concerns include:
+
+- validating ideas against real migrated systems;
+- preserving provenance and authority across representations;
+- connecting Docs Standard, Framework, VSIR and Tooling more explicitly;
+- distinguishing deterministic knowledge from genuinely underdetermined choices;
+- and making repository artifacts sufficient for future human or AI-assisted sessions to reconstruct current decisions.
+
+## VSlices Method
+
+Likely near-term work:
+
+- validate Context-First, Problem-First and Slice-First against more real cases;
+- refine criteria for choosing a working mode;
+- make iteration and return-to-Understanding more explicit;
+- distinguish when formalization or generation is justified from when more understanding is required;
+- improve handoffs between discovery, design, documentation, construction and verification.
+
+The goal is validation and refinement, not inventing a large mandatory process.
+
+## VSlices Design
+
+Likely near-term work:
+
+- refine distinctions among capability, functionality, operation and responsibility;
+- develop patterns for behavior composition;
+- clarify whether restrictions belong to semantic structure, contextual admissibility, architecture or target realization;
+- deepen reasoning around consistency, boundaries, coordination and representation;
+- continue extracting techniques from real software work rather than declaring a closed catalog prematurely.
+
+Design should remain independent of a particular VSIR grammar, C# or LanguageExt.
+
+## VSlices Docs Standard
+
+Near-term work should focus on maturing structures that already exist, including:
+
+- Document;
+- Continuity Path;
+- Nexus;
+- current document types;
+- documentary organizations;
+- navigation and relationship rules;
+- artifact identity and metadata;
+- validity and evolution rules.
+
+Additional focus includes:
+
+- representing provenance and stable references;
+- making relationships usable by tooling where this adds value;
+- preserving explicit ambiguity or insufficient knowledge;
+- and distinguishing descriptive documentation from operable declarations.
+
+Not every document needs to become machine-readable or executable.
+
+## VSlices Framework
+
+The current Framework direction is to continue definition and validation through real implementation.
+
+Near-term topics include:
+
+- clearer semantic ownership and boundaries;
+- explicit separation between representability, semantic meaning, admissibility, executable work and externally acquired evidence;
+- project, solution and deployment architecture distinctions;
+- continued formalization of Products and Services where those concepts survive current evidence;
+- soft and hard dependencies;
+- operational composition such as Nexus where evidence supports it;
+- correspondence between architectural levels;
+- rules that connect Docs Standard to software interpretation;
+- and progressive determinism where guarantees can actually be represented.
+
+### Framework for .NET
+
+The .NET realization is actively testing a move away from the historical `VSlices.Domain`, `VSlices.Application` and `VSlices.Infrastructure` decomposition. The migration must not be treated as a namespace rename. Each existing responsibility should be reconsidered according to the phenomenon it represents and the authority it owns.
+
+Current working surfaces include:
+
+- `VSlices.Space`: semantic spaces, value structure, algebraic relationships, restrictions and pure transformations;
+- `VSlices.Work`: executable work, coordination, capabilities, effects, expected errors and world changes;
+- `VSlices.Grounding`: acquisition of external facts or evidence that internal semantics cannot derive.
+
+The current working name **Semantic-Oriented Domain Modeling** describes this direction provisionally. It is not yet a finalized definition, and even the word `Domain` may need revision if the model proves broader than conventional domain modeling.
+
+The .NET realization should continue validating which general Framework guarantees can be expressed through:
+
+- C# types and generics;
+- compile-time constraints;
+- functional composition and LanguageExt where useful as realization mechanisms rather than ontology;
+- analyzers and source-generation techniques where justified;
+- ASP.NET Core and hosting;
+- tests;
+- and .NET-native target tooling.
+
+Useful real cases for this validation include quantities, coordinates, affine/vector spaces, `Money<C>`, contextual exchange rates, time acquisition, repositories and external observations.
+
+Target-specific mechanisms and currently convenient categories should not silently become universal Framework semantics.
+
+## VSlices Tooling
+
+The active `v0.2.0-preview` direction currently combines:
+
+1. CLI experience
+   - identity and presentation;
+   - operability;
+   - installation and self-update;
+   - project configuration;
+   - machine-safe output.
+
+2. Semantic capability
+   - broader real-world VSIR coverage;
+   - conservative parsing and validation;
+   - external Ruleset knowledge;
+   - deterministic lowering where authorized;
+   - rebase of compatible human-edited materializations;
+   - target-context delegation;
+   - project extension boundaries;
+   - stronger provenance/lineage where required by rebase and lowering.
+
+The normal `lower` command should continue selecting the least-powerful sufficient authorized mechanism.
+
+## Interpretive lowering
+
+`interpretate` is a hypothesis, not a required near-term feature.
+
+It should only become an actual mechanism or command if real cases remain:
+
+- genuinely underdetermined,
+- sufficiently constrained,
+- and unresolved after considering VSIR semantics, Ruleset knowledge, project evidence and target-native authority.
+
+A missing deterministic rule alone is not evidence that AI interpretation is required.
+
+## Verification and evidence
+
+Near-term evolution should keep expanding evidence that can discriminate architecture from one convenient implementation.
+
+Useful evidence includes:
+
+- deterministic replay;
+- explicit missing-rule failures;
+- successful rule changes without rebuilding Tooling where the mechanism already exists;
+- preservation of compatible human edits;
+- target-native fact resolution;
+- real consumer-project lowering;
+- compile and test validation;
+- and repository-level reconstruction of decisions.
+
+## Canonical reconstruction paths
+
+Suite/product direction:
+
+`vslices/ideas/proyectos/v-slices/README.md`
+
+Framework:
+
+`vslices/ideas/proyectos/v-slices/Framework/README.md`
+
+Restricted intermediate-language impact:
+
+`vslices/ideas/proyectos/v-slices/propuestas/lenguaje-intermedio-restringido/cambios-en-la-suite.md`
+
+Tooling preview:
+
+`vslices/tooling/README.md`
+`vslices/tooling/docs/releases/v0.2.0-preview.md`
+`vslices/tooling/docs/ai-development-orientation.md`
+
+Ruleset:
+
+`vslices/ruleset/README.md`
