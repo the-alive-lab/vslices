@@ -1,0 +1,212 @@
+# What is the philosophy of VSlices?
+
+> Context note
+>
+> This document summarizes currently recognizable principles. It is not a frozen manifesto. Prefer current project evidence when a principle has materially evolved.
+
+## Continuity across transformations
+
+VSlices is centered on preserving continuity between:
+
+- understanding a real problem,
+- problem, semantic and operating context,
+- documentation,
+- design,
+- architecture,
+- implementation,
+- verification,
+- operation,
+- and evolution.
+
+The objective is not to force every representation to have the same shape.
+
+A business scenario, a document, a semantic model, a VSIR artifact and a C# implementation may be structurally different while still participating in one continuity.
+
+What matters is making transformations sufficiently explicit to understand:
+
+- what was preserved,
+- what was derived,
+- what was selected,
+- what became more constrained,
+- what was lost,
+- what remains unknown,
+- and which actor or artifact owns each decision.
+
+## Documentation and implementation are not independent worlds
+
+Documentation is part of design and continuity, not ceremonial output produced after the fact.
+
+Implementation is also evidence.
+
+Building a realization can expose:
+
+- missing knowledge,
+- invalid assumptions,
+- hidden coupling,
+- insufficient abstractions,
+- accidental complexity,
+- and contradictions in the documentation or model.
+
+The normal trajectory is therefore iterative rather than one-way.
+
+A useful working cycle is:
+
+`Understanding -> Contextualizing -> Planning -> Building -> Understanding`
+
+## Progressive commitment
+
+VSlices favors introducing structure when evidence earns it.
+
+This means:
+
+- low ceremony where the problem is still small,
+- explicit structure where guarantees or coordination require it,
+- reversible decisions while evidence is weak,
+- and stronger constraints only when the semantics, evidence or system justify them.
+
+A new observed case should not automatically become a new universal rule, enum, switch, keyword or architectural layer.
+
+First ask whether:
+
+- the case belongs to an extensible vocabulary,
+- an existing mechanism can express it,
+- a more general abstraction has not yet been discovered,
+- or genuinely new semantics have appeared.
+
+## Semantics before realization
+
+VSlices distinguishes:
+
+- what something means,
+- who has authority to define that meaning,
+- what mechanism can express or validate it,
+- and how a particular target realizes it.
+
+A callable API, renderer, parser branch or compilable implementation is not automatically a semantically valid realization.
+
+Likewise, a closed list in one current implementation is not automatically the conceptual ceiling of the system.
+
+For current Tooling/Ruleset work, a useful formulation is:
+
+`Tooling owns the rule language. Rulesets own the rule vocabulary.`
+
+This means Tooling constrains the mechanisms through which lowering knowledge can be expressed, validated and executed without unnecessarily hard-coding every semantic name into the executable.
+
+Built-ins can bootstrap a system without defining its semantic ceiling.
+
+Project-owned semantic extensions remain separately owned by the consumer project where the current extension model supports them.
+
+## Automation without invented knowledge
+
+VSlices does not reject automation or generation.
+
+It rejects pretending that automation knows more than the available evidence authorizes.
+
+The current direction distinguishes:
+
+- unrestricted generation from incomplete natural-language intent,
+- from constrained composition and materialization based on explicit, structured, verifiable semantics.
+
+A core lowering principle is:
+
+> Lowering may complete implementation detail. Lowering must not complete missing semantics.
+
+For future interpretive mechanisms:
+
+> Interpretation may resolve constrained underdetermination. Interpretation must not manufacture missing authority.
+
+## Semantic boundaries before architectural labels
+
+VSlices should not assume that familiar architectural categories are the natural ontology of every software system.
+
+In particular, the current Framework for .NET direction is moving away from using `Domain`, `Application` and `Infrastructure` as universal top-level semantic buckets. Existing systems may still use those terms legitimately, but VSlices should ask first:
+
+- what phenomenon is being represented;
+- what meaning or structure it owns;
+- what transformations are valid;
+- what evidence is derivable versus externally acquired;
+- what work changes or coordinates the world;
+- and who has authority over each rule or observation.
+
+Current experiments distinguish:
+
+- `Space`: values, structure, relations, admissibility and pure transformations;
+- `Work`: executable behavior, coordination, capabilities, effects and expected errors;
+- `Grounding`: acquisition of external facts or evidence.
+
+This distinction is evidence-driven and provisional. It must not be preserved merely because it has now been named.
+
+A recurring criterion is:
+
+`effectful acquisition -> explicit evidence -> pure transformation`
+
+before introducing an effectful semantic transformation.
+
+The working name **Semantic-Oriented Domain Modeling** describes this direction provisionally. It should not be presented as a finalized paradigm, nor should functional programming be mistaken for its semantic foundation; functional techniques are one way to realize explicit semantics.
+
+## Engineering should remain visible
+
+VSlices should not market ordinary engineering ideas as framework magic.
+
+Its abstractions should make behavior, effects, expected errors, capabilities, boundaries and guarantees easier to compose and preserve without hiding the underlying concepts.
+
+A developer should be able to understand:
+
+- what problem an abstraction addresses,
+- what guarantees it actually provides,
+- what it does not guarantee,
+- how a concrete realization works,
+- and how the same engineering idea could be implemented without VSlices.
+
+The framework should teach engineering, not dependency on the framework.
+
+## Target independence
+
+VSlices Framework is broader than any single implementation.
+
+In particular:
+
+- Framework is not defined by .NET,
+- Framework is not defined by LanguageExt,
+- and LanguageExt should be treated as an antecedent and implementation mechanism where a concrete .NET realization actually uses it.
+
+A concrete target realization may exploit its own type system, compiler, analyzers, build tooling and ecosystem-specific mechanisms without turning those mechanisms into universal VSlices semantics.
+
+## Shared working principles
+
+Currently recognizable principles include:
+
+- preserve intent without freezing it;
+- explicit behavior and expected errors;
+- explicit capabilities and boundaries;
+- progressive complexity;
+- composition before unnecessary inheritance;
+- semantic-first reasoning, including domain reasoning where applicable;
+- compile-time guarantees when they are meaningful and available;
+- low accidental complexity;
+- documentation as living design;
+- evidence before confident generalization;
+- architecture that emerges from justified boundaries;
+- deterministic mechanisms where semantics are sufficiently known;
+- visible uncertainty where they are not;
+- tooling that supports engineering judgment rather than replacing it;
+- honest comparisons rather than product propaganda.
+
+## Canonical reconstruction paths
+
+Conceptual project:
+
+`vslices/ideas/proyectos/v-slices/README.md`
+
+Conceptual Framework:
+
+`vslices/ideas/proyectos/v-slices/Framework/README.md`
+
+Restricted intermediate-language proposal and its impact on the suite:
+
+`vslices/ideas/proyectos/v-slices/propuestas/lenguaje-intermedio-restringido/cambios-en-la-suite.md`
+
+Current Tooling authority model:
+
+`vslices/tooling/README.md`
+`vslices/tooling/docs/ai-development-orientation.md`
