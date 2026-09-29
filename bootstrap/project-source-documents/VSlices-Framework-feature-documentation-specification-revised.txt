@@ -1,0 +1,333 @@
+# Explaining VSlices features, concepts and realizations
+
+This document defines how major VSlices features, abstractions and architectural ideas should be explained.
+
+It replaces the older assumption that every VSlices concept must be taught through a fixed:
+
+`VSlices -> LanguageExt -> plain .NET`
+
+sequence.
+
+That model was useful for the original .NET realization but is no longer general enough for VSlices Framework as currently understood.
+
+## Core objective
+
+Documentation should teach engineering concepts and preserve architectural understanding.
+
+It should make clear:
+
+- what problem exists;
+- what semantic concept addresses it;
+- which VSlices product owns the concept;
+- what guarantees VSlices adds;
+- how a concrete realization implements it;
+- what remains target-specific;
+- what trade-offs exist;
+- and how the idea can exist independently from VSlices.
+
+VSlices should be presented as an optional accelerator, organizer and continuity mechanism — not as magic or as the exclusive way to build good software.
+
+## Product and realization must be distinguished
+
+A VSlices concept may belong to:
+
+- Method;
+- Design;
+- Docs Standard;
+- Framework;
+- Tooling;
+- or a relationship among several products.
+
+Do not automatically explain a Framework concept as if it were defined by the current .NET API.
+
+VSlices Framework is broader than VSlices Framework for .NET.
+
+Likewise, LanguageExt is an antecedent and a concrete implementation mechanism where currently used. It is not the universal semantic definition of VSlices Framework.
+
+The same rule applies to Domain-Driven Design and functional programming. They may provide useful concepts, techniques and implementation strategies, but neither is the organizing ontology of Framework. Documentation should distinguish borrowed or independently rediscovered techniques from VSlices-specific semantic boundaries.
+
+The current .NET realization is exploring a semantic-first direction provisionally referred to as **Semantic-Oriented Domain Modeling**. This is a working name, not a finalized discipline or product claim. Its current evidence includes emerging surfaces such as `Space`, `Work` and `Grounding`, and the recurring separation:
+
+`effectful acquisition -> explicit evidence -> pure transformation`
+
+Do not teach those surfaces as a closed universal taxonomy while they remain under validation.
+
+## Recommended explanation model
+
+Use four layers when they are relevant.
+
+Not every topic needs all four layers, but skipping a layer should be intentional.
+
+### Layer 1 — Engineering problem and semantic concept
+
+Start before the framework.
+
+Explain:
+
+- What real engineering problem is being addressed?
+- What knowledge or behavior must be preserved?
+- What accidental complexity or ambiguity appears without an explicit model?
+- What semantic distinction matters?
+- What guarantees are desirable?
+- What remains a judgment call?
+
+This layer should be valid even for someone who never adopts VSlices.
+
+### Layer 2 — VSlices model
+
+Explain how VSlices represents or organizes the concept.
+
+Cover:
+
+- which VSlices product owns the concept;
+- the relevant abstraction, document, contract or semantic structure;
+- what the abstraction guarantees;
+- what it deliberately leaves open;
+- how it composes with surrounding VSlices structures;
+- how it preserves continuity with earlier and later representations.
+
+For executable semantics, distinguish:
+
+- semantic source;
+- authority;
+- lowering mechanism;
+- target realization;
+- and verification evidence.
+
+Do not imply hidden behavior.
+
+### Layer 3 — Concrete technological realization
+
+Explain one actual realization only when useful.
+
+For VSlices Framework for .NET this may include:
+
+- C# types and generics;
+- semantic spaces and transformations where currently implemented;
+- `Space`, `Work` and `Grounding` surfaces where they are actually present;
+- LanguageExt primitives where actually used;
+- ASP.NET Core or hosting mechanisms;
+- Roslyn;
+- analyzers;
+- source generators;
+- tests;
+- target-native tooling;
+- or concrete CLI/lowering behavior.
+
+This layer must say explicitly which parts are:
+
+- VSlices semantics;
+- realization choices;
+- target limitations;
+- and implementation details.
+
+Do not present LanguageExt knowledge as a prerequisite for understanding VSlices.
+
+When LanguageExt is used, explain what role it plays rather than treating it as the ontology of the concept.
+
+### Layer 4 — Framework-free or alternative realization
+
+Show that the engineering concept can exist without VSlices.
+
+For a .NET topic, this may be a realistic plain-.NET implementation.
+
+For another target, use that ecosystem's ordinary mechanisms.
+
+The comparison must be fair.
+
+Do not intentionally make the alternative implementation ugly or unsafe merely to make VSlices look superior.
+
+Explain:
+
+- what ceremony appears;
+- what guarantees become manual;
+- what becomes implicit;
+- what becomes harder to standardize or trace;
+- what flexibility increases;
+- and when the alternative may be preferable.
+
+## Comparative close
+
+Finish major explanations with an explicit comparison.
+
+Distinguish:
+
+- semantic value;
+- ergonomics;
+- guarantees;
+- ceremony;
+- coupling;
+- observability of behavior;
+- traceability;
+- portability;
+- and cost of adopting the abstraction.
+
+The answer should make it possible for a reader to choose not to use VSlices for a legitimate reason.
+
+## Explaining VSIR and lowering
+
+When a feature participates in VSIR or Tooling, documentation must preserve the current authority model.
+
+Explain the roles separately:
+
+```text
+consumer/project evidence
+    -> semantic source (.vsir)
+    -> constrained lowering mechanisms (Tooling)
+    -> revisable target knowledge (Ruleset)
+    -> target-native facts
+    -> human-editable materialization (.vsir.cs)
+    -> compile/test/runtime evidence
+```
+
+Do not describe `.vsir.cs` as disposable generated code.
+
+A deterministic transpilation is one valid implementation witness under the semantic contract, not necessarily the only valid source form.
+
+A missing rule is not permission to invent semantics.
+
+## Explaining guarantees
+
+Every major feature explanation should distinguish at least:
+
+- what is guaranteed;
+- by which mechanism;
+- at what stage;
+- for which target or profile;
+- what is only convention;
+- what remains runtime-only;
+- what remains unverifiable;
+- and what evidence supports the claim.
+
+Prefer:
+
+> "The current .NET realization rejects this shape at compile time because..."
+
+over:
+
+> "VSlices guarantees this everywhere."
+
+unless the guarantee truly belongs to the target-independent semantic model.
+
+## Current, proposed and hypothetical behavior
+
+Documentation must label maturity.
+
+Useful states include:
+
+- current / implemented;
+- accepted but provisional;
+- experimental;
+- proposed;
+- hypothetical / long-term.
+
+Do not teach a proposal as current product behavior.
+
+Do not preserve an obsolete implementation detail merely because an older document used it.
+
+## Transition explanations
+
+Whenever one layer maps to another, explain what changed.
+
+Examples:
+
+### Semantic concept -> VSlices
+
+Explain:
+
+- what became explicit;
+- what became standardized;
+- what remained open;
+- and which responsibility moved into a named artifact or contract.
+
+### VSlices -> concrete realization
+
+Explain:
+
+- what target-specific choices were introduced;
+- which target mechanisms provide guarantees;
+- what VSlices semantics remain independent of those mechanisms.
+
+### Concrete realization -> framework-free alternative
+
+Explain:
+
+- which conveniences disappear;
+- which guarantees must be rebuilt manually;
+- which assumptions become convention;
+- and which freedoms increase.
+
+## Mandatory teaching principles
+
+Preserve:
+
+- engineering honesty;
+- architectural transparency;
+- explicit trade-offs;
+- progressive complexity;
+- conceptual continuity;
+- target independence;
+- provenance of guarantees;
+- and fair alternatives.
+
+Avoid:
+
+- framework propaganda;
+- "magic";
+- pretending VSlices invented general engineering concepts;
+- renaming established techniques only to make them appear VSlices-specific;
+- presenting Semantic-Oriented Domain Modeling as finalized while it remains a working description;
+- treating Domain-Driven Design, LanguageExt or functional programming as mandatory;
+- treating plain .NET or other approaches as inferior by default;
+- hiding uncertainty;
+- or turning a current implementation into a universal definition.
+
+## Recommended document structure
+
+For a major feature or concept:
+
+1. **Problem**
+2. **Semantic concept**
+3. **VSlices responsibility and model**
+4. **Current status / maturity**
+5. **Concrete realization(s)**
+6. **Framework-free or alternative realization**
+7. **Guarantees and limits**
+8. **Comparative analysis**
+9. **Relationships and continuity**
+10. **Open questions / likely evolution**, when relevant
+
+## Long-term teaching goal
+
+A developer learning VSlices should progressively learn transferable skills in:
+
+- software design;
+- architecture;
+- semantic and domain modeling;
+- composition;
+- explicit error and effect reasoning;
+- documentation;
+- semantic authority;
+- verification;
+- and engineering trade-offs.
+
+If someone eventually stops using VSlices but retains stronger engineering judgment, the documentation has succeeded.
+
+## Canonical reconstruction paths
+
+General VSlices definition:
+
+`vslices/ideas/proyectos/v-slices/README.md`
+
+Framework definition:
+
+`vslices/ideas/proyectos/v-slices/Framework/README.md`
+
+Current Tooling/VSIR authority:
+
+`vslices/tooling/README.md`
+`vslices/tooling/docs/ai-development-orientation.md`
+
+Restricted intermediate-language impact:
+
+`vslices/ideas/proyectos/v-slices/propuestas/lenguaje-intermedio-restringido/cambios-en-la-suite.md`
