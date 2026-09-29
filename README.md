@@ -106,7 +106,9 @@ How ideas move from observation to canonical knowledge without rewriting their h
 
 ### Bootstrap
 
-Historical evidence that led to this surface.
+Historical evidence that led to this surface, including the original internal-knowledge proposal and the project-context source snapshots preserved before this repository became canonical.
+
+See [`bootstrap/`](bootstrap/README.md).
 
 Bootstrap material is evidence, not current authority.
 
