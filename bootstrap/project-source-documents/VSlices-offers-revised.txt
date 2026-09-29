@@ -1,0 +1,239 @@
+# What does VSlices currently provide?
+
+> Status note
+>
+> VSlices products have different maturity levels. This document distinguishes current usable mechanisms from conceptual models and active experiments. Repository evidence is authoritative when this snapshot becomes stale.
+
+## Suite-level current value
+
+VSlices currently provides a connected body of:
+
+- engineering concepts,
+- documentary structures,
+- software-design criteria,
+- working methods,
+- executable .NET abstractions,
+- experimental semantic representations,
+- deterministic tooling,
+- and repository-preserved evidence about how those pieces evolve.
+
+The strongest current value is not a single library feature.
+
+It is the increasing ability to preserve continuity between a software problem, its documented knowledge, semantic representation, technical realization and later change.
+
+## VSlices Method
+
+Current working model includes:
+
+- Context-First;
+- Problem-First;
+- Slice-First;
+- iterative movement through:
+  `Understanding -> Contextualizing -> Planning -> Building -> Understanding`.
+
+Method is currently a working engineering model rather than a finalized, fully standardized methodology.
+
+Its practical value is choosing a suitable entry point and depth of formalization based on uncertainty, urgency, risk and available knowledge.
+
+## VSlices Design
+
+Current value is primarily conceptual and heuristic.
+
+It provides or develops ways to reason about:
+
+- semantic, domain and process discovery;
+- behavior;
+- capabilities and responsibilities;
+- consistency;
+- boundaries;
+- coordination;
+- representations;
+- architecture;
+- progressive complexity;
+- and evolution.
+
+Design remains intentionally technology-agnostic and should not be confused with VSlices Framework or its .NET realization.
+
+## VSlices Docs Standard
+
+Docs Standard is no longer accurately described as "conceptual only".
+
+An internal conceptual model and real artifact structures now exist and have been exercised in software projects.
+
+Current meta-structures include:
+
+- Document;
+- Continuity Path;
+- Nexus.
+
+Currently recognized document types include:
+
+- Navigation;
+- Domain Vocabulary;
+- Context;
+- Structure;
+- Behavior;
+- Consistency;
+- Scope;
+- Update;
+- Feedback;
+- Decision Record;
+- Support Note;
+- Viability Document.
+
+Current continuity paths include, among others:
+
+- Business Scenario;
+- Domain Context;
+- Software Project;
+- Client Product;
+- Consumable Service;
+- Evolution.
+
+The standard is still evolving. Not every artifact type or relationship has the same degree of formalization, validation or tooling support.
+
+## VSlices Framework
+
+The general Framework product is currently:
+
+> in definition and validation through real implementation.
+
+It provides a semantic model for reasoning about:
+
+- meaning and representability;
+- ownership and semantic authority;
+- responsibilities;
+- transformations;
+- boundaries;
+- restrictions and admissibility;
+- evidence required from outside the current semantic model;
+- executable work and effects;
+- architecture at project, solution and deployment levels;
+- replaceable realizations;
+- progressive guarantees;
+- and continuity between documented intent and software realization.
+
+The current conceptual Framework explicitly distinguishes itself from a single library, technology, programming paradigm or Domain-Driven Design vocabulary.
+
+### VSlices Framework for .NET
+
+A real .NET implementation exists and remains an important experimental and production-facing realization.
+
+The .NET realization is currently moving away from treating `Domain`, `Application` and `Infrastructure` as its primary semantic decomposition. This is not a mechanical rename. Responsibilities are being reconsidered according to the phenomenon they represent and the authority they carry.
+
+Current emerging areas include:
+
+- **`VSlices.Space`** for spaces of values, semantic and algebraic structure, restrictions and pure transformations;
+- **`VSlices.Work`** for executable behavior, coordination, capabilities, effects, expected errors and changes to the world;
+- **`VSlices.Grounding`** for acquiring external facts or evidence that cannot be derived from the program's internal semantics alone;
+- explicit semantic transformation ownership through mechanisms such as `Transformable`;
+- evidence values, such as an `ExchangeRate<A,B>`, that can parameterize a pure transformation without themselves becoming universal conversion rules;
+- Flow, Feature and related executable contracts where they continue to fit the evolving model;
+- traits, target-specific effects and testing-related contracts.
+
+A useful current factorization is:
+
+`effectful acquisition -> explicit evidence -> pure transformation`
+
+The provisional working description **Semantic-Oriented Domain Modeling** names the direction rather than a finalized paradigm. Functional programming, type-driven design, DDD and other established techniques may be used inside this direction without defining it.
+
+Exact APIs and even these boundaries remain under validation and should be read from the current `vslices/framework` source rather than reconstructed from this summary.
+
+## VSlices Tooling
+
+VSlices Tooling is now a concrete executable product rather than only a future idea.
+
+The current CLI surface includes:
+
+```text
+vslices init
+vslices lower
+vslices transpile
+vslices rebase
+vslices update --self
+vslices --version
+vslices -v
+```
+
+Current implemented responsibilities include:
+
+- structured VSlices document generation;
+- parsing and conservative validation of the experimental VSIR surface;
+- deterministic VSIR-to-C# transpilation for supported structures;
+- conservative rebase of compatible human-edited materializations;
+- `lower` orchestration using the least-powerful sufficient mechanism;
+- project-aware VSIR artifact discovery;
+- .NET target-context delegation;
+- project-local configuration;
+- project-local Ruleset initialization;
+- terminal presentation for interactive CLI output;
+- Native AOT distribution;
+- Windows bootstrap installation;
+- standalone self-update;
+- and installable pull-request builds.
+
+These capabilities remain preview-quality and experimental where the current Tooling repository says so.
+
+## VSIR
+
+VSIR currently provides an experimental structured semantic representation for supported software artifacts.
+
+Its key role is to preserve semantics without encoding target-language implementation expressions as the semantic source.
+
+The current conformance direction is:
+
+`ConcreteImplementation |= VSIR`
+
+A deterministic transpilation is one valid witness of that semantic contract, not necessarily the only valid implementation.
+
+## VSlices Ruleset
+
+The official Ruleset repository currently provides external, revisable target-lowering knowledge.
+
+It allows Tooling to execute supported lowering mechanisms without embedding every concrete target mapping into the CLI.
+
+A project normally installs a local snapshot under:
+
+`.vslices/ruleset/`
+
+Current project-owned semantic extensions, where supported, live separately under:
+
+`.vslices/extensions/`
+
+A missing rule is an explicit unsupported condition, not permission to guess.
+
+## What is not currently true
+
+Do not describe VSlices today as:
+
+- a completed end-to-end engineering methodology;
+- a complete documentation standard with every schema stabilized;
+- a fully deterministic generator for arbitrary software;
+- a low-code platform;
+- an architecture enforcement engine;
+- a universal implementation of every Framework concept;
+- or an AI system capable of filling missing semantics or missing external evidence safely.
+
+The suite is further along than "foundational ideas only", but it is still being defined and validated through real use.
+
+## Canonical reconstruction paths
+
+Project definition and product model:
+
+`vslices/ideas/proyectos/v-slices/README.md`
+
+Docs Standard internal model:
+
+`vslices/ideas/proyectos/v-slices/docs-standard/`
+
+Framework conceptual definition:
+
+`vslices/ideas/proyectos/v-slices/Framework/README.md`
+
+Current Tooling:
+
+`vslices/tooling/README.md`
+
+Current official lowering knowledge:
+
+`vslices/ruleset/README.md`
