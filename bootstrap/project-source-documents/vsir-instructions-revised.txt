@@ -1,0 +1,388 @@
+# VSIR operational instructions
+
+These instructions are a compact operational bootstrap.
+
+They must not replace inspection of current repository evidence.
+
+If this document conflicts with a closer authoritative repository artifact, stop and report the discrepancy rather than silently selecting whichever interpretation is easier to implement.
+
+## Reconstruction sources
+
+When work starts from a consumer repository such as:
+
+`atom-dev-serviu/access-management-product`
+
+inspect the current consumer state first, including:
+
+- current branch HEAD;
+- relevant source and tests;
+- `.vsir` artifacts;
+- `.vsir.cs` materializations;
+- `.vslices/config.yaml`;
+- `.vslices/.ignore`;
+- `.vslices/ruleset/`;
+- `.vslices/extensions/` when present;
+- consumer-local VSIR documentation;
+- target project files and target-native context.
+
+For the current Tooling model, read:
+
+1. `vslices/tooling/README.md`
+2. `vslices/tooling/AGENTS.md`
+3. `vslices/tooling/docs/releases/v0.2.0-preview.md`
+4. `vslices/tooling/docs/context.vslices-tooling.md`
+5. `vslices/tooling/docs/rulesets.md`
+6. `vslices/tooling/docs/configuration.md`
+7. `vslices/tooling/docs/ai-development-orientation.md`
+8. relevant implementation and tests.
+
+For official lowering knowledge, inspect:
+
+`vslices/ruleset/README.md`
+and the current Ruleset files actually installed in the consumer project.
+
+Framework-level VSIR notes may also exist under:
+
+`vslices/framework/docs/notes`
+
+Consumer-specific experimental semantics may live under:
+
+`docs/intermediate-representation/`
+
+Do not assume an older consumer document owns a generic Tooling or Ruleset decision after that responsibility has moved.
+
+## Never trust remembered implementation state
+
+Never execute VSIR work from memory alone when current repository evidence is available.
+
+Before writing:
+
+- read the current branch head;
+- read the nearest relevant instruction and authority sources;
+- inspect the target directory;
+- inspect referenced semantic types, spaces and contracts;
+- inspect repository/port interfaces used by the artifact;
+- inspect existing `.vsir` and `.vsir.cs`;
+- inspect neighboring examples and tests;
+- inspect current Ruleset state;
+- inspect target context;
+- verify that the branch has not changed immediately before the write.
+
+Repository state may change between episodes or even during one session.
+
+A previously valid lowering path may no longer be valid.
+
+## Cross-repository authority model
+
+Current working separation:
+
+```text
+consumer project
+    = software/problem evidence and project-specific semantics
+
+.vsir
+    = semantic source for the represented artifact
+
+.vsir.cs
+    = human-editable executable materialization constrained by VSIR
+
+consumer/.vslices/config.yaml
+    = project operating policy
+
+consumer/.vslices/.ignore
+    = project-specific discovery exclusions
+
+vslices/ruleset
+    = official revisable target-lowering knowledge
+
+consumer/.vslices/ruleset
+    = installed snapshot actually used by lowering
+
+consumer/.vslices/extensions
+    = project-owned semantic extension overlay where supported
+
+vslices/tooling
+    = parsing, conservative validation, generic lowering mechanisms,
+      orchestration, safety guarantees, CLI behavior and target adapters
+
+target-native tooling
+    = target facts owned by the target ecosystem
+      (for .NET: dotnet/MSBuild/Roslyn/etc.)
+```
+
+Do not move knowledge across boundaries only because one repository is easier to change.
+
+## Tooling, Ruleset and extensions
+
+Preserve this architectural distinction:
+
+`Tooling owns the rule language. Rulesets own the rule vocabulary.`
+
+Interpret it as:
+
+- Tooling defines constrained mechanisms by which lowering knowledge can be represented, validated, composed and executed;
+- the official Ruleset defines official revisable target mappings using those mechanisms;
+- consumer extension overlays may explicitly admit project-owned semantic vocabulary without being overwritten as Ruleset-owned state;
+- target-native tools retain authority over target facts they already own.
+
+Built-ins may bootstrap the language.
+
+They must not automatically become a whitelist of every semantic name that may ever exist.
+
+Adding new semantic vocabulary should not require a Tooling change when the existing constrained mechanism can already express, validate and execute it.
+
+A Tooling change is justified when a genuinely new generic semantic representation, validation rule, execution mechanism, orchestration behavior, safety guarantee or target-adapter capability is required.
+
+## Core semantic rules
+
+- VSIR represents semantics structurally.
+- VSIR must not encode C# implementation expressions as semantic strings.
+- Lowering may choose implementation syntax.
+- Lowering may not invent or reinterpret missing semantics.
+- A callable API is not automatically a semantically valid lowering target.
+- Semantic concepts should be established through the construction or transformation surface owned by the relevant semantic contract.
+- Do not infer semantic ownership from historical `Domain`, `Application` or `Infrastructure` namespaces alone.
+- Where the current Framework exposes `Space`, `Work` or `Grounding`, preserve their actual semantics instead of mapping them mechanically from older layers.
+- Pure semantic transformations should not acquire external evidence implicitly. When a transformation requires facts that cannot be derived internally, prefer explicit evidence acquisition followed by an explicit transformation when the current model supports that factorization.
+- Features and other executable contracts describe work only to the extent established by current repository semantics; do not assume every executable behavior belongs to an `Application` category.
+- Invariants or equivalent contracts may establish admissibility or refined knowledge where the current semantic model uses them.
+- Repositories, providers or adapters must not be assigned semantic policy merely because they can fetch or persist data. Distinguish storage/transport mechanism from observation, grounding and semantic transformation ownership.
+- If canonical semantic ownership cannot distinguish several implementation paths, stop rather than choose one by convenience.
+- Questions discovered during lowering flow upstream to the owner of the missing knowledge.
+
+A useful conformance relation is:
+
+```text
+ConcreteImplementation |= VSIR
+```
+
+A transpiled file is one valid witness.
+
+It is not necessarily the only valid source form.
+
+## Artifact identity
+
+Typical artifact convention:
+
+```text
+Features/CreateIdentity.vsir
+Features/CreateIdentity.vsir.cs
+
+Invariants/RutExists.vsir
+Invariants/RutExists.vsir.cs
+```
+
+Artifact kind should be established by repository structure and explicit VSIR semantics where the current schema requires them.
+
+Do not repeat `feature` or `invariant` in the filename merely as redundant decoration.
+
+## `.vsir` and `.vsir.cs`
+
+`.vsir` is the semantic source.
+
+`.vsir.cs` is:
+
+- human-editable application source;
+- an executable materialization under the VSIR contract;
+- not disposable conventional generated code;
+- and not permission to reinterpret VSIR from whatever implementation happens to compile.
+
+Human edits compatible with the semantic contract may be legitimate.
+
+This is why rebase and provenance matter.
+
+## Lowering authority
+
+Preserve:
+
+> Lowering may complete implementation detail. Lowering must not complete missing semantics.
+
+For possible future interpretation:
+
+> Interpretation may resolve underdetermined materialization. Interpretation must not manufacture missing authority.
+
+Therefore:
+
+```text
+missing deterministic rule
+    != permission to guess
+
+missing authority
+    -> stop
+```
+
+Do not introduce AI interpretation merely because a Ruleset entry is missing.
+
+## Decision procedure for a new real VSIR case
+
+Proceed in this order:
+
+```text
+1. establish source behavior and semantics from consumer evidence
+2. determine whether current VSIR can represent them faithfully
+3. if representation is insufficient, identify the smallest semantic/model change
+4. if representation is sufficient, test current local Ruleset lowering
+5. if only target mapping knowledge is missing, prefer Ruleset change
+6. if an authorized rule requires a genuinely new generic execution mechanism, change Tooling
+7. delegate target-owned facts to target-native tooling
+8. classify any residual freedom
+```
+
+Classify the discovered gap before changing repositories:
+
+```text
+semantic representation gap
+validation/parsing gap
+ruleset knowledge gap
+project-extension gap
+target-context gap
+lowering mechanism gap
+rebase/provenance gap
+presentation-only gap
+no gap
+```
+
+Residual materialization freedom should be classified as:
+
+```text
+deterministic
+rebase-compatible
+underdetermined but constrained
+unsupported / missing authority
+```
+
+## Evidence-driven extension
+
+Prefer the loop:
+
+```text
+real artifact
+    -> first observable unsupported boundary
+    -> identify the owner of that boundary
+    -> smallest coherent change
+    -> rerun
+    -> observe the next boundary
+```
+
+Do not design a complete taxonomy merely because one artifact exposed one missing case.
+
+When a new operation appears, ask whether structure already carries the distinction.
+
+Do not duplicate cardinality, target type or other existing structural information in operation names unless semantics actually require a distinct operation.
+
+## Current examples of structural thinking
+
+When a semantic type constructor is needed, prefer structural representation over leaking a target type into VSIR.
+
+For example, a sequence-like field may be represented structurally rather than as a C# or LanguageExt type name.
+
+Likewise, when one semantic operation applies over another contract, cardinality or container shape should normally remain in the input structure rather than being duplicated into a family of operation names solely for target convenience.
+
+Exact current grammar must always be read from the current parser/schema/tests before editing.
+
+These examples illustrate a criterion; they are not permission to invent syntax from memory.
+
+## Ruleset safety
+
+Ruleset extensibility must remain constrained.
+
+The existence of a renderer, template or rule file does not by itself grant semantic authority.
+
+Tooling must validate the supported rule language and fail closed when a Ruleset requires a mechanism it does not understand.
+
+Project-owned extensions must remain distinct from the source-owned installed Ruleset snapshot.
+
+Ruleset replacement must not silently destroy project-owned extension state.
+
+## `lower`, `transpile` and `rebase`
+
+Current conceptual roles:
+
+### `transpile`
+
+Produce a deterministic materialization when VSIR, Ruleset and target context are sufficient.
+
+By default, preserve existing human-edited materializations unless overwrite is explicitly authorized by current command semantics.
+
+### `rebase`
+
+Reconstruct a previous deterministic projection and conservatively apply compatible semantic change over a human-edited materialization when provenance is sufficient.
+
+Do not invent ancestry.
+
+### `lower`
+
+Normal orchestration surface.
+
+Choose the least-powerful sufficient authorized mechanism.
+
+Conceptually:
+
+```text
+no materialization
+    -> deterministic transpilation when possible
+
+existing materialization + sufficient ancestry
+    -> rebase when compatible
+
+existing materialization + unknown/insufficient ancestry
+    -> stop
+```
+
+Read the current Tooling docs before relying on this exact operational surface because provenance support is evolving.
+
+## Stop conditions
+
+Stop and return a diagnostic when, among other cases:
+
+- required semantics are missing;
+- semantic ownership is unclear;
+- types cannot be resolved;
+- invariant/contracts are incompatible;
+- a required capability cannot be mapped;
+- a repository, grounding source or semantic operation cannot be resolved;
+- a required Ruleset entry is missing;
+- a Ruleset asks for an unsupported execution mechanism;
+- target facts cannot be authoritatively resolved;
+- several implementation paths exist and available semantics cannot distinguish them;
+- lowering would require inventing behavior;
+- rebase ancestry/provenance is insufficient;
+- an existing materialization contains drift that cannot be preserved safely;
+- canonical repository evidence conflicts with these instructions.
+
+Do not convert an explicit unsupported state into a plausible guess merely to make the command succeed.
+
+## Repository writing
+
+Immediately before writing:
+
+- re-read the current branch head;
+- verify the target file state;
+- preserve concurrent changes;
+- rebuild the prepared change if the branch moved;
+- use the repository's current safe-write conventions;
+- do not force-update a branch to apply an outdated generated result;
+- verify the final repository state;
+- run the relevant parser/lowering/build/tests;
+- update the nearest authoritative documentation when a material boundary or semantic decision changed.
+
+## Continuity for future sessions
+
+A future session should be able to reconstruct the accepted model from repositories without needing chat history.
+
+When a material decision changes:
+
+- command semantics;
+- Tooling/Ruleset ownership;
+- project-extension ownership;
+- VSIR conformance;
+- semantic authority;
+- target-tool delegation;
+- rebase/provenance;
+- or validation expectations,
+
+update the closest authoritative repository document in the same change.
+
+Conversation history can explain how a decision emerged.
+
+It must not be the only place where the current accepted decision exists.
