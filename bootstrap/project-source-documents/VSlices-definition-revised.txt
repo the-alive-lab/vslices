@@ -1,0 +1,161 @@
+# What is VSlices?
+
+> Context note
+>
+> This document is a compact project-context description. If it conflicts with current repository evidence, prefer the closest authoritative repository artifact and revise this document rather than treating it as immutable.
+
+VSlices is a progressive software-engineering suite concerned with preserving, reconstructing and developing continuity between:
+
+- business reality and operating context,
+- domain knowledge,
+- change needs,
+- documentation,
+- design,
+- architecture,
+- executable implementation,
+- verification,
+- operation,
+- and later system evolution.
+
+The central problem is not only how to organize code.
+
+VSlices studies how a software responsibility can remain recognizable across multiple representations so that another actor can understand:
+
+- why it exists,
+- what problem it solves,
+- what behavior it provides,
+- what constraints and invariants it preserves,
+- what decisions shaped it,
+- how it is implemented,
+- how it is verified,
+- and what must remain true when it changes.
+
+Continuity does not require every representation to be identical.
+
+It requires transformations to be explicit enough to distinguish:
+
+- knowledge that is preserved,
+- knowledge that is specialized,
+- decisions that are introduced,
+- guarantees that are strengthened,
+- information that is lost,
+- facts that can be derived,
+- choices that still require judgment,
+- and unknowns that must remain visible.
+
+## Products of the suite
+
+VSlices currently organizes five related products:
+
+1. **VSlices Method**
+   - How should software work be approached and advanced?
+   - Current working modes include Context-First, Problem-First and Slice-First.
+   - A provisional cycle is:
+     `Understanding -> Contextualizing -> Planning -> Building -> Understanding`.
+
+2. **VSlices Design**
+   - How should a solution be understood and designed?
+   - Technology-agnostic techniques for semantic modeling, process, behavior, capability, responsibility, consistency, boundaries, coordination, representation, architecture and evolution.
+   - Domain knowledge remains an important source of semantics, but VSlices does not assume Domain-Driven Design terminology or its Domain/Application/Infrastructure decomposition as the universal ontology of software.
+
+3. **VSlices Docs Standard**
+   - What knowledge should be preserved and how should it be related?
+   - Defines documentary structures, relationships, continuity paths, metadata and validity rules.
+   - Current meta-structures include Document, Continuity Path and Nexus.
+
+4. **VSlices Framework**
+   - How can software responsibilities be represented with sufficiently explicit semantics, constraints and guarantees to reduce invalid interpretations?
+   - Framework is not identical to a library, a code architecture, .NET, LanguageExt, Domain-Driven Design or functional programming.
+   - Concrete technological realizations, such as VSlices Framework for .NET, implement only part of the more general product.
+   - The current .NET realization is actively exploring semantic-first surfaces such as `Space`, `Work` and `Grounding`. These names and boundaries are provisional and must continue to be validated against real cases.
+
+5. **VSlices Tooling**
+   - How can those structures be materialized, validated, navigated and evolved through repeatable tools?
+   - Includes the `vslices` CLI and the current VSIR/lowering/rebase/configuration toolchain.
+
+These products are related but are not mandatory sequential phases.
+
+## Supporting technical structures
+
+Some important structures are not separate suite products:
+
+- **VSIR** is an experimental semantic intermediate representation used to preserve executable intent structurally.
+- **VSlices Ruleset** is an external source of revisable target-lowering knowledge used by Tooling.
+- **VSlices Framework for .NET** is a technological realization of Framework, not the universal definition of Framework itself.
+- Consumer-project `.vslices/extensions` may explicitly admit project-owned semantic extensions where supported.
+
+## What VSlices is not
+
+VSlices does not require:
+
+- CQRS,
+- Event Sourcing,
+- Clean Architecture,
+- microservices,
+- a specific infrastructure style,
+- a specific programming language,
+- or one universal project architecture.
+
+Architecture and formalization should emerge progressively from actual problem, semantic and operating needs rather than from a mandatory layer taxonomy.
+
+VSlices also does not aim to hide engineering behind magic.
+
+Automation is acceptable when the knowledge being automated is explicit, constrained and reviewable. Unknown or underdetermined semantics must not be silently invented merely to keep a pipeline moving.
+
+## Relation to PResolver
+
+The current conceptual model treats VSlices as the first deep specialization of PResolver for software-engineering problems.
+
+PResolver studies continuity of knowledge in problem solving more generally.
+
+VSlices specializes that concern for software, where additional phenomena matter, including:
+
+- executable behavior,
+- type systems,
+- compilation,
+- architecture,
+- source code,
+- testing,
+- persistence,
+- integration,
+- observability,
+- generation,
+- analyzers,
+- build tooling,
+- runtimes,
+- and technology platforms.
+
+Concepts should move from VSlices toward PResolver only when evidence suggests they remain useful beyond software engineering.
+
+## Current posture
+
+VSlices is an evolving project and suite.
+
+Different products have different maturity levels. Definitions, implementations and tooling should therefore distinguish:
+
+- current capability,
+- accepted but provisional direction,
+- active experiment,
+- hypothesis,
+- and long-term possibility.
+
+Do not present aspiration as existing capability.
+
+## Canonical reconstruction paths
+
+For the current conceptual project definition, inspect:
+
+`vslices/ideas/proyectos/v-slices/README.md`
+
+For the current conceptual Framework definition:
+
+`vslices/ideas/proyectos/v-slices/Framework/README.md`
+
+For executable tooling and VSIR/lowering boundaries:
+
+`vslices/tooling/README.md`
+`vslices/tooling/docs/ai-development-orientation.md`
+
+For official external lowering knowledge:
+
+`vslices/ruleset/README.md`
