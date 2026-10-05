@@ -22,8 +22,19 @@ without automatically acquiring authority over the mechanism's base meaning.
 
 - [Action Flow](action-flow.md)
 - [Semantic Pressure](semantic-pressure.md)
+- [Path of Least Resistance](path-of-least-resistance.md)
+- [Path of Most Continuity](path-of-most-continuity.md)
+- [Path of Most Value](path-of-most-value.md)
 
-Both remain `candidate`.
+All remain `candidate`.
+
+The three Path mechanisms are currently distinct because they favor different properties of advancement:
+
+- Least Resistance minimizes unnecessary effort, transformation, disruption, or commitment;
+- Most Continuity maximizes reconstructible continuation;
+- Most Value maximizes expected contribution to the current intention.
+
+Their relationship, completeness, independence, and possible common abstraction remain open to Research.
 
 ## Promotion rule
 
