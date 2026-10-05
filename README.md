@@ -73,12 +73,17 @@ Shared concepts needed by several products without independent redefinition.
 
 ### Mechanisms
 
-Reusable VSlices mechanisms whose semantic identity remains recognizable across multiple products or realizations.
+Reusable VSlices mechanisms and explicit cross-product mechanism relationships.
+
+A mechanism being applicable across several products does not by itself make the suite its conceptual owner. Ownership and applicability must be recorded separately.
 
 Current candidates:
 
 - [Action Flow](mechanisms/action-flow.md)
-- [Semantic Pressure](mechanisms/semantic-pressure.md)
+- [Semantic Pressure](mechanisms/semantic-pressure.md) — Method-owned, suite-wide applicability
+- [Path of Least Resistance](mechanisms/path-of-least-resistance.md)
+- [Path of Most Continuity](mechanisms/path-of-most-continuity.md)
+- [Path of Most Value](mechanisms/path-of-most-value.md)
 
 ### Lifecycle
 
