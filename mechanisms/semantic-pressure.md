@@ -14,47 +14,112 @@
 
 ## Purpose
 
-**Semantic Pressure** is a methodological VSlices mechanism for deliberately continuing semantic interrogation while each answer still exposes a distinction that is material to the resolution.
+**Semantic Pressure** is a methodological VSlices mechanism for continuing semantic interrogation while each answer still exposes a distinction that is material to a continuity the resolution is trying to preserve, reconstruct, develop, or follow.
 
-Its purpose is not to ask "why" repeatedly.
+It is not defined by asking a fixed question, traversing a fixed checklist, or maximizing depth.
 
-Historically, the practice was described informally as **"porquear para porquenuar"**. In that expression, *porquear* does not mean literally asking `why?`. It means pressing on what is not yet understood well enough by asking the question that best exposes the next relevant distinction.
+Its core dynamic is:
 
-Depending on the situation, that question may be causal, explanatory, definitional, operational, epistemic, authoritative, consequential, or otherwise semantic.
+```text
+continuity in mind
+    +
+statement / concept / model / decision / representation
+    ↓
+appropriate semantic interrogation
+    ↓
+answer
+    ↓
+does the answer expose another distinction
+that can still change the continuity materially?
+    ├── yes
+    │    ↓
+    │  interrogate that distinction
+    ├── no
+    │    ↓
+    │  continue the resolution
+    └── requires external knowledge
+         ↓
+       stop inference
+         ↓
+       obtain knowledge / evidence
+```
 
-Examples include:
+The next pressure is therefore guided by what the previous answer exposed.
+
+Meaning, assumptions, authority, evidence, constraints, provenance, consequences, invariants, decisions, degrees of determination, and other dimensions are common things that pressure can make visible. They are **possible classes of discovered distinction**, not an exhaustive interrogation procedure.
+
+A compact working description is:
+
+> Semantic Pressure is the deliberate continuation of semantic interrogation while each answer exposes a distinction whose resolution can still change materially the continuity being preserved or developed.
+
+## Conceptual genealogy: porquear and porquenuar
+
+The informal antecedent of Semantic Pressure is the practice Hernán described as **porquear**.
+
+`porquear` does not mean literally asking `why?` repeatedly.
+
+It means continuing to ask the question that best helps understand what is not yet sufficiently clear, with understanding as the purpose of the questioning.
+
+Depending on the situation, the next useful question may be:
 
 - Why is that?
 - How is that?
-- What do you mean by that?
+- What does that mean?
 - In what sense?
 - How does that work?
 - Who decides that?
 - How do we know that?
 - What does that imply?
-- What happens if this changes?
+- What changes if this changes?
 
-The important property is not the wording of the question.
+The personal/historical origin of the term explains the design intuition. It is not evidence that the mechanism is valid.
 
-The mechanism continues while an answer reveals something that remains materially relevant to understanding or conducting the resolution, such as:
+**Porquenuar** is the VSlices-oriented specialization of that intuition:
 
-- meaning;
-- distinctions;
-- assumptions;
-- constraints;
-- authority;
-- provenance;
-- consequences;
-- invariants;
-- decisions;
-- available evidence;
-- missing evidence;
-- what is determined;
-- what remains open.
+> perform a porqueación in service of preserving, reconstructing, developing, or continuing something.
 
-A compact working description is:
+A porqueación may pursue understanding without a bounded resolution target.
 
-> Semantic Pressure is the deliberate continuation of semantic interrogation while each answer exposes a distinction, assumption, authority, constraint, consequence, or evidence gap that remains material to the resolution.
+A porquenuación has a continuity in mind, even when that continuity has not yet been formalized as an artifact.
+
+```text
+porquear
+    deeper understanding
+
+porquenuar
+    deeper understanding
+    in service of a continuity
+```
+
+This continuity supplies the horizon of materiality.
+
+A question is not useful to Semantic Pressure merely because it is interesting or answerable. It is useful when resolving it can still change how the target continuity is understood or how the resolution should continue.
+
+This is also how the historical phrase **"porquear para porquenuar"** should be read.
+
+## Materiality
+
+Semantic Pressure does not treat a distinction as material in the abstract.
+
+A candidate working rule is:
+
+> A distinction is material when resolving it can change the understanding, preservation, reconstruction, or continuation of the continuity currently in view.
+
+The continuity may be explicit, for example:
+
+- an explanatory question;
+- a business responsibility;
+- a decision lineage;
+- an evidence-to-finding trajectory;
+- an intent-to-realization relation;
+- a handoff;
+- an evolution path.
+
+It may also be sufficiently reconstructible from the current work without having a dedicated artifact.
+
+Semantic Pressure therefore **can be applied without a Document or Continuity Path**.
+
+When the continuity itself needs to be persisted, transferred, navigated, reviewed, or resumed later, Docs Standard may provide an appropriate structure.
 
 ## Methodological ownership
 
@@ -207,7 +272,32 @@ Use by Design does not transfer ownership of the mechanism.
 
 May preserve distinctions, uncertainties, decisions, provenance, authority, or evidence exposed through Semantic Pressure.
 
-It consumes the results without owning the methodological mechanism.
+There is also a generative relationship between semantic discovery and documentary structure.
+
+When Semantic Pressure is applied to an **explanatory question**, the pressure may reveal the knowledge, distinctions, scope, limits, uncertainty, and relationships that need to remain recognizable. If preserving that explanation has continuity value, Docs Standard may stabilize it as a **Document** or another suitable documentary structure.
+
+When Semantic Pressure is applied to a **continuity need**, the pressure may reveal the continuity question, target, focus, participants, relationships, dependencies, ruptures, and conditions for continuation. If that trajectory needs to remain explicit, Docs Standard may stabilize it as a **Continuity Path** or an appropriate specialization.
+
+```text
+Semantic Pressure
+    ↓
+discovers distinctions needed by the resolution
+    ↓
+does the discovered knowledge need continuity?
+    ├── no  -> continue without creating an artifact
+    └── yes -> Docs Standard may stabilize it
+                 ├── explanatory continuity -> Document
+                 └── trajectory continuity  -> Continuity Path
+```
+
+This relationship is not a mandatory derivation rule.
+
+- Semantic Pressure can remain ephemeral.
+- Documents and Continuity Paths can exist without having been created through Semantic Pressure.
+- Existing Documents or Continuity Paths can later orient new Semantic Pressure.
+- Docs Standard owns the documentary structures; Method owns the methodological pressure.
+
+The relationship is therefore potentially bidirectional without transferring ownership.
 
 ### Framework
 
@@ -236,13 +326,17 @@ The current clarification also makes explicit that Semantic Pressure is not itse
 The reconstructed trajectory is therefore:
 
 ```text
-informal practice: "porquear para porquenuar"
--> candidate Method technique
+informal practice: porquear
+-> VSlices specialization: porquenuar
+   (becauseación oriented by a continuity)
+-> candidate Method mechanism: Semantic Pressure
 -> observed cross-product applicability
 -> mistaken provisional inference: suite-level ownership
 -> ownership/applicability distinction clarified
 -> Method-owned mechanism with suite-wide applicability
 -> interrogation mechanism distinguished from concrete interrogation techniques
+-> relationship with Docs Standard clarified:
+   semantic discovery may later be stabilized as continuity structures
 ```
 
 The preserved lessons are:
