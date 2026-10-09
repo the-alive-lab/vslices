@@ -1,4 +1,6 @@
-# Lifecycle
+# Lifecycle — Suite relationship and historical surface
+
+**Authoritative Design phase definitions:** [VSlices Design lifecycle](../products/design/lifecycle.md). This Suite page tracks history and cross-product interpretation; when wording differs, the Design-owned source controls Design phase meaning.
 
 ## Status and authority
 
