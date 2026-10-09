@@ -26,7 +26,7 @@ Each of these five phases belongs conceptually to **Design**. After Validating, 
 
 ## Modalities
 
-**Design defines** Context-First, Problem-First and Slice-First and their meaning. **Method decides** when to use or switch modalities given uncertainty, priorities and continuity. [Context-First](modalities/context-first.md) has undergone its first bounded canonical migration. Problem-First and Slice-First still need their own source review; do not invent detail from those labels.
+**Design defines** Context-First, Problem-First and Slice-First and their meaning. **Method decides** when to use or switch modalities given uncertainty, priorities and continuity. [Context-First](modalities/context-first.md) and [Problem-First](modalities/problem-first.md) have undergone bounded canonical migrations. Slice-First still needs its own source review; do not invent detail from that label.
 
 ## Orientation — unresolved ownership
 
