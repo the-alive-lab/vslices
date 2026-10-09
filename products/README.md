@@ -45,7 +45,7 @@ Method may:
 - coordinate use of Design's phases without defining their semantics;
 - use results from Validating to guide the next iteration and modality decision.
 
-**Approved boundary (2026-10-09):** Design defines its phases and modalities; Method selects and changes their use in context. **Orientation's final owner remains open**, although orientation at entry and refreshing it after validation are active working interpretations.
+**Approved boundary (2026-10-09):** Design defines its phases and modalities; Method selects and changes their use in context. [Orientation](method/orientation.md) is Method-owned as a cross-cutting responsibility for situated continuity, distinct from Design's phases and independent of iteration completeness. Its operational details remain under review.
 
 ## Docs Standard
 
