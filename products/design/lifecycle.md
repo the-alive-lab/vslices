@@ -44,14 +44,14 @@ Realize and test the selected response. Implementation and runtime behavior can 
 
 Validation is not limited to technical verification. Responding to feedback may mean accepting an observation, explaining a decision, investigating a contradiction, proposing a revision, or explaining why a request is not justified; it **does not imply automatic acceptance**.
 
-New evidence from Validating informs the return to Understanding. Any need to refresh project orientation may be identified here, but that does not make Orientation a sixth phase.
+New evidence from Validating informs the return to Understanding. Any need to refresh [Method Orientation](../method/orientation.md) may be identified here, but that does not make Orientation a sixth phase.
 
 ## Historical evolution (do not rewrite retrospectively)
 
 1. Original: `Understanding -> Contextualizing -> Planning -> Building -> Understanding`.
 2. Later discussion: the explicit need for validation led to `Understanding -> Contextualizing -> Planning -> Building -> Validating -> Understanding`.
 3. An intermediate Suite model incorporated `Orientation -> ... -> Feedback -> Orientation`, usefully surfacing continuity and feedback but conflating different responsibilities.
-4. The approved conceptual correction restores a **five-phase Design iteration** with Validating (which may respond to feedback), while leaving Orientation ownership open.
+4. The approved conceptual correction restores a **five-phase Design iteration** with Validating (which may respond to feedback), with Orientation subsequently defined as a distinct Method responsibility.
 
 The public docs and existing operational protocols may still reflect prior cycles until their projection/application is migrated. Do not mistake those older texts for silently superseding this approved Design definition.
 
@@ -61,6 +61,6 @@ Design owns modality semantics, including Context-First, Problem-First and Slice
 
 ## Open
 
-- Precise owner and realization of Orientation and its refresh.
+- Operational realization and conditions for refreshing Method-owned Orientation.
 - Detailed stage contracts, if they are warranted by evidence.
 - Migration and validation of existing modality descriptions against product-owned Design sources.
