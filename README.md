@@ -87,9 +87,7 @@ Current candidates:
 
 ### Lifecycle
 
-Current candidate model for how VSlices work enters, advances through, leaves, and re-enters an iteration.
-
-Its strongest current ownership affinity is Method, but that ownership is still recorded explicitly rather than assumed from repository location.
+The approved five-phase iterative lifecycle is now **Design-owned**, in [products/design/lifecycle.md](products/design/lifecycle.md). The Suite lifecycle surface preserves cross-product context and historical transitions, not competing phase authority. Orientation ownership remains open.
 
 ### Forces
 
