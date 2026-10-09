@@ -16,6 +16,8 @@ Tooling is not subordinate to Method.
 
 ## Design
 
+**Product-owned source:** [VSlices Design](design/README.md) and its [approved lifecycle](design/lifecycle.md). These are temporarily hosted here but retain Design's semantic authority.
+
 Defines methodologies, modalities, reasoning tools and the five-phase iterative lifecycle for approaching and understanding problems, discovering and justifying requirements, evaluating alternatives, and developing and validating realizations.
 
 Current modalities include:
