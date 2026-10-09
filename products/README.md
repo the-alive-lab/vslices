@@ -2,9 +2,7 @@
 
 ## Purpose
 
-This surface declares product responsibility boundaries from the suite perspective.
-
-It does not replace the internal definition each product owns.
+This surface indexes product responsibility boundaries. **This repository also hosts each VSlices product's canonical definitions in its own conceptual namespace**. Product responsibility remains distinct even when all sources are hosted centrally.
 
 ## Independence
 
@@ -16,7 +14,7 @@ Tooling is not subordinate to Method.
 
 ## Design
 
-**Product-owned source:** [VSlices Design](design/README.md) and its [approved lifecycle](design/lifecycle.md). These are temporarily hosted here but retain Design's semantic authority.
+**Canonical Design source in this repository:** [VSlices Design](design/README.md) and its [approved lifecycle](design/lifecycle.md). Design retains conceptual ownership; no separate repository is required.
 
 Defines methodologies, modalities, reasoning tools and the five-phase iterative lifecycle for approaching and understanding problems, discovering and justifying requirements, evaluating alternatives, and developing and validating realizations.
 
