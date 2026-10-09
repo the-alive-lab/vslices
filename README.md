@@ -147,6 +147,28 @@ the-alive-lab/vslices-suite
 
 The branches are illustrative, not exhaustive and not invariably sequential. Sources and projections should retain links to the meanings and intentions that justify them. New evidence from a realization may **challenge** a source, but does not silently overwrite its authority.
 
+## Suite principle — grounded projection
+
+**Artifacts and realizations should emerge as justified projections of understood problems, needs and requirements, through the continuity preserved about them.**
+
+User stories, screens, APIs, database tables, implementation tasks, models, documents and executable behavior are not merely different names for requirements or problems. They are potential **projections** of progressively understood meaning, decisions and constraints, in forms appropriate to their own responsibilities.
+
+This is a **Suite-wide** expectation, not a constraint owned by Design alone:
+
+- **Understanding and continuity** make the source problem, relevant requirements, uncertainty, evidence and intention reconstructible.
+- **Design** explores and justifies responses, without presuming that a requested artifact or software feature is already warranted.
+- **Method** coordinates how participating product responsibilities contribute and how their context remains situated.
+- **Docs Standard** can preserve the distinctions and their relations without mandating a document for each projection.
+- **Framework and Tooling** may express or realize selected semantics in executable or operational forms without inheriting authority to redefine their origin.
+
+A projection is **not a mechanical copy**. It can specialize or transform meaning and can reveal new constraints or evidence. Such evidence may justify revising prior understanding and requirements; it must not silently change their authority or erase the reason a projection exists.
+
+The principle does **not** require that every low-level artifact have a separate written trace, that every result be software, or that every observed request become a validated requirement. It asks that **material choices remain explainable from the problems and requirements they address**, at the level of continuity appropriate to their consequences.
+
+### Decision lineage
+
+The earlier Design framing warned against confusing user stories, screens, APIs, tables and implementation tasks with problems or requirements. The Suite-wide reformulation strengthens this from a prohibition against confusion to a **positive relationship of grounded projection**, shared across products. Design retains its methodology of understanding and justification, but does not own the general principle.
+
 ## Public documentation
 
 `vslices/docs` is a **didactic and web projection** of canonical VSlices meanings, not the authority establishing those meanings. Its pedagogical intent and its website realization are distinguishable even when housed in the same project.
