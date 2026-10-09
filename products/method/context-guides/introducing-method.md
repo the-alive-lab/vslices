@@ -1,6 +1,6 @@
 # Introducing VSlices Method — Context Guide
 
-**Owner:** VSlices Method. **Status:** migrated context guidance with one unresolved source tension.
+**Owner:** VSlices Method. **Status:** migrated context guidance with clarified uncertainty scope (2026-10-09).
 
 ## Situation and principal risk
 
@@ -14,11 +14,16 @@ Introduce Method through the **smallest useful seam of continuity** already miss
 
 Choose Design modalities by the current uncertainty, not by adoption enthusiasm. Use [Modality Selection](../modality-selection.md) and [Modality Switching](../modality-switching.md). Method adoption does not require walking every Continuity Path or creating a new document for every observation. Documentary structures are Docs Standard-owned.
 
-## Source tension to examine
+## Clarification: general uncertainty versus bounded local uncertainty
 
-The original public guide recommends **Slice-First** for a condition phrased as context being *too uncertain to intervene safely*. On its own, that condition conflicts with Design's requirement that Slice-First have **sufficient context to make a bounded, meaningful intervention safe**.
+The original public guide's Slice-First row is ambiguous if the phrase *too uncertain to intervene safely* is understood as applying **to the proposed intervention itself**. The clarified interpretation is different:
 
-Possible charitable interpretation: a *small exploratory intervention* might be safe despite wider uncertainty. But this is an interpretation, **not evidence that the original row is correct as written**. Do not promote its mapping as a normative selection rule. Revisit the row when updating the public projection or obtaining evidence of its intended meaning.
+- **High general uncertainty:** the team does not yet understand much of the broader domain, organization or process landscape.
+- **Low enough local uncertainty:** a specific process or flow is sufficiently understood to attempt a **bounded, meaningful, observable and safe** slice.
+
+Those conditions can coexist. Slice-First can produce evidence about the broader unknowns through that local intervention without implying that the whole context is understood. It is still inappropriate if uncertainty or consequences **within the proposed slice** make the intervention unsafe or uninterpretable.
+
+**Review trajectory:** initial migration flagged an apparent inconsistency -> clarification distinguished the scope of uncertainty -> the inconsistency in the intended criterion is resolved -> public wording still merits clarification to prevent a misleading literal reading. This does not create a mandatory selection rule; Method continues to assess the current decision and its local risk.
 
 ## Provenance
 
