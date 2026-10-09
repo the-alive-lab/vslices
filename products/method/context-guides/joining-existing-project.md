@@ -17,7 +17,7 @@ Use Method's selection criteria:
 - Problem-First if a specific unexplained problem is the obstacle.
 - Slice-First if a small safe contribution will clarify the work.
 
-This is a context guide about **incorporation**, not proof that Orientation must be an independent Design phase. The general concept of Orientation and the authority for refresh remain under review.
+This is a context guide about **incorporation**, not a Design phase. [Method-owned Orientation](../orientation.md) situates the incoming actor and shared team perspectives in work continuity; conditions requiring updates to shared orientation remain under review.
 
 Docs Standard may preserve vocabulary, decisions, behavioral intent, process and validation findings if they affect future work. No exhaustive onboarding packet is required.
 
