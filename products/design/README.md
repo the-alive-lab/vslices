@@ -8,6 +8,8 @@
 
 VSlices Design defines working methodologies, modalities, and reasoning techniques to progressively **understand the client's problem and its context**, **discover and justify requirements**, explore alternatives, and examine realizations. Requested features and proposed solutions are evidence to investigate, not automatically validated requirements. A justified result may be to avoid building software.
 
+Design contributes understanding, requirement justification and alternative examination to the Suite-wide [principle of grounded projection](../../README.md#suite-principle--grounded-projection). The expectation that stories, screens, APIs, tables and other realizations are grounded projections of understood problems and requirements belongs to **VSlices Suite**, not exclusively to Design.
+
 Design defines **what a methodology, modality or phase means**. It does not own inter-product coordination merely because another VSlices product uses Design. Method coordinates usage of distinct VSlices product responsibilities; Planifications expresses reusable procedures that invoke them.
 
 ## Approved iterative lifecycle
