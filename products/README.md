@@ -32,7 +32,7 @@ Candidate work forces currently have their strongest ownership affinity with Des
 
 ## Method
 
-**Canonical migrated patterns:** [Modality Selection](method/modality-selection.md) and [Modality Switching](method/modality-switching.md), reconstructed from existing Method documentation. Context Guides remain pending migration.
+**Canonical migrated patterns:** [Modality Selection](method/modality-selection.md) and [Modality Switching](method/modality-switching.md), reconstructed from existing Method documentation. [Context Guides](method/context-guides/README.md) and their four existing scenarios have also undergone bounded canonical migration; details and a source tension remain tracked in that surface.
 
 Organizes how real work is navigated using the products and mechanisms that are useful in the current context.
 
