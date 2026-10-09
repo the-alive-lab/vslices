@@ -49,6 +49,8 @@ Method may:
 
 ## Docs Standard
 
+[Canonical Docs Standard conceptual source](docs-standard/README.md) now consolidates its [principles](docs-standard/principles.md), [anti-bureaucracy criteria](docs-standard/anti-bureaucracy.md), [glossary](docs-standard/glossary.md), [compliance boundary](docs-standard/compliance-support.md) and [root-question inventory](docs-standard/root-question-inventory.md) while explicitly distinguishing [legacy modeling](docs-standard/legacy-modeling-review.md) from the current normative `vslices/docs-standard` vocabulary.
+
 Defines how documentary knowledge is preserved, related, composed, navigated, and represented.
 
 Examples include:
