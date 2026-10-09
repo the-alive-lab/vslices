@@ -83,6 +83,8 @@ Current evidence also places representability and admissibility strongly inside 
 
 ## Tooling
 
+[Canonical product definition](tooling/README.md). The [official implementation and evolving specifications](https://github.com/vslices/tooling) extend the product meaning without taking semantic authority over Docs Standard, Template Standard, VSIR or Ruleset.
+
 Makes supported capabilities operable, repeatable, and verifiable across products and mechanisms.
 
 Tooling may support Docs Standard, Framework, or other suite surfaces when semantics are sufficiently defined.
