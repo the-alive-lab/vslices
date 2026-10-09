@@ -16,13 +16,15 @@ Tooling is not subordinate to Method.
 
 ## Design
 
-Defines modalities and reasoning tools for approaching engineering problems.
+Defines methodologies, modalities, reasoning tools and the five-phase iterative lifecycle for approaching and understanding problems, discovering and justifying requirements, evaluating alternatives, and developing and validating realizations.
 
 Current modalities include:
 
 - Context-First;
 - Problem-First;
 - Slice-First.
+
+Design owns the meanings of **Understanding, Contextualizing, Planning, Building, and Validating**, with iteration returning to Understanding. Validating contrasts outcomes against problem understanding, expectations, acceptance criteria and consequences, and **responds to feedback when supplied**. It can revise earlier understanding and decisions; feedback is not a separately required Design phase.
 
 Design may use suite-level mechanisms such as Action Flow and Semantic Pressure without owning their base definition.
 
@@ -38,10 +40,10 @@ Method may:
 - decide which continuity needs priority;
 - apply suite mechanisms such as Semantic Pressure;
 - decide when to deepen Action Flows;
-- coordinate movement through the current lifecycle;
-- incorporate feedback into the next iteration.
+- coordinate use of Design's phases without defining their semantics;
+- use results from Validating to guide the next iteration and modality decision.
 
-The current lifecycle has strongest affinity with Method, while its final ownership remains explicit rather than inferred from physical location.
+**Approved boundary (2026-10-09):** Design defines its phases and modalities; Method selects and changes their use in context. **Orientation's final owner remains open**, although orientation at entry and refreshing it after validation are active working interpretations.
 
 ## Docs Standard
 
