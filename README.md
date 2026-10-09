@@ -165,6 +165,16 @@ A projection is **not a mechanical copy**. It can specialize or transform meanin
 
 The principle does **not** require that every low-level artifact have a separate written trace, that every result be software, or that every observed request become a validated requirement. It asks that **material choices remain explainable from the problems and requirements they address**, at the level of continuity appropriate to their consequences.
 
+### Projection surfaces beyond VSlices products
+
+A projection is not restricted to a Suite product's implementation or to published documentation. **Surreal Atlas** and potential work-management applications (including systems analogous in function to Jira) may provide different **surfaces of projection** over grounded problems, requirements, decisions and their continuity.
+
+Examples of possible views include semantic maps and navigable relationships, work items and assignment states, pedagogical explanations, and operational representations. These are **illustrative possibilities**, not claims that a specific integration or shared storage model already exists.
+
+A projection surface may record new observations, assignments or work-state changes within its own authority. Such facts can become evidence informing the underlying understanding; they do not automatically redefine the problem, requirement or intention projected.
+
+**Conceptual authority, representation, storage and operational ownership must not be conflated.** The principle does not demand a universal central database, a prescribed bidirectional synchronization mechanism, or identical schemas across surfaces. Each concrete implementation must establish how it preserves provenance and avoids competing meanings when appropriate.
+
 ### Decision lineage
 
 The earlier Design framing warned against confusing user stories, screens, APIs, tables and implementation tasks with problems or requirements. The Suite-wide reformulation strengthens this from a prohibition against confusion to a **positive relationship of grounded projection**, shared across products. Design retains its methodology of understanding and justification, but does not own the general principle.
