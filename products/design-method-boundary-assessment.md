@@ -50,3 +50,13 @@ Do **not** rewrite `products/README.md`, `lifecycle/README.md`, `mechanisms/sema
 ## Immediate implementation consequence
 
 Software Development may *use* a Design-owned problem-understanding methodology when one is sufficiently defined, while currently preserving missing methodology as an explicit gap. It must not manufacture Design authority merely by documenting a startup questionnaire. Conversely, the absence of a settled Method ownership boundary does not prevent continued bounded implementation under Planifications.
+
+## Interpretive correction — 2026-10-09
+
+**Correction from the original speaker:** "two or more projects" meant **VSlices' own projects/products**, such as Method–Design and Method–Framework, **not independent customer/software projects**. The H1 and H3 alternatives above arose from our mistaken reading of that phrase. Preserve them as historical analysis only; they are no longer faithful rival interpretations of the speaker's proposal.
+
+This removes the apparent obstacle of applying Method during a *single software-project* run: that run can still involve several VSlices products. It aligns with existing suite navigation and with Semantic Pressure being Method-owned, while leaving the exact per-mechanism ownership open to examination.
+
+The live comparison is no longer "inter-client-project Method versus broad Method". It is **coordination across distinct VSlices product responsibilities (Method)** versus **definition of concrete problem-solving methodologies (Design)** versus **reusable execution procedures (Planifications)**. Do not assume every coordination action must involve exactly two products; do not equate application with ownership.
+
+Outstanding technical/semantic questions: whether the lifecycle's stage semantics belong to Design or Method; which part of selecting a modality is Method's coordinating decision rather than Design's methodology; how Method interacts with products other than Design; and whether the coordination/procedure boundary is operationally usable without duplicating authority. These remain candidates for a bounded concept-by-concept migration.
