@@ -1,8 +1,10 @@
 # VSlices Suite
 
-This repository is the canonical working surface for definitions whose semantic authority belongs to **VSlices as a suite**, and for explicit relationships between suite-level semantics and product-owned semantics.
+This repository is the **canonical source of truth for the VSlices Suite and all of its products** (Method, Design, Docs Standard, Framework, Tooling, and others). It preserves foundational meanings from which distinct downstream projections can be developed.
 
-It is not the public documentation site and it does not replace the repositories of VSlices products.
+It defines suite-wide and product-specific concepts, product identities and responsibilities, processes, intentions and normative constraints when appropriate. This does not mean that every concept must become a prescriptive specification, or that every possible projection must be represented here.
+
+It is **not** the public documentation website, implementation repository, or necessarily the place where each downstream realization is authored.
 
 ## Responsibility
 
@@ -10,32 +12,34 @@ This repository may:
 
 - define shared foundations;
 - define mechanisms whose identity belongs to VSlices across products;
-- declare product responsibility boundaries;
+- define product purposes, responsibilities, concepts and processes, as well as their boundaries;
 - preserve cross-product relationships;
 - record candidate lifecycle or design models that affect more than one product while their ownership is still being validated;
 - preserve promotion history and unresolved authority questions.
 
 It must not:
 
-- absorb semantics that clearly belong to one product;
-- duplicate a product definition merely to centralize files;
+- erase the internal ownership of a product merely because its source is hosted here;
+- duplicate the same definition across suite and product paths;
 - turn a current realization into a universal definition;
 - promote a useful hypothesis to stable semantics only because it now has a name.
 
 ## Authority rule
 
 ```text
-suite-owned semantics
-    -> defined here
+suite-wide semantics
+    -> defined here, with suite-level ownership
 
 product-specific semantics
-    -> defined by the owning product
+    -> defined here, within that product's conceptual namespace
 
 research / uncertain ownership
     -> preserved as candidate evidence or an explicit ownership question
 ```
 
 A product may use, document, realize, specialize, render, validate, or operationalize a VSlices mechanism without thereby becoming the authority that defines its base semantics.
+
+**Centralized canonical hosting does not collapse product responsibility.** Design, Method, Tooling, etc. retain distinct conceptual ownership even though their definitions live in one repository.
 
 Likewise, physical location does not establish semantic authority.
 
@@ -97,7 +101,7 @@ Their strongest current ownership affinity is Design.
 
 ### Products
 
-Suite-level responsibility boundaries between Design, Method, Docs Standard, Framework, Tooling, Research, and other products.
+Canonical product definitions and their responsibility boundaries, including [VSlices Design](products/design/README.md). Product-specific meanings are defined here under their owning product's namespace; independent realization repositories are projections rather than competing sources of truth.
 
 ### Relationships
 
@@ -115,27 +119,41 @@ See [`bootstrap/`](bootstrap/README.md).
 
 Bootstrap material is evidence, not current authority.
 
-## Public documentation
+## Definition, intention, specification and projection
 
-Public documentation is a deliberate projection of canonical knowledge.
+The canonical repository is the **source** for concepts, products, processes and other elements that can justify a downstream projection. Several useful categories may overlap:
+
+- **Definition**: establishes what a concept, responsibility, product or process means.
+- **Intention**: establishes what outcome a realization seeks and why.
+- **Specification**: makes constraints or obligations of a realization examinable.
+- **Projection**: interprets, expresses or materializes selected canonical meanings and intentions in a specific context.
+
+These are distinctions of responsibility, **not** a mandatory four-document format or linear pipeline. "Specification" is not a synonym for everything canonical: explanatory concepts, goals and open questions can be important sources without being implementation contracts.
+
+Examples:
+
+- **Tooling's canonical definition** describes capabilities and constraints it should provide. Tooling implementation is a technical realization/projection, and its implementation details do not automatically redefine the source.
+- **Public documentation** projects VSlices concepts with a pedagogical intention, and a web implementation additionally realizes that intention in pages, navigation and interaction.
+- **TDidacta** may contribute pedagogical methodologies, design and examination of that intention without gaining authority to redefine VSlices concepts. Whether pedagogical intent is itself canonical to a particular publication or a separate governed artifact depends on the responsibility in question; no automatic transfer of ownership is implied.
 
 ```text
-suite definitions + product definitions
-        ↓
-public projection
-        ↓
-vslices/docs
-        ↓
-MkDocs / Read the Docs
+the-alive-lab/vslices-suite
+  concepts + products + processes + intentions + constraints
+       |                            |
+       +--> Tooling realization     +--> pedagogical projection
+                                           |
+                                           +--> web publication (vslices/docs)
 ```
 
-The public navigation may optimize learning and onboarding without becoming the accidental ontology of VSlices.
+The branches are illustrative, not exhaustive and not invariably sequential. Sources and projections should retain links to the meanings and intentions that justify them. New evidence from a realization may **challenge** a source, but does not silently overwrite its authority.
+
+## Public documentation
+
+`vslices/docs` is a **didactic and web projection** of canonical VSlices meanings, not the authority establishing those meanings. Its pedagogical intent and its website realization are distinguishable even when housed in the same project.
 
 ## Reconstruction rule
 
-When reconstructing VSlices:
-
-1. use this repository for suite-level meaning and cross-product authority;
-2. use the owning product repository for product-specific semantics;
-3. use Research / Alive Lab and historical artifacts as evidence for how a definition emerged;
-4. use `vslices/docs` as a public projection, not as the primary authority merely because it is published.
+1. Look to **this repository** for canonical meanings of the Suite **and each VSlices product**.
+2. Use implementation and publication repositories as evidence of existing realizations, constraints and feedback, **not** as automatic authority to change the underlying definition.
+3. Use Research and historical artifacts to reconstruct emergence, test claims and flag unresolved ownership questions.
+4. Record substantive revision of canonical sources explicitly; propagate the results to relevant projections rather than silently rewriting history.
