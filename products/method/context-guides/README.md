@@ -20,7 +20,7 @@ These **situations may overlap** and apply to an entire project or smaller bound
 - **Docs Standard:** defines documents and Continuity Paths; a guide may suggest using a path but cannot redefine its semantics or mandate each path.
 - **Planifications:** may enact a guide during a specific run, without becoming authority for its meaning.
 
-A **Context Guide is not Orientation**. Its use can help an incoming actor orient, but whether Orientation as a general concept belongs to Method or Design is still unresolved. Do not infer ownership from naming, onboarding examples or document location.
+A **Context Guide is not [Orientation](../orientation.md)**. Context Guides suggest approaches for recognizable situations; Method-owned Orientation reconstructs the actual situated continuity of an actor or team. Its owner follows the approved responsibility boundary, not merely naming or document location.
 
 ## Migration notes
 
