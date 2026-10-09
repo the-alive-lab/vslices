@@ -102,6 +102,10 @@ That means Tooling owns constrained mechanisms for expressing, validating, compo
 
 Automation does not acquire semantic authority merely by existing.
 
+## Ruleset
+
+[Canonical product definition](ruleset/README.md). Ruleset owns revisable, deterministic target-realization knowledge, while [vslices/ruleset](https://github.com/vslices/ruleset) remains its official specialized source. Tooling owns the constrained rule language and execution mechanisms; Ruleset owns the target vocabulary expressed through that language. Rules do not confer semantic validity on unknown source constructs.
+
 ## Research / Alive Lab
 
 Preserves observations, hypotheses, tensions, and evidence before promotion.
