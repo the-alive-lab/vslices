@@ -1,85 +1,34 @@
-# Lifecycle
+# Lifecycle — Suite relationship and historical surface
 
-## Status
+**Authoritative Design phase definitions:** [VSlices Design lifecycle](../products/design/lifecycle.md). This Suite page tracks history and cross-product interpretation; when wording differs, the Design-owned source controls Design phase meaning.
 
-`candidate`
+## Status and authority
 
-## Ownership affinity
+The **five-phase Design iteration** and the definition of **Validating** below are **conceptually approved (2026-10-09)**. This file preserves the Suite's cross-product relationship to the Design-owned concept; it must not make the Suite the permanent substitute for a Design-owned canonical surface.
 
-`Method` currently has the strongest ownership affinity because Method organizes how real work navigates products, modalities, continuity, and feedback.
+**Design owns** the phases and their meanings, as well as the definitions of Context-First, Problem-First and Slice-First. **Method owns** contextual selection or switching of modalities according to uncertainty, priorities and continuity; **Planifications operationalizes** them in runs.
 
-This repository preserves the lifecycle because it coordinates the suite as a whole.
+Orientation is intentionally **outside** the five-phase Design iteration. Its final conceptual ownership (Method vs Design), initial entry behavior and refresh mechanism have **not** been approved as a stable assignment. The current working hypothesis is an initial orientation when joining a project and refresh informed by Validating, without a sixth Design phase.
 
-Its final ownership should remain explicit rather than inferred from physical location.
-
-## Current working cycle
+## Approved Design iteration
 
 ```text
-Orientation
-    ↓
-Understanding
-    ↓
-Contextualizing
-    ↓
-Planning
-    ↓
-Building
-    ↓
-Feedback
-    ↓
-Orientation
-    ↺
+Understanding -> Contextualizing -> Planning -> Building -> Validating
+       ^                                             |
+       +---------------------------------------------+
 ```
 
-This revises the earlier working cycle:
+The cycle's earlier evolution must remain reconstructible:
 
-```text
-Understanding
--> Contextualizing
--> Planning
--> Building
--> Understanding
-```
+1. **Historical, four-phase**: Understanding -> Contextualizing -> Planning -> Building -> Understanding.
+2. **Intermediate candidate**: Orientation -> Understanding -> Contextualizing -> Planning -> Building -> Feedback -> Orientation.
+3. **Approved conceptual correction**: the five Design phases end with **Validating**, then iterate to Understanding; Orientation is distinguished from those five, and feedback is a possible input to Validating rather than a required independent phase.
 
-The revision is material because it makes entry/exit continuity and feedback explicit instead of compressing both into a return to Understanding.
+This is a conceptual decision, not evidence that all existing tools, plans or public pages already conform.
 
-## Orientation
+## Orientation — ownership not yet settled
 
-Orientation establishes or refreshes the minimum continuity needed to work responsibly.
-
-Typical questions include:
-
-- What is happening?
-- Why are we here?
-- Who participates?
-- What outcome matters?
-- What work seems to exist?
-- What do we not know?
-- What constraints already matter?
-- Where should the next actor continue?
-
-Orientation should remain deliberately small.
-
-Its purpose is not to replace deeper documentation.
-
-It should work both as:
-
-- onboarding into an existing context;
-- initial shelter when almost no structured context exists yet.
-
-### Orientation Path candidate
-
-A deliberately minimal Orientation Continuity Path is a strong candidate realization.
-
-It should:
-
-- be cheap to create;
-- be cheap to update;
-- route toward deeper Continuity Paths or artifacts;
-- be refreshed after Feedback;
-- avoid becoming a large context document.
-
-The ownership of Continuity Path itself remains under review, so this does not currently reassign authority away from Docs Standard.
+Orientation establishes sufficient entry continuity when entering existing work. Validating can provide evidence that the orientation needs refreshing; whether refresh is a Method action, a Design action, or an operational consequence of the run remains under review. **Do not** represent Orientation as an automatic sixth Design phase or claim an agreed owner.
 
 ## Understanding
 
@@ -141,59 +90,18 @@ Implementation is evidence.
 
 Building may confirm, refine, or contradict earlier understanding.
 
-## Feedback
+## Validating — approved meaning
 
-Feedback explicitly compares perspectives.
+**Validating contrasts iteration results with the understanding of the problem, expectations, acceptance criteria, and observed consequences.** It incorporates new evidence, identifies discrepancies, and **responds to feedback received, when feedback exists**.
 
-Typical comparisons include:
+Its results may confirm, challenge, or change the understanding, decisions, and realizations that motivated the iteration. Responding to feedback does **not** require accepting it automatically: an adequate response may accept an observation, explain or justify a decision, identify uncertainty, propose a change, or explain why a change is not warranted.
 
-```text
-done vs requested
-done vs proposed
-actual vs target
-observed vs assumed
-runtime vs expected
-```
-
-Feedback asks whether:
-
-- the work was misunderstood;
-- the proposal was wrong or incomplete;
-- the implementation exposed a missing responsibility;
-- a boundary failed;
-- unnecessary complexity was introduced;
-- new evidence changes the next iteration.
-
-## Return to Orientation
-
-After Feedback, Orientation is refreshed with the smallest useful set of changes:
-
-- what changed;
-- why the work exists now;
-- what matters next;
-- what became known;
-- what became uncertain;
-- what became obsolete;
-- where the next actor should continue.
-
-Then the next Understanding iteration begins.
+Validating is not limited to technical verification. Feedback is an optional input, not a guaranteed event and not a mandatory separate Design phase. Evidence from Validating may inform the next Understanding iteration and any orientation refresh.
 
 ## Distinct concerns
 
-Do not collapse:
-
-```text
-Lifecycle
-    -> where are we in the work?
-
-Modality
-    -> how should we learn or advance under current uncertainty?
-
-Continuity Path
-    -> what knowledge continuity are we preserving?
-
-Forces
-    -> which directions of effort are currently favored?
-```
-
-These concerns interact without becoming interchangeable.
+- **Design lifecycle**: meaning of the five phases and iterative return.
+- **Design modalities**: meaning of Context-First, Problem-First, Slice-First.
+- **Method**: given uncertainty, priorities and continuity, select or change modality and coordinate participating VSlices responsibilities.
+- **Planifications**: operational execution, state and traceable application of this guidance.
+- **Orientation**: entry and continuity concern whose *ownership remains under review*.

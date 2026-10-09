@@ -2,9 +2,7 @@
 
 ## Purpose
 
-This surface declares product responsibility boundaries from the suite perspective.
-
-It does not replace the internal definition each product owns.
+This surface indexes product responsibility boundaries. **This repository also hosts each VSlices product's canonical definitions in its own conceptual namespace**. Product responsibility remains distinct even when all sources are hosted centrally.
 
 ## Independence
 
@@ -16,7 +14,9 @@ Tooling is not subordinate to Method.
 
 ## Design
 
-Defines modalities and reasoning tools for approaching engineering problems.
+**Canonical Design source in this repository:** [VSlices Design](design/README.md) and its [approved lifecycle](design/lifecycle.md). Design retains conceptual ownership; no separate repository is required.
+
+Defines methodologies, modalities, reasoning tools and the five-phase iterative lifecycle for approaching and understanding problems, discovering and justifying requirements, evaluating alternatives, and developing and validating realizations.
 
 Current modalities include:
 
@@ -24,11 +24,15 @@ Current modalities include:
 - Problem-First;
 - Slice-First.
 
+Design owns the meanings of **Understanding, Contextualizing, Planning, Building, and Validating**, with iteration returning to Understanding. Validating contrasts outcomes against problem understanding, expectations, acceptance criteria and consequences, and **responds to feedback when supplied**. It can revise earlier understanding and decisions; feedback is not a separately required Design phase.
+
 Design may use suite-level mechanisms such as Action Flow and Semantic Pressure without owning their base definition.
 
 Candidate work forces currently have their strongest ownership affinity with Design.
 
 ## Method
+
+**Canonical migrated patterns:** [Modality Selection](method/modality-selection.md) and [Modality Switching](method/modality-switching.md), reconstructed from existing Method documentation. [Context Guides](method/context-guides/README.md) and their four existing scenarios have also undergone bounded canonical migration; details and a source tension remain tracked in that surface.
 
 Organizes how real work is navigated using the products and mechanisms that are useful in the current context.
 
@@ -38,12 +42,14 @@ Method may:
 - decide which continuity needs priority;
 - apply suite mechanisms such as Semantic Pressure;
 - decide when to deepen Action Flows;
-- coordinate movement through the current lifecycle;
-- incorporate feedback into the next iteration.
+- coordinate use of Design's phases without defining their semantics;
+- use results from Validating to guide the next iteration and modality decision.
 
-The current lifecycle has strongest affinity with Method, while its final ownership remains explicit rather than inferred from physical location.
+**Approved boundary (2026-10-09):** Design defines its phases and modalities; Method selects and changes their use in context. [Orientation](method/orientation.md) is Method-owned as a cross-cutting responsibility for situated continuity, distinct from Design's phases and independent of iteration completeness. Its operational details remain under review.
 
 ## Docs Standard
+
+[Canonical Docs Standard conceptual source](docs-standard/README.md) now consolidates its [principles](docs-standard/principles.md), [anti-bureaucracy criteria](docs-standard/anti-bureaucracy.md), [glossary](docs-standard/glossary.md), [compliance boundary](docs-standard/compliance-support.md) and [root-question inventory](docs-standard/root-question-inventory.md) while explicitly distinguishing [legacy modeling](docs-standard/legacy-modeling-review.md) from the current normative `vslices/docs-standard` vocabulary.
 
 Defines how documentary knowledge is preserved, related, composed, navigated, and represented.
 
@@ -71,7 +77,13 @@ Current Framework-owned or Framework-affine concepts include emerging surfaces s
 
 Current evidence also places representability and admissibility strongly inside the Framework conceptual model; suite-level promotion remains unresolved.
 
+## Template Standard
+
+[Canonical product definition](template-standard/README.md). Owns materialization and reconstruction contracts that project semantic artifact state into human-editable representations without redefining Docs Standard semantics. The official [vslices/template-standard](https://github.com/vslices/template-standard) hosts deeper templates and specifications; Tooling owns the generic application mechanism. Ambiguous semantic reconstruction must fail closed.
+
 ## Tooling
+
+[Canonical product definition](tooling/README.md). The [official implementation and evolving specifications](https://github.com/vslices/tooling) extend the product meaning without taking semantic authority over Docs Standard, Template Standard, VSIR or Ruleset.
 
 Makes supported capabilities operable, repeatable, and verifiable across products and mechanisms.
 
@@ -89,6 +101,10 @@ Rulesets own the rule vocabulary.
 That means Tooling owns constrained mechanisms for expressing, validating, composing, and executing supported lowering knowledge, while revisable target vocabulary remains Ruleset-owned.
 
 Automation does not acquire semantic authority merely by existing.
+
+## Ruleset
+
+[Canonical product definition](ruleset/README.md). Ruleset owns revisable, deterministic target-realization knowledge, while [vslices/ruleset](https://github.com/vslices/ruleset) remains its official specialized source. Tooling owns the constrained rule language and execution mechanisms; Ruleset owns the target vocabulary expressed through that language. Rules do not confer semantic validity on unknown source constructs.
 
 ## Research / Alive Lab
 
