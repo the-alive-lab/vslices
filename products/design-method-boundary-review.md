@@ -105,3 +105,13 @@ One software project can call upon several VSlices products. Method's applicabil
 **Still open:** precise meaning and boundary of "coordination" versus Design methodology and Planifications orchestration; ownership of lifecycle stage definitions versus selection/navigation of stages versus concrete run execution; modality definition versus modality selection; whether some concepts need a more specific owning product. Do not imply this clarification settles those issues.
 
 **Revised next pressure:** map concrete Method–Design, Method–Docs Standard and Method–Framework relationships, labeling what Method coordinates and what the other product defines, then examine the lifecycle and modalities against those examples before any normative migration or public docs update.
+
+## Approved conceptual decision — 2026-10-09
+
+The proposed Design/Method division and **five-phase Design lifecycle** received explicit human conceptual approval. The approved Design cycle is `Understanding -> Contextualizing -> Planning -> Building -> Validating -> Understanding`. **Validating** contrasts outcomes with problem understanding, expectations, acceptance criteria and observed consequences, incorporates evidence, identifies discrepancies, **responds to feedback if provided**, and can confirm/challenge/revise the originating understanding, decisions and realization. Response does not imply automatic acceptance of feedback.
+
+**Design** owns phase and modality definitions. **Method** owns reasoning about when to change/use modalities (e.g. Context-First to Problem-First because of uncertainty, priorities and continuity) and coordinating participating VSlices products. **Planifications** executes procedures that use these concepts, without acquiring their definition.
+
+**Not approved yet:** final owner of Orientation. The current discussion treats initial Orientation as project entry, and Validating as possibly triggering an orientation refresh, not as a sixth Design phase. The particular authority for the refresh is still open.
+
+**Migration implication:** revise existing Suite lifecycle and product-boundary wording first; create/preserve a Design-owned source subsequently; only then project into `vslices/docs` and update Planifications' lifecycle references. Do not silently rewrite earlier four-phase or intermediate Feedback cycle history.
