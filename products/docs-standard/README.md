@@ -25,7 +25,11 @@ The types' [root questions](root-question-inventory.md) are extracted from the n
 
 ## Authority and relations
 
-The `vslices/docs-standard` repository remains the **normative, versioned, machine-consumable vocabulary currently used by Tooling**. This Suite namespace is being developed as the canonical home for product meaning, **without silently superseding that operational source**, its manifest promotion state or question-graph semantics. Questions of transition and synchronization require explicit decisions.
+**This Suite namespace is the conceptual source of truth for Docs Standard.** It defines the product's identity, purpose, fundamental responsibilities and boundaries, then **directs readers to the official specialized source**, [vslices/docs-standard](https://github.com/vslices/docs-standard), for its particular definitions and deeper specifications.
+
+The specialized repository can extend the canonical conceptual foundation with progressively stabilized question trees, versioned vocabularies, implementation-oriented specifications and semantics consumed by Tooling. Such extensions do **not** form a competing authority or require mirroring every detail here. If a deeper definition challenges the fundamental meaning stated in the Suite, surface that tension explicitly for conceptual review rather than silently treating either description as interchangeable.
+
+The specialized repository's `manifest.yaml` governs which particular definitions are promoted for its installed surface; this need not be duplicated in the Suite.
 
 Docs Standard owns documentary semantics; Method owns Semantic Pressure and contextual coordination; Tooling realizes supported authoring and validation mechanisms; Design owns its own phases and modalities.
 
