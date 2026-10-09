@@ -32,7 +32,7 @@ Candidate work forces currently have their strongest ownership affinity with Des
 
 ## Method
 
-**Canonical migrated pattern:** [Modality Selection](method/modality-selection.md), reconstructed from the existing Method documentation. Modality Switching and Context Guides remain separate pending migrations.
+**Canonical migrated patterns:** [Modality Selection](method/modality-selection.md) and [Modality Switching](method/modality-switching.md), reconstructed from existing Method documentation. Context Guides remain pending migration.
 
 Organizes how real work is navigated using the products and mechanisms that are useful in the current context.
 
