@@ -28,9 +28,9 @@ Each of these five phases belongs conceptually to **Design**. After Validating, 
 
 **Design defines** Context-First, Problem-First and Slice-First and their meaning. **Method decides** when to use or switch modalities given uncertainty, priorities and continuity. All three modalities now have bounded canonical definitions: [Context-First](modalities/context-first.md), [Problem-First](modalities/problem-first.md), and [Slice-First](modalities/slice-first.md). Their histories and unresolved questions remain explicit in each source.
 
-## Orientation — unresolved ownership
+## Relationship with Method Orientation
 
-Orientation is **not a sixth phase** of Design's approved iteration. Establishing enough continuity on entry to work and updating that orientation after validation are recognized needs, but **whether Orientation's definition belongs to Method or Design remains open**. No automatic re-entry phase is authorized by this document.
+[Orientation](../method/orientation.md) is **owned by Method**, not a sixth Design phase. It situates actors and teams against inherited work state at any iteration-completeness level. Evidence from Validating may call for reorientation, without automatically requiring it or changing Design's five-phase cycle.
 
 ## Other source boundaries
 
