@@ -30,6 +30,6 @@ Retained: context-dependent usefulness, minimum sufficient continuity, modality 
 
 The published guides contain detailed optional affinity tables and examples of Docs Standard documents. They remain evidence for subsequent evaluation of their concepts, **not universally binding taxonomies** in this first migration.
 
-**Discrepancy retained for review:** the public *Introducing Method* guide suggests Slice-First in one case where the surrounding context is “too uncertain to intervene safely”. That condition alone does not justify Slice-First under Design's definition; a bounded slice still requires enough context and safety. Do not promote that row as a selection rule. The guide records this conflict without altering historical text.
+**Clarification following review:** the public *Introducing Method* guide's Slice-First example is intelligible when **overall contextual uncertainty is high but uncertainty about one bounded process or flow is low enough for a safe, meaningful intervention**. Global uncertainty and local uncertainty need not have the same magnitude. The historical wording remains ambiguous if read as saying the particular intervention itself is unsafe; that phrasing should be clarified when the public projection is revised. This is not an unconditional Slice-First selection rule.
 
 Do not treat feedback as a separate mandatory Design stage: **Validating** may incorporate and respond to feedback **if received**, and its evidence may inform later Method decisions.
