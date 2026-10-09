@@ -87,3 +87,21 @@ A public projection assembled from the definitions of suite and products. The pu
 ## Next pressure
 
 Resolve the current Method definition's broad work-navigation responsibility against the newer proposed inter-project boundary, using the detailed existing materials and concrete counterexamples, before editing product normative definitions or public projections.
+
+## Clarification of "projects" — 2026-10-09
+
+The human author of the working distinction clarified that **"Method connects two or more projects" referred to the projects/products comprising VSlices itself** (e.g. Method with Design, Method with Framework), **not** to independent client software projects. The preceding "inter-project" interpretation was a misunderstanding in the review, not an original restriction on Method.
+
+The intended candidate boundary is therefore:
+
+- **Design** defines methodologies and reasoning techniques for understanding problems, discovering and justifying requirements, and designing responses.
+- **Method** coordinates how the different VSlices product responsibilities connect and participate in a resolution; coordinating several surfaces does not transfer ownership of their meanings to Method.
+- **Planifications** defines reusable procedures that operationalize those interactions in a concrete run, referring to the owners rather than redefining them.
+
+One software project can call upon several VSlices products. Method's applicability does not depend on there being two separate client projects. The number "two or more" is explanatory, not a required runtime cardinality or a limitation to pairwise connections.
+
+**Effect on earlier interpretation:** the supposed contradiction between Method's inter-client-project exclusivity and its existing cross-Suite navigation **dissolves**. The previous H1/H3 discussion remains recorded as evidence of the misreading, not as an equally current expression of the human intent. This clarification supports the broad coordination role already stated in `products/README.md` and the Method ownership of Semantic Pressure; neither requires reassignment on that basis.
+
+**Still open:** precise meaning and boundary of "coordination" versus Design methodology and Planifications orchestration; ownership of lifecycle stage definitions versus selection/navigation of stages versus concrete run execution; modality definition versus modality selection; whether some concepts need a more specific owning product. Do not imply this clarification settles those issues.
+
+**Revised next pressure:** map concrete Method–Design, Method–Docs Standard and Method–Framework relationships, labeling what Method coordinates and what the other product defines, then examine the lifecycle and modalities against those examples before any normative migration or public docs update.
