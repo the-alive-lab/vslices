@@ -77,6 +77,10 @@ Current Framework-owned or Framework-affine concepts include emerging surfaces s
 
 Current evidence also places representability and admissibility strongly inside the Framework conceptual model; suite-level promotion remains unresolved.
 
+## Template Standard
+
+[Canonical product definition](template-standard/README.md). Owns materialization and reconstruction contracts that project semantic artifact state into human-editable representations without redefining Docs Standard semantics. The official [vslices/template-standard](https://github.com/vslices/template-standard) hosts deeper templates and specifications; Tooling owns the generic application mechanism. Ambiguous semantic reconstruction must fail closed.
+
 ## Tooling
 
 Makes supported capabilities operable, repeatable, and verifiable across products and mechanisms.
