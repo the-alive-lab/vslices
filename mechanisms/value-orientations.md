@@ -52,6 +52,29 @@ Under strong/extreme conditions an orientation may make one modality especially 
 
 **These are situated intuitions, not universal equivalences.** Lack of general knowledge does not automatically imply Slice-First. It may also make Context-First **infeasible when no appropriate experts or other trustworthy broad sources are accessible**. Every candidate must be checked for feasibility, material risk, authority, knowledge dependencies and alternative explanations.
 
+## Position, recommendation, and evidence quantity (candidate semantics)
+
+The triangle is a **semantic response space** with three corners: **Most Value → Problem-First**, **Most Continuity → Context-First**, **Least Resistance → Slice-First**. Proximity to a corner expresses **stronger recommendation affinity** for its associated Design modality. An edge position means the two corresponding responses remain defensible; the center permits all three. Distance from other corners exposes **relative trade-offs and risk questions**, not a measured probability or risk magnitude.
+
+**Position and evidence quantity are separate dimensions.** A midpoint with little evidence may reflect underdetermination, **not** a demonstrated 50/50 choice. The same midpoint after substantially more relevant evidence may express a genuine balance between defensible responses. For an initial playground, evidence quantity may be displayed as the **count of traceable evidence items considered**, not a calibrated statistical confidence score. Counts alone do not prove quality, independence, coverage or validity: duplicate, irrelevant or contradictory documents must remain visible rather than artificially increasing certainty. A reliable semantic confidence model remains future research.
+
+Feasibility is evaluated **inside the Work Forces interpretation**, notably the availability and distribution of local/general knowledge and uncertainty of the organization and team. A recommendation should therefore be derived from **interpreted feasible responses**, not from an unconstrained triangle position followed by a separate invented feasibility gate. Low general knowledge without accessible organizational experts can render Context-First infeasible; adequate local knowledge may make a bounded Slice-First feasible, but neither conclusion is automatic.
+
+## Interpreted movement, not automatic evidence displacement
+
+A new document does not directly push the point. Actors (or a supported LLM hypothesis subject to review) **interpret evidence as Work Forces**, including the local/general uncertainty that influences what responses can responsibly be attempted. That interpretation justifies retaining or changing the recommended position. Different legitimate interpretations can produce different candidate positions. The rationale and its source relationship can be preserved through **Docs Standard**; the triangle does not own an additional mandatory documentation or history format.
+
+The core proposed reasoning is:
+
+```text
+evidence and context → interpretation into Work Forces
+                     → feasible response affinities
+                     → Value Orientations position + evidence quantity
+                     → Method modality recommendation
+```
+
+This is a proposed **semantic interpretation model**, not an arbitrary scoring algorithm, fixed geometric risk calculation or automatically validated LLM judgment.
+
 ## Change of emphasis
 
 The relative position may change when Orientation or Design reveals new evidence, the business context changes, or previous Validating supplies retrospective artifacts and responses to received feedback. Document what changed **in the interpretation and priorities**, not merely a visual new position. This does not require fixed scores or a forced switch between modalities.
