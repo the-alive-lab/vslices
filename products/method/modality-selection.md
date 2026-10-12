@@ -19,6 +19,14 @@ Design defines the meanings of Context-First, Problem-First and Slice-First. **M
 
 Orientation does not automatically select a modality and is not a compulsory gate; modality selection remains a distinct Method judgment. This separation avoids making Context-First an automatic first modality merely because work must be situated before being addressed.
 
+## Value Orientations and feasibility (candidate clarification)
+
+A modality choice can consider not just the **type of uncertainty**, but **how the group intends to respond to uncertainty, organizational needs and operating context**. These are not interchangeable. In particular, distinguish local vs general knowledge of the client and developing team, availability of organizational experts/sources, business needs and external pressures.
+
+The provisional collective name [**Value Orientations**](../../mechanisms/value-orientations.md) replaces *Advancement Paths* as a **working explanatory category** for the three legacy Path candidates: **Most Value** prioritizes short-term business value, **Most Continuity** prioritizes long-term business value (including process-to-software traceability), and **Least Resistance** prioritizes business value with minimal justified effort **during the process**. [Work Forces](../../forces/README.md) may interpret evidence that changes the emphasis among these orientations. The exact relation remains to be tested; no weights, fixed routing rule or exhaustive model is approved.
+
+**Extreme-case affinities (hypotheses, not mandatory rules):** an urgent identifiable problem can favor Most Value / Problem-First; available broad organizational process expertise can make Most Continuity / Context-First productive for developing long-term software/process continuity; limited general but useful local knowledge under tight delivery conditions can favor Least Resistance / safe bounded Slice-First. Lack of general process knowledge may actually prevent broad Context-First if no appropriate experts or sources exist; it **never automatically dictates Slice-First**. Reassess actual feasibility, risk and evidence for all modalities.
+
 ## Selection criteria
 
 First determine what is insufficiently known and why that uncertainty matters to the next consequential decision. Then consider:
