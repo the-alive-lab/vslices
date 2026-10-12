@@ -1,4 +1,4 @@
-# Work forces
+# Orientation Factors (formerly Work Forces)
 
 ## Status
 
@@ -12,7 +12,9 @@ The model is preserved here because it affects cross-product movement between or
 
 ## Purpose
 
-Work forces bias the direction, origin, destination, and cost of engineering effort.
+**Orientation Factors** is the current candidate name for the formerly named **Work Forces**. The four categories remain Semantic, Technical, Delivery and Resource. They classify interpreted evidence, including evidence that currently has **no identified impact** on effort. The interpretation is revisable through new related evidence; justified changes or nuances may have an impact transmitted through explicit document relationships in front matter, **not tags**. See [documentary reinterpretation](../mechanisms/documentary-reinterpretation.md) and [interpretation model](interpretation-model.md).
+
+Orientation Factors bias the direction, origin, destination, and cost of engineering effort.
 
 They are not exclusive territories.
 
@@ -132,6 +134,22 @@ Strong delivery pressure may favor reusing current System / Flows.
 Strong semantic pressure may first require more work on the Organization / Process side.
 
 Strong resource pressure may reduce the number of transformations attempted in the current iteration.
+
+## Local and general uncertainty as part of factor interpretation
+
+**Uncertainty is not an external pass/fail gate after the triangle.** Interpreting available evidence as Work Forces includes what the organization and the developing group know **locally** (bounded people, tasks and areas) and **generally** (relationships and processes across the organization), what they do not know, and **whether credible knowledge sources or experts are actually available**.
+
+This directly affects which responses are viable. A need to understand broad organizational processes is not sufficient for Context-First if there is no access to the knowledge needed to conduct the investigation. A locally understood task does not automatically license Slice-First unless the proposed action can be bounded and evaluated responsibly. Work Forces should represent these feasibility implications before a location is proposed in Value Orientations.
+
+Interpretation is situated: a new piece of evidence **does not directly displace a point**; it can change an interpreted force, whose justified implications may change the viable response affinities and hence the position. No automatic vector or formula has been established.
+
+See [Value Orientations](../mechanisms/value-orientations.md) and the candidate [force-interpretation protocol](interpretation-model.md).
+
+## Relationship with Value Orientations (candidate)
+
+Work Forces can be understood as **interpretations of evidence** about organizational and delivery circumstances, rather than synonyms for the value orientation itself. A financial deadline is contextual evidence; it is not knowledge of business processes. The local/general uncertainty of the client and developing group, needs across organizational areas, available experts and risk also matter.
+
+Their interpretation may alter the **relative emphasis of [Value Orientations](../mechanisms/value-orientations.md)** (short-term business value, long-term business continuity, value at least justified effort) considered by Method when selecting or reconsidering a modality. This proposed link is not a deterministic calculation. The orientation describes how to conduct an iteration, not a post-hoc classification of every benefit produced.
 
 ## Relationship with modalities
 

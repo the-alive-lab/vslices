@@ -71,39 +71,28 @@ Admissibility
 
 Current decision: preserve Framework affinity and do not promote yet.
 
-## Lifecycle ownership
+## Lifecycle ownership — resolved conceptually; operational questions remain
 
-The current working lifecycle coordinates several products:
-
-```text
-Orientation
--> Understanding
--> Contextualizing
--> Planning
--> Building
--> Feedback
--> Orientation
-```
-
-Method has the strongest current ownership affinity because it organizes how work navigates products and modalities.
-
-Question:
+The earlier candidate asked whether the extended traversal
 
 ```text
-lifecycle
-    = Method-owned navigation model?
-
-or
-
-lifecycle
-    = suite-level mechanism used by Method?
+Orientation -> Understanding -> Contextualizing -> Planning -> Building -> Feedback -> Orientation
 ```
 
-Current decision: keep the lifecycle candidate, record Method affinity, and avoid premature promotion.
+belonged to Method or Suite. This remains **historical evidence of an intermediate model**, not the current cycle.
 
-## Work forces ownership
+**Current approved boundary (2026-10-09):**
 
-Semantic, Technical, Delivery, and Resource forces affect the direction of effort across organizational and system perspectives.
+- [Design](../products/design/lifecycle.md) owns the five phases **Understanding → Contextualizing → Planning → Building → Validating → Understanding** and their meanings. Feedback can be received and addressed during Validating without becoming a mandatory separate phase.
+- [Method](../products/method/orientation.md) owns Orientation: the cross-cutting situated continuity of actors and teams, not a Design phase. Method also chooses and switches Design modalities in context.
+- [Protocols](../products/protocols/README.md) coordinates the application of these meanings in reusable and concrete procedures; it does not redefine them. Its specialized repository is currently named `vslices/planifications`.
+
+**Still open:** exact operational re-entry/refresh conditions for Orientation, thresholds for reconciling actor/team divergence, and how historical protocols should be updated without rewriting frozen evidence. The ownership question itself is **not still open**.
+
+
+## Orientation Factors ownership (formerly Work Forces)
+
+Semantic, Technical, Delivery, and Resource factors affect the direction of effort across organizational and system perspectives.
 
 Design has the strongest current ownership affinity because the forces influence modality and candidate realization.
 

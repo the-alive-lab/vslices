@@ -1,0 +1,96 @@
+# Modality Selection — VSlices Method
+
+**Owner:** VSlices Method  
+**Status:** canonical migration of an existing Method pattern (2026-10-09); not a newly invented decision mechanism.
+
+## Purpose
+
+**Modality Selection** determines which VSlices Design modality should guide the present work by examining **the uncertainty that most threatens the next responsible decision and the continuity that work must preserve**.
+
+It does not select an intrinsically best modality, prescribe a universal sequence, or make a modality the permanent identity of an iteration.
+
+> Choose the smallest useful modality emphasis that makes the next responsible decision safer.
+
+Design defines the meanings of Context-First, Problem-First and Slice-First. **Method owns the contextual decision to select one**; the concrete run and its state may be coordinated through Planifications.
+
+## Relationship with Orientation
+
+**When VSlices Method is used, Orientation is formally recommended before the first Design iteration and between successive iterations.** Orientation recognizes enough about the situation, including retrospective artifacts and responses to feedback from the previous Validating when available, to support a deliberate continuation choice. **Orientation is not Context-First:** locating what work is being addressed so a modality can be selected is Method analysis, not yet an advance in the Design resolution. Context-First is chosen when deepening contextual understanding **is itself the justified Design work**, not merely because work is initially unfamiliar.
+
+Orientation does not automatically select a modality and is not a compulsory gate; modality selection remains a distinct Method judgment. This separation avoids making Context-First an automatic first modality merely because work must be situated before being addressed.
+
+## Value Orientations and feasibility (candidate clarification)
+
+A modality choice can consider not just the **type of uncertainty**, but **how the group intends to respond to uncertainty, organizational needs and operating context**. These are not interchangeable. In particular, distinguish local vs general knowledge of the client and developing team, availability of organizational experts/sources, business needs and external pressures.
+
+The provisional collective name [**Value Orientations**](../../mechanisms/value-orientations.md) replaces *Advancement Paths* as a **working explanatory category** for the three legacy Path candidates: **Most Value** prioritizes short-term business value, **Most Continuity** prioritizes long-term business value (including process-to-software traceability), and **Least Resistance** prioritizes business value with minimal justified effort **during the process**. [Orientation Factors](../../forces/README.md) may interpret evidence that changes the emphasis among these orientations. The exact relation remains to be tested; no weights, fixed routing rule or exhaustive model is approved.
+
+**Extreme-case affinities (hypotheses, not mandatory rules):** an urgent identifiable problem can favor Most Value / Problem-First; available broad organizational process expertise can make Most Continuity / Context-First productive for developing long-term software/process continuity; limited general but useful local knowledge under tight delivery conditions can favor Least Resistance / safe bounded Slice-First. Lack of general process knowledge may actually prevent broad Context-First if no appropriate experts or sources exist; it **never automatically dictates Slice-First**. Reassess actual feasibility, risk and evidence for all modalities.
+
+## Geometric response and evidence quantity (candidate)
+
+The [Value Orientations triangle](../../mechanisms/value-orientations.md) is proposed as a **semantic matrix of response**, not a post-hoc chart or an arbitrary modality scoring function. Corners recommend their associated modalities (Most Value / Problem-First, Most Continuity / Context-First, Least Resistance / Slice-First); edges support two defensible responses, and the center all three. Proximity represents relative recommendation affinity; distances toward other vertices prompt **trade-off/risk examination**, not measured numerical risks.
+
+Method must distinguish the **position** from the **amount of evidence supporting its interpretation**. In particular, a midpoint with few evidence items may be underdetermined; a midpoint sustained by substantial relevant evidence may indicate a genuine balance. **Initial quantity is merely a source-count indicator**, not confidence in the statistical, epistemic or correctness sense. Evidence interpretation through [Orientation Factors](../../forces/README.md) already considers local/general uncertainty and source availability and thus the *viability* of the responses that the triangle represents. No separate automatic feasibility threshold is implied.
+
+## Selection criteria
+
+First distinguish **what is known locally and generally**, by whom, what sources can actually provide missing knowledge, what the business needs, and what contextual pressures constrain progress. Then use the evidence and candidate orientation priorities to examine which Design modalities are **feasible** and justified. The table below is an initial uncertainty-focused guide, not a sufficient selector by itself:
+
+| Dominant concern | Candidate Design modality | Reason for selection |
+| --- | --- | --- |
+| The surrounding domain needs deeper understanding **and adequate organizational experts or other trustworthy sources are accessible**. | **Context-First** | Wider contextual understanding is needed before responsibly narrowing the problem or committing to a solution. |
+| A problem or opportunity is visible, but its causes, limits, impact or expected improvement are unclear. | **Problem-First** | Investigating the problem reduces the risk of treating symptoms or optimizing locally. |
+| The problem and surrounding context are sufficiently understood, and a small reversible realization can produce more useful evidence than further analysis. | **Slice-First** | Real-world feedback from a bounded slice can make the next decision safer. |
+
+These are indicative relationships, **not exhaustive conditions, a scoring model, or an automatic routing algorithm**. Method should account for actual priorities, consequences, material risks and continuity rather than matching isolated keywords.
+
+## Typical evidence and risks
+
+### When Context-First is useful
+
+Indicators include unfamiliar or tacit domains, manual work, disagreeing actor descriptions, ambiguous vocabulary, unclear workflow limits, or not knowing which problem is material. It guards against realizing software for a misunderstood reality.
+
+Its risk is **analysis without movement**. Further contextual work needs justification once sufficient context supports a responsible next decision.
+
+See [Design's canonical Context-First definition](../design/modalities/context-first.md).
+
+### When Problem-First is useful
+
+Indicators include repeated user pain, a workflow bottleneck, a feature that does not support actual work, visible impact with unknown causes, or premature solution proposals. It guards against solving symptoms.
+
+Its risk is **isolating a problem from its necessary context**. See the existing [Design-owned Problem-First definition](../design/modalities/problem-first.md); this Method pattern supplies **selection guidance**, not an alternative modality definition.
+
+### When Slice-First is useful
+
+Indicators include enough context to act, bounded/reversible risk, material implementation uncertainty, need for feedback from use, or a small slice able to test an assumption. It guards against indefinitely designing without learning from reality.
+
+Its risk is **implementation without enough understanding**. See the existing [Design-owned Slice-First definition](../design/modalities/slice-first.md); the same distinction between definition and selection applies.
+
+## Selection is revisable
+
+Selection remains sensitive to new evidence. When the dominant uncertainty changes, Method may decide a different modality is justified. The companion [**Modality Switching**](modality-switching.md) pattern now has its own canonical Method definition; the historical public projection remains provenance.
+
+A modality change need not imply failure or restart of the iteration; it can reflect successful learning.
+
+## Boundaries
+
+- **Design** defines the phases, modalities, their emphasis and their meaning.
+- **Method** reasons about the modality appropriate to current uncertainty, priorities and continuity; it does not redefine the modalities.
+- **Planifications** can operationalize a selected modality in a reusable or concrete procedure without gaining its semantic authority.
+- **Docs Standard** may preserve the reason for selection where needed, without requiring an artifact for each choice.
+
+## Provenance and migration decisions
+
+Primary historical source: [VSlices Method — Selección de modalidad](https://github.com/vslices/docs/blob/main/es/products/method/patterns/modality-selection.md).
+
+Related history:
+- [VSlices Method — Cambio de modalidad](https://github.com/vslices/docs/blob/main/es/products/method/patterns/modality-switching.md)
+- [VSlices Method — Guías de contexto](https://github.com/vslices/docs/blob/main/es/products/method/context-guides/index.md)
+- [VSlices Design — Context-First](../design/modalities/context-first.md)
+
+Preserved from the existing pattern: focus on dominant uncertainty, next responsible decision, Context-/Problem-/Slice-First applicability, the characteristic risks of each, minimum useful emphasis, and the need to reevaluate selection as learning changes.
+
+Clarified rather than silently moved: the historical Method text provides examples describing the modalities, but their **definition** is Design-owned; examples here illustrate Method's selection decision. All three modalities now have bounded Design-owned canonical definitions; that later migration does not change the provenance or initial scope of this selection pattern.
+
+Not introduced: numerical uncertainty thresholds, compulsory assessment paperwork, a fixed transition ladder, automatic selection, or a **compulsory** Orientation gate. Its recommended beginning-of-process and between-iteration placement is distinct from making it mandatory. [Method-owned Orientation](orientation.md) is conceptually settled; its operational conditions remain under review. Concrete switching remains a separate Method concept.
