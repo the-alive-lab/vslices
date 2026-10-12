@@ -23,6 +23,10 @@ The types' [root questions](root-question-inventory.md) are extracted from the n
 - [Compliance Support](compliance-support.md) — external-standard boundary without conformity claims.
 - [Legacy Modeling Assessment](legacy-modeling-review.md) — retained intentions versus superseded document levels and taxonomies.
 
+## Existing front-matter relations and implementation status
+
+Docs Standard's specialized specifications **already define explicit documentary relationship properties in front-matter**, distinct from tags. The proposed [Documentary Reinterpretation](../../mechanisms/documentary-reinterpretation.md) intends to use those existing relationships; **current Tooling does not support the proposed interpretation/impact traversal workflow**. Docs Standard owns the relation semantics and documentary preservation, not the interpretation of Orientation Factors or the decision to select a Design modality. See the [cross-product responsibility map](../../relationships/evidence-orientation-responsibilities.md).
+
 ## Authority and relations
 
 **This Suite namespace is the conceptual source of truth for Docs Standard.** It defines the product's identity, purpose, fundamental responsibilities and boundaries, then **directs readers to the official specialized source**, [vslices/docs-standard](https://github.com/vslices/docs-standard), for its particular definitions and deeper specifications.
