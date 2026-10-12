@@ -32,6 +32,8 @@ Candidate work forces currently have their strongest ownership affinity with Des
 
 ## Method
 
+[Canonical Method entrypoint](method/README.md) consolidates its responsibility for cross-product coordination, modality choice/switching, Semantic Pressure and actor/team Orientation without duplicating their individual definitions.
+
 **Canonical migrated patterns:** [Modality Selection](method/modality-selection.md) and [Modality Switching](method/modality-switching.md), reconstructed from existing Method documentation. [Context Guides](method/context-guides/README.md) and their four existing scenarios have also undergone bounded canonical migration; details and a source tension remain tracked in that surface.
 
 Organizes how real work is navigated using the products and mechanisms that are useful in the current context.
@@ -66,6 +68,8 @@ Docs Standard may realize suite mechanisms documentarily without thereby owning 
 The ownership of `Continuity Path` itself remains under explicit review. Existing evidence still places it in Docs Standard, so it must not be reassigned by assumption.
 
 ## Framework
+
+[Canonical Framework entrypoint](framework/README.md) links the emerging product responsibility to its [glossary reconciliation](framework/glossary-reconciliation-2026-10-09.md) and official .NET evidence, without turning one runtime into the entire product definition.
 
 Defines how sufficiently explicit knowledge may be represented and materialized as executable semantics and technological realizations.
 
@@ -116,9 +120,9 @@ Automation does not acquire semantic authority merely by existing.
 
 **Open reconciliation:** VSIR 0.1 still defines `kind: domain-type` while Framework's conceptual vocabulary has evolved; intrinsic semantic-signature ownership relative to Ruleset also requires review. Neither tension authorizes silent reinterpretation of existing VSIR 0.1 artifacts.
 
-## Research / Alive Lab
+## Related Research / Alive Lab evidence (not a VSlices product)
 
-Preserves observations, hypotheses, tensions, and evidence before promotion.
+Research and Alive Lab are related but **distinct responsibilities and organizational surfaces**, not additional VSlices products merely because their work informs VSlices evolution. Research evidence may preserve observations, hypotheses, tensions and findings before any justified promotion into an owning VSlices product.
 
 ```text
 observation
