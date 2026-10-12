@@ -106,6 +106,10 @@ Automation does not acquire semantic authority merely by existing.
 
 [Canonical product definition](ruleset/README.md). Ruleset owns revisable, deterministic target-realization knowledge, while [vslices/ruleset](https://github.com/vslices/ruleset) remains its official specialized source. Tooling owns the constrained rule language and execution mechanisms; Ruleset owns the target vocabulary expressed through that language. Rules do not confer semantic validity on unknown source constructs.
 
+## Protocols (formerly Planifications)
+
+[Canonical product definition](protocols/README.md). Coordinates reusable procedures, meta-protocols, planning traversals, authorized runs and their review without redefining Method, Design or other product semantics. The official specialized repository is currently [vslices/planifications](https://github.com/vslices/planifications); **renaming it to `vslices/protocols` is planned, not yet executed**. Protocol execution evidence stays with the relevant consumer, while distinct protocol-owned supervision can retain its own provenance.
+
 ## Research / Alive Lab
 
 Preserves observations, hypotheses, tensions, and evidence before promotion.
