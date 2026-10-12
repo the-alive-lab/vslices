@@ -60,7 +60,7 @@ These labels are descriptive working states, not a universal schema yet.
 ## Current structure
 
 ```text
-vslices-suite/
+the-alive-lab/vslices/
 ├── foundations/
 ├── mechanisms/
 ├── lifecycle/
@@ -91,7 +91,7 @@ Current candidates:
 
 ### Lifecycle
 
-The approved five-phase iterative lifecycle is now **Design-owned**, in [products/design/lifecycle.md](products/design/lifecycle.md). The Suite lifecycle surface preserves cross-product context and historical transitions, not competing phase authority. Orientation ownership remains open.
+The approved five-phase iterative lifecycle is now **Design-owned**, in [products/design/lifecycle.md](products/design/lifecycle.md). The Suite lifecycle surface preserves cross-product context and historical transitions, not competing phase authority. [Orientation](products/method/orientation.md) is Method-owned; its detailed operational mechanisms remain under review.
 
 ### Forces
 
@@ -137,7 +137,7 @@ Examples:
 - **TDidacta** may contribute pedagogical methodologies, design and examination of that intention without gaining authority to redefine VSlices concepts. Whether pedagogical intent is itself canonical to a particular publication or a separate governed artifact depends on the responsibility in question; no automatic transfer of ownership is implied.
 
 ```text
-the-alive-lab/vslices-suite
+the-alive-lab/vslices
   concepts + products + processes + intentions + constraints
        |                            |
        +--> Tooling realization     +--> pedagogical projection
