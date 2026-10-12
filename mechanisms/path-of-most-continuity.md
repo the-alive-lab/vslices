@@ -2,7 +2,9 @@
 
 ## Status
 
-`candidate`
+`candidate` — earlier formulation retained pending semantic reconciliation
+
+> **Naming and semantic review (2026-10-12):** This document preserves the earlier `Path` candidate and its original scope as **historical conceptual evidence**. The newer working category [**Value Orientations**](value-orientations.md) narrows the proposed interpretation to **business-value priority during one standalone iteration**, with possible influence on Method modality selection via Work Forces. The two descriptions are **not assumed equivalent**: this earlier text must not override the explicit current candidate or be silently rewritten as if its original meaning were always the same. The new formulation is still under research.
 
 ## Ownership
 
