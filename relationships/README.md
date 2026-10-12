@@ -47,9 +47,11 @@ Action Flow
 
 ## Semantic Pressure
 
+This relationship distinguishes **Method ownership** from **Suite-wide applicability**. The canonical [mechanism definition](../mechanisms/semantic-pressure.md) controls; hosting a cross-product relationship here does not transfer its ownership to Suite.
+
 ```text
 Semantic Pressure
-    owned-by -> VSlices Suite
+    owned-by -> Method
     used-by -> Design
     used-by -> Method
     preserved-by -> Docs Standard
