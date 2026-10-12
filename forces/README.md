@@ -133,6 +133,12 @@ Strong semantic pressure may first require more work on the Organization / Proce
 
 Strong resource pressure may reduce the number of transformations attempted in the current iteration.
 
+## Relationship with Value Orientations (candidate)
+
+Work Forces can be understood as **interpretations of evidence** about organizational and delivery circumstances, rather than synonyms for the value orientation itself. A financial deadline is contextual evidence; it is not knowledge of business processes. The local/general uncertainty of the client and developing group, needs across organizational areas, available experts and risk also matter.
+
+Their interpretation may alter the **relative emphasis of [Value Orientations](../mechanisms/value-orientations.md)** (short-term business value, long-term business continuity, value at least justified effort) considered by Method when selecting or reconsidering a modality. This proposed link is not a deterministic calculation. The orientation describes how to conduct an iteration, not a post-hoc classification of every benefit produced.
+
 ## Relationship with modalities
 
 A candidate interpretation is that Design modalities are strategies for navigating the work space under different uncertainty and force profiles.
