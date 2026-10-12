@@ -58,6 +58,8 @@ Their relationship, completeness, independence, ownership, and possible common a
 
 Method may consider these relative emphases, informed by interpreted [Work Forces](../forces/README.md), available knowledge (local/general), organizational needs and context during [Modality Selection](../products/method/modality-selection.md). Possible affinities with Design modalities are **conditional and under study**, not a compulsory one-to-one mapping. A [standalone triangle playground](../playgrounds/value-orientations/README.md) explores visualization without assigning verified numeric weights. Composite parent/child iterations are excluded.
 
+- [Documentary Reinterpretation](documentary-reinterpretation.md) — candidate iterative interpretation and impact propagation through explicitly declared documentary relationships; factor classification remains linked to [Orientation Factors](../forces/README.md).
+
 ## Explanatory gaps behind existing procedures
 
 [Reasoning reconstruction gap](reasoning-reconstruction-gap.md) records a broader, **still-unverified** concern: VSlices may describe procedures and selected alternatives more completely than the tacit judgments that originally led to them. It starts from the corrected modality-selection witness behind [Research Input #23](https://github.com/vslices/research-space/issues/23), but it does **not** assert that all VSlices procedures share one reasoning mechanism or that the three Paths solve the gap.
