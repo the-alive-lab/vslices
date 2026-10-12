@@ -83,6 +83,14 @@ For an evidence-based version, **do not assign numerical coordinates when eviden
 
 Visual history is useful when a new piece of evidence shifts interpretation: preserve previous and current position or regions, what changed, why it mattered, which source supports it, and whether the change reflects evidence, a correction or a changed intention.
 
+## Position semantics and separate evidence indicator
+
+**Three corners:** Most Value → Problem-First; Most Continuity → Context-First; Least Resistance → Slice-First. Nearness to a corner increases the candidate recommendation affinity for that modality. An edge or the center represents multiple potentially defensible responses, **not necessarily insufficient evidence**. Show a separate **evidence quantity** indicator so that a similar position based on little material is distinguishable from a balance sustained by substantial evidence.
+
+An initial quantity measure can be the **number of identifiable evidence items considered** (documents, observations or other distinct provenance-bearing entries). Call this **evidence count**, not calibrated confidence: volume cannot by itself establish relevance, diversity, independence or truth. Prefer making item inventory inspectable and avoid counting duplicates as independent. If the interpretation cannot be supported, mark the position *provisional/underdetermined*.
+
+Visualize a move as **new evidence → interpretation of Work Forces → reconsidered semantic position**, and preserve why it moved using Docs Standard artifacts where useful. Local/general uncertainty interpreted as Work Forces determines whether Context-/Problem-/Slice-First are viable; do not implement a post-hoc feasibility gate.
+
 ## 5. Playground interactions
 
 **Manual / earliest realization**
