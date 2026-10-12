@@ -1,14 +1,14 @@
-# Work Forces — evidence interpretation model (candidate)
+# Orientation Factors — evidence interpretation model (candidate)
 
 **Status:** exploratory semantic specification, not a validated inference algorithm.  
 **Scope:** the situation of one standalone group iteration, feeding Method Orientation and modality selection.  
-**Conceptual relationship:** [Work Forces](README.md) interpret available evidence and may change [Value Orientations](../mechanisms/value-orientations.md). They are not the same as orientations.
+**Conceptual relationship:** [Orientation Factors](README.md) interpret available evidence and may change [Value Orientations](../mechanisms/value-orientations.md). They are not the same as orientations.
 
 ## Problem
 
 Neither uncertainty labels nor pressure words are enough to choose a modality. The same observation can imply different responses depending on who knows what, whether that knowledge is available, what the organization needs, which restrictions matter, and how the evidence relates to other observations.
 
-The intended mechanism is not `document -> triangle movement`; it is **`evidence -> justified Work Force interpretation -> viable response affinity -> triangle position`**. The interpretation must remain open to correction.
+The intended mechanism is not `document -> triangle movement`; it is **`evidence -> justified Orientation Factor interpretation -> viable response affinity -> triangle position`**. The interpretation must remain open to correction.
 
 ## Interpretive dimensions
 
@@ -22,6 +22,10 @@ These are **questions about real evidence**, not an obligatory form or numerical
 | **Resource** | Availability of people, time, money, infrastructure and capacity to access needed expertise | Changes what investigation or implementation can actually be sustained; can alter effort and possible response |
 
 **Organizational needs** and **operating context** provide evidence interpreted within and across these forces. A deadline is not knowledge about processes. A client's statement about a process is not automatically proof that the developing group understands it. Interpretations may overlap rather than belonging to exactly one category.
+
+## Reinterpretation and documentary impact
+
+A classified evidence item may have **no currently identified effort effect**. This is not a new factor category or a permanent declaration of irrelevance. Related new evidence may change, nuance or preserve a previous Orientation Factor interpretation. **A material change or nuance together with reasons** forms an interpretive impact. It can be passed with the originating evidence along explicit **front-matter document relationships** to related documents, where it is reinterpreted in the receiving context. Propagation branches can stop when no material effect arises; cycles, merging and scheduling remain unresolved. **Tags are not the traversal relation.** Docs Standard owns documentary metadata and preservation; no new front-matter schema is asserted here. See [documentary reinterpretation](../mechanisms/documentary-reinterpretation.md).
 
 ## Minimal reasoning contract — per relevant evidence item
 
@@ -38,7 +42,7 @@ If the evidence does not discriminate, leave the inference indeterminate. No pre
 
 **Example A — local expertise but no broad process expert.** Evidence: several team members can describe and validate their local tasks, while no credible source can reconstruct the cross-area workflow. Semantic uncertainty is high *generally*, lower *locally*; source availability makes broad Context-First difficult or nonviable now. If one task can be safely bounded and tested, a Least Resistance / Slice-First affinity is defensible. Without a safe boundary, no modality should be automatically selected.
 
-**Example B — process experts available, missing traceability.** Evidence: domain experts can explain cross-area workflows, while relationships between organizational processes and current software are not reconstructible. Semantic Work Forces support the feasibility of Context-First to establish process/software continuity. Most Continuity may become more prominent even though the organization already knows its own work.
+**Example B — process experts available, missing traceability.** Evidence: domain experts can explain cross-area workflows, while relationships between organizational processes and current software are not reconstructible. Semantic Orientation Factors support the feasibility of Context-First to establish process/software continuity. Most Continuity may become more prominent even though the organization already knows its own work.
 
 **Example C — short-term deadline and identified business pain.** Evidence: a business operation has a visible problem and a real upcoming deadline. Delivery and resource forces may favor Most Value / Problem-First if investigating the concrete problem is viable. If the cause is already sufficiently known and a small safe realization is possible, Slice-First remains a rival; the deadline alone cannot choose.
 
@@ -50,9 +54,9 @@ Docs Standard can preserve the evidence, interpretation, differences from earlie
 
 ## Open question — how forces affect responses
 
-> **¿De qué maneras puede una Work Force afectar las alternativas disponibles y la posición dentro de Value Orientations?**
+> **¿De qué maneras puede una Orientation Factor afectar las alternativas disponibles y la posición dentro de Value Orientations?**
 
-**Status:** open, not resolved. *Pressure* and *restriction* are useful provisional distinctions but are **not asserted to exhaust** the ways a Work Force may affect response feasibility, relative affinity or triangle position. Do not freeze a taxonomy (including enabling conditions or other categories) before contrasting concrete cases and evidence. Distinguish interpretation of evidence from the justified consequence for the proposed position; preserve material reasoning through Docs Standard when appropriate.
+**Status:** open, not resolved. *Pressure* and *restriction* are useful provisional distinctions but are **not asserted to exhaust** the ways a Orientation Factor may affect response feasibility, relative affinity or triangle position. Do not freeze a taxonomy (including enabling conditions or other categories) before contrasting concrete cases and evidence. Distinguish interpretation of evidence from the justified consequence for the proposed position; preserve material reasoning through Docs Standard when appropriate.
 
 ## Minimal test before prescribing a mapping
 
