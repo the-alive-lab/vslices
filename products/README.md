@@ -28,7 +28,7 @@ Design owns the meanings of **Understanding, Contextualizing, Planning, Building
 
 Design may use suite-level mechanisms such as Action Flow and Semantic Pressure without owning their base definition.
 
-Candidate work forces currently have their strongest ownership affinity with Design.
+The historical **Work Forces** model had Design affinity through organization/system work geometry. The revised **Orientation Factors** model has candidate Method affinity through evidence interpretation and modality choice; whether these describe one evolving concept or separable responsibilities is unresolved. See the [responsibility map](../relationships/evidence-orientation-responsibilities.md).
 
 ## Method
 
