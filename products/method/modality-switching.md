@@ -62,7 +62,7 @@ A switch may involve changing the next conversation, redirecting investigation, 
 - **Planifications** can enact that judgment in a particular run without redefining modality meaning or imposing a mandatory transition sequence.
 - **Docs Standard** supplies possible structures to preserve material reasons and findings, when useful; it does not require documenting every transition.
 
-Validating can produce new evidence or respond to feedback **when supplied**, informing Method's decision about the next modality. Validating is a Design phase, not a Method-owned modality-change phase. Ownership of Orientation remains unresolved.
+Validating can produce new evidence or respond to feedback **when supplied**, informing Method's decision about the next modality. Validating is a Design phase, not a Method-owned modality-change phase. [Orientation](orientation.md) is Method-owned; its operational use remains context-sensitive and revisable.
 
 ## Historical source and migration choices
 
@@ -77,6 +77,6 @@ Preserved: six illustrative transitions, the changing-uncertainty trigger, risks
 
 Adapted explicitly: historical references to delivery feedback are interpreted under the approved Design lifecycle where **Validating** is the fifth phase. Received feedback is optional, and the decision to switch remains Method-owned rather than part of Design phase semantics.
 
-Not established here: numerical switching thresholds, automatic routing, obligatory run restarts, fixed document templates, full canonical definitions of Problem-First or Slice-First, or Orientation ownership.
+Not established here: numerical switching thresholds, automatic routing, obligatory run restarts, fixed document templates, duplicate definitions of [Problem-First](../design/modalities/problem-first.md) or [Slice-First](../design/modalities/slice-first.md), or mandatory operational rules for [Method Orientation](orientation.md).
 
 Historical public references to possible **Support Notes, Validation Notes, Decision Records, Context Documents, Use Case Documents and Process Documents** are examples of optional preservation mechanisms owned by Docs Standard, not mandatory artifacts of switching.
