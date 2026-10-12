@@ -22,9 +22,9 @@ Understanding -> Contextualizing -> Planning -> Building -> Validating
       +-----------------------------------------------+
 ```
 
-Each of these five phases belongs conceptually to **Design**. After Validating, the iteration returns to Understanding, informed by what was learned. This does not mandate equal effort in every phase.
+Each of these five phases belongs conceptually to **Design**. Within Design, the five phases repeat across iterations, without mandating equal effort in each phase. **At the boundary between iterations, Validating first produces retrospective artifacts and responses to feedback received, and the recommended Method Orientation uses them to decide how to continue before the next Design iteration.** The diagram depicts Design phases, not the complete cross-product handoff.
 
-**Validating:** Contrast iteration results with problem understanding, expectations, acceptance criteria and observed consequences. Incorporate evidence, identify discrepancies and **respond to received feedback, when provided**. Its results may confirm, question or revise earlier understanding, decisions or realizations. Answering feedback does not mean automatically accepting requests.
+**Validating:** Contrast iteration results with problem understanding, expectations, acceptance criteria and observed consequences. Incorporate evidence, identify discrepancies, **produce retrospective artifacts that close the iteration** and **respond to received feedback, when provided**. Its results may confirm, question or revise earlier understanding, decisions or realizations. Answering feedback does not mean automatically accepting requests.
 
 ## Modalities
 
@@ -32,7 +32,7 @@ Each of these five phases belongs conceptually to **Design**. After Validating, 
 
 ## Relationship with Method Orientation
 
-[Orientation](../method/orientation.md) is **owned by Method**, not a sixth Design phase. It situates actors and teams against inherited work state at any iteration-completeness level. Evidence from Validating may call for reorientation, without automatically requiring it or changing Design's five-phase cycle.
+[Orientation](../method/orientation.md) is **owned by Method**, not a sixth Design phase. It situates actors and teams against inherited work state at any iteration-completeness level. The retrospective artifacts and feedback responses from Validating feed the **recommended Orientation between Design iterations**. That Method responsibility does not change Design's five phases and is not a compulsory gate or a sixth Design phase.
 
 ## Other source boundaries
 
