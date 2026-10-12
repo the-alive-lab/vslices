@@ -13,6 +13,12 @@ It does not select an intrinsically best modality, prescribe a universal sequenc
 
 Design defines the meanings of Context-First, Problem-First and Slice-First. **Method owns the contextual decision to select one**; the concrete run and its state may be coordinated through Planifications.
 
+## Relationship with Orientation
+
+**When VSlices Method is used, Orientation is formally recommended before the first Design iteration and between successive iterations.** Orientation recognizes enough about the situation, including retrospective artifacts and responses to feedback from the previous Validating when available, to support a deliberate continuation choice. **Orientation is not Context-First:** locating what work is being addressed so a modality can be selected is Method analysis, not yet an advance in the Design resolution. Context-First is chosen when deepening contextual understanding **is itself the justified Design work**, not merely because work is initially unfamiliar.
+
+Orientation does not automatically select a modality and is not a compulsory gate; modality selection remains a distinct Method judgment. This separation avoids making Context-First an automatic first modality merely because work must be situated before being addressed.
+
 ## Selection criteria
 
 First determine what is insufficiently known and why that uncertainty matters to the next consequential decision. Then consider:
@@ -73,4 +79,4 @@ Preserved from the existing pattern: focus on dominant uncertainty, next respons
 
 Clarified rather than silently moved: the historical Method text provides examples describing the modalities, but their **definition** is Design-owned; examples here illustrate Method's selection decision. All three modalities now have bounded Design-owned canonical definitions; that later migration does not change the provenance or initial scope of this selection pattern.
 
-Not introduced: numerical uncertainty thresholds, compulsory assessment paperwork, a fixed transition ladder, automatic selection, or a mandatory Orientation gate. [Method-owned Orientation](orientation.md) is conceptually settled; its operational conditions remain under review. Concrete switching remains a separate Method concept.
+Not introduced: numerical uncertainty thresholds, compulsory assessment paperwork, a fixed transition ladder, automatic selection, or a **compulsory** Orientation gate. Its recommended beginning-of-process and between-iteration placement is distinct from making it mandatory. [Method-owned Orientation](orientation.md) is conceptually settled; its operational conditions remain under review. Concrete switching remains a separate Method concept.
