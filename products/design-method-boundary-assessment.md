@@ -60,3 +60,13 @@ This removes the apparent obstacle of applying Method during a *single software-
 The live comparison is no longer "inter-client-project Method versus broad Method". It is **coordination across distinct VSlices product responsibilities (Method)** versus **definition of concrete problem-solving methodologies (Design)** versus **reusable execution procedures (Planifications)**. Do not assume every coordination action must involve exactly two products; do not equate application with ownership.
 
 Outstanding technical/semantic questions: whether the lifecycle's stage semantics belong to Design or Method; which part of selecting a modality is Method's coordinating decision rather than Design's methodology; how Method interacts with products other than Design; and whether the coordination/procedure boundary is operationally usable without duplicating authority. These remain candidates for a bounded concept-by-concept migration.
+
+## Later conceptual decisions — 2026-10-11 reading checkpoint
+
+The sections above reconstruct an earlier uncertainty, including a corrected misreading of “projects”. The questions there about **lifecycle owner, modality ownership and Orientation owner have since received bounded conceptual decisions**. The live sources are [Design lifecycle](design/lifecycle.md), [Method Orientation](method/orientation.md), [Modality Selection](method/modality-selection.md), [Modality Switching](method/modality-switching.md) and the [Protocols product](protocols/README.md).
+
+- **Design:** owns phase and modality meanings, including Validating as the fifth phase and response to received feedback.
+- **Method:** owns choice and switching of modalities, cross-VSlices-product coordination and actor/team Orientation.
+- **Protocols** (currently implemented in `vslices/planifications`): owns reusable procedural traversal, not the meaning of Design/Method constructs.
+
+The historical assessment remains evidence of the trajectory; it must not be cited as an equally current unresolved ownership claim. Operational details of Orientation, discovery across product surfaces and migration of older procedures remain open.
