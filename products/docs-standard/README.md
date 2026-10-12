@@ -1,6 +1,6 @@
 # VSlices Docs Standard — product-owned conceptual source
 
-**Semantic owner:** VSlices Docs Standard. **Hosting:** `the-alive-lab/vslices-suite`.
+**Semantic owner:** VSlices Docs Standard. **Hosting:** `the-alive-lab/vslices`.
 
 ## Purpose
 
