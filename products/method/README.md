@@ -26,6 +26,10 @@ These are complementary responsibilities, not a fixed hierarchy requiring every 
 
 The approved Design cycle is [Understanding → Contextualizing → Planning → Building → Validating → Understanding](../design/lifecycle.md). **Validating closes an iteration by producing retrospective artifacts and responses to feedback received (if any).** They feed the recommended Method Orientation before the next iteration, where continuation and modality can be reconsidered, without transferring Design phase authority into Method.
 
+## Candidate priority interpretation
+
+[Value Orientations](../../mechanisms/value-orientations.md) is the current provisional name for the three historical Advancement Paths, understood as **short-term business value / long-term business value / business value at least justified effort during a standalone iteration**. Method considers these alongside interpreted [Work Forces](../../forces/README.md), uncertainty (local/general), organizational needs and operating context when selecting or reconsidering a Design modality. The relationships and extreme-case affinities remain candidate, not a validated automatic choice mechanism. See [Modality Selection](modality-selection.md).
+
 ## History and evolution
 
 The [first boundary review](../design-method-boundary-review.md) and [counterexample assessment](../design-method-boundary-assessment.md) preserve how earlier distinctions and misunderstandings were examined. Those records include historical open questions that have since been conceptually resolved; prefer the current sources linked above for present meaning.
