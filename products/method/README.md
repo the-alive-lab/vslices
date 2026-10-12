@@ -18,13 +18,13 @@ These are complementary responsibilities, not a fixed hierarchy requiring every 
 
 ## Canonical Method sources
 
-- [Orientation](orientation.md) — **approved Method-owned conceptual responsibility** to recover, contrast and update actors' and teams' situated continuity. Not a sixth Design phase, not mandatory on every iteration; detailed reconciliation and trigger mechanisms remain candidates.
+- [Orientation](orientation.md) — **approved Method-owned conceptual responsibility** to recover, contrast and update actors' and teams' situated continuity. Not a sixth Design phase; **formally recommended at process start and between every Design iteration when using VSlices Method**, without a compulsory gate. Detailed reconciliation mechanisms remain candidates.
 - [Modality Selection](modality-selection.md) — choose which Design modality should guide the next responsible effort.
 - [Modality Switching](modality-switching.md) — reconsider that choice when evidence, uncertainty, consequences or continuity change.
 - [Context Guides](context-guides/README.md) — recognizable situations and bounded responses, including unfamiliar/digitalized work, joining existing work and introducing VSlices Method progressively.
 - [Semantic Pressure](../../mechanisms/semantic-pressure.md) — methodological pressure to preserve material distinctions and continuity, with Suite-wide applicability.
 
-The approved Design cycle is [Understanding → Contextualizing → Planning → Building → Validating → Understanding](../design/lifecycle.md). Evidence from Validating may inform modality decisions and reorientation but does not transfer phase authority into Method.
+The approved Design cycle is [Understanding → Contextualizing → Planning → Building → Validating → Understanding](../design/lifecycle.md). **Validating closes an iteration by producing retrospective artifacts and responses to feedback received (if any).** They feed the recommended Method Orientation before the next iteration, where continuation and modality can be reconsidered, without transferring Design phase authority into Method.
 
 ## History and evolution
 
