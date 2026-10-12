@@ -17,6 +17,10 @@ The historical names `Path of Most Value`, `Path of Most Continuity` and `Path o
 
 **Process priority is not equivalent to outcome:** a Least Resistance iteration may yield lasting value without having been governed by Most Continuity. These criteria might influence one another; independence, completeness and exact trade-offs are unproven.
 
+## Evidence interpretation and responsibility
+
+**Orientation Factors** is the revised working name for Work Forces, describing interpreted Semantic, Technical, Delivery and Resource evidence. A document interpretation may have no current material effect. New evidence can lead to reclassification or nuance and corresponding justified impact, reconsidering factor interpretations before the triangle's recommendation. The candidate [documentary reinterpretation mechanism](documentary-reinterpretation.md) explores this propagation through explicit front-matter relations, not tags. The triangle does not itself own documentary traversal.
+
 ## From evidence to modality decision
 
 ```text
@@ -27,7 +31,7 @@ Orientation (Method)
     ├── available experts, sources, capacities, permissions and constraints
     └── previous Validating retrospective / feedback responses, if available
         ↓
-interpreted Work Forces (semantic, technical, delivery, resource)
+interpreted Orientation Factors (semantic, technical, delivery, resource)
         ↓
 relative Value Orientations emphasis (revisable candidate)
         ↓
@@ -38,7 +42,7 @@ one standalone Design iteration
 new evidence / Validating → next Orientation
 ```
 
-**Uncertainty describes knowledge**, including local vs general understanding of both the organization and the developing team. **Context** also contains pressures (e.g. an economic deadline) which are not themselves knowledge of organizational processes. **Needs** concern desired changes or problems/opportunities. Work Forces offer a possible interpretation of this evidence and help shift the candidate emphasis among orientations. None is a deterministic input-to-score mapping.
+**Uncertainty describes knowledge**, including local vs general understanding of both the organization and the developing team. **Context** also contains pressures (e.g. an economic deadline) which are not themselves knowledge of organizational processes. **Needs** concern desired changes or problems/opportunities. Orientation Factors offer a possible interpretation of this evidence and help shift the candidate emphasis among orientations. None is a deterministic input-to-score mapping.
 
 Orientation is the recommended Method analysis between Design iterations (and initially), not a covert Context-First. Modality Selection is a **separate judgment** about a viable strategy to advance the actual resolution.
 
@@ -58,16 +62,16 @@ The triangle is a **semantic response space** with three corners: **Most Value �
 
 **Position and evidence quantity are separate dimensions.** A midpoint with little evidence may reflect underdetermination, **not** a demonstrated 50/50 choice. The same midpoint after substantially more relevant evidence may express a genuine balance between defensible responses. For an initial playground, evidence quantity may be displayed as the **count of traceable evidence items considered**, not a calibrated statistical confidence score. Counts alone do not prove quality, independence, coverage or validity: duplicate, irrelevant or contradictory documents must remain visible rather than artificially increasing certainty. A reliable semantic confidence model remains future research.
 
-Feasibility is evaluated **inside the Work Forces interpretation**, notably the availability and distribution of local/general knowledge and uncertainty of the organization and team. A recommendation should therefore be derived from **interpreted feasible responses**, not from an unconstrained triangle position followed by a separate invented feasibility gate. Low general knowledge without accessible organizational experts can render Context-First infeasible; adequate local knowledge may make a bounded Slice-First feasible, but neither conclusion is automatic.
+Feasibility is evaluated **inside the Orientation Factors interpretation**, notably the availability and distribution of local/general knowledge and uncertainty of the organization and team. A recommendation should therefore be derived from **interpreted feasible responses**, not from an unconstrained triangle position followed by a separate invented feasibility gate. Low general knowledge without accessible organizational experts can render Context-First infeasible; adequate local knowledge may make a bounded Slice-First feasible, but neither conclusion is automatic.
 
 ## Interpreted movement, not automatic evidence displacement
 
-A new document does not directly push the point. Actors (or a supported LLM hypothesis subject to review) **interpret evidence as Work Forces**, including the local/general uncertainty that influences what responses can responsibly be attempted. That interpretation justifies retaining or changing the recommended position. Different legitimate interpretations can produce different candidate positions. The rationale and its source relationship can be preserved through **Docs Standard**; the triangle does not own an additional mandatory documentation or history format.
+A new document does not directly push the point. Actors (or a supported LLM hypothesis subject to review) **interpret evidence as Orientation Factors**, including the local/general uncertainty that influences what responses can responsibly be attempted. That interpretation justifies retaining or changing the recommended position. Different legitimate interpretations can produce different candidate positions. The rationale and its source relationship can be preserved through **Docs Standard**; the triangle does not own an additional mandatory documentation or history format.
 
 The core proposed reasoning is:
 
 ```text
-evidence and context → interpretation into Work Forces
+evidence and context → interpretation into Orientation Factors
                      → feasible response affinities
                      → Value Orientations position + evidence quantity
                      → Method modality recommendation
@@ -79,7 +83,7 @@ This is a proposed **semantic interpretation model**, not an arbitrary scoring a
 
 The relative position may change when Orientation or Design reveals new evidence, the business context changes, or previous Validating supplies retrospective artifacts and responses to received feedback. Document what changed **in the interpretation and priorities**, not merely a visual new position. This does not require fixed scores or a forced switch between modalities.
 
-See [Work Forces](../forces/README.md), [Method Orientation](../products/method/orientation.md), [Modality Selection](../products/method/modality-selection.md), [Modality Switching](../products/method/modality-switching.md), and the [triangle playground specification](../playgrounds/value-orientations/README.md).
+See [Orientation Factors](../forces/README.md), [Method Orientation](../products/method/orientation.md), [Modality Selection](../products/method/modality-selection.md), [Modality Switching](../products/method/modality-switching.md), and the [triangle playground specification](../playgrounds/value-orientations/README.md).
 
 ## Explicit exclusion: composite iterations
 
@@ -89,6 +93,6 @@ This candidate currently models **a single standalone group's iteration only**. 
 
 This note is a **current working refinement** of previous Path descriptions, not evidence that the three semantic definitions were already identical, nor proof that this explains decisions historically. The prior documents remain as historical entrypoints with explicit pointers to this proposal.
 
-Open: whether these are really three basic orientations; whether Work Forces are the correct interpretation layer; the appropriate ownership/category/name; when high-priority orientations discriminate modalities; whether a triangle is useful without unjustified precision.
+Open: whether these are really three basic orientations; whether Orientation Factors are the correct interpretation layer; the appropriate ownership/category/name; when high-priority orientations discriminate modalities; whether a triangle is useful without unjustified precision.
 
 [Research Input #23](https://github.com/vslices/research-space/issues/23) and Seyra's study [VS-STU-021](https://github.com/vslices/research-space/blob/research/2026-10-12-vslices-reasoning-reconstruction/lines/vslices/studies/stu-021-reconstruccion-seleccion-modalidad.md) may challenge these claims. Do not rewrite historical decisions or treat this proposal as an approved selection algorithm.
