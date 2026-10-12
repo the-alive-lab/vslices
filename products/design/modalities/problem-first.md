@@ -75,4 +75,4 @@ Explicit adaptation: historical material presented validation, delivery and feed
 
 Selection and switching descriptions in historical Design pages are treated as indicators of fit, **not** a transfer of Method's authority to decide changes.
 
-Not established here: mandatory problem-interview scripts, checklists, fixed artifact inventories, automatic transition thresholds, a complete Slice-First definition or the final owner of Orientation.
+Not established here: mandatory problem-interview scripts, checklists, fixed artifact inventories, automatic transition thresholds, a duplicate definition of [Slice-First](slice-first.md), or detailed operational rules for [Method-owned Orientation](../../method/orientation.md).
