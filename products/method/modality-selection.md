@@ -39,17 +39,17 @@ See [Design's canonical Context-First definition](../design/modalities/context-f
 
 Indicators include repeated user pain, a workflow bottleneck, a feature that does not support actual work, visible impact with unknown causes, or premature solution proposals. It guards against solving symptoms.
 
-Its risk is **isolating a problem from its necessary context**. This document does not yet establish a complete canonical definition of Problem-First; that migration remains with Design.
+Its risk is **isolating a problem from its necessary context**. See the existing [Design-owned Problem-First definition](../design/modalities/problem-first.md); this Method pattern supplies **selection guidance**, not an alternative modality definition.
 
 ### When Slice-First is useful
 
 Indicators include enough context to act, bounded/reversible risk, material implementation uncertainty, need for feedback from use, or a small slice able to test an assumption. It guards against indefinitely designing without learning from reality.
 
-Its risk is **implementation without enough understanding**. This document does not yet establish a complete canonical definition of Slice-First; that migration remains with Design.
+Its risk is **implementation without enough understanding**. See the existing [Design-owned Slice-First definition](../design/modalities/slice-first.md); the same distinction between definition and selection applies.
 
 ## Selection is revisable
 
-Selection remains sensitive to new evidence. When the dominant uncertainty changes, Method may decide a different modality is justified. The complete **Modality Switching** pattern exists historically in the public Method projection and should be migrated separately rather than redescribed here.
+Selection remains sensitive to new evidence. When the dominant uncertainty changes, Method may decide a different modality is justified. The companion [**Modality Switching**](modality-switching.md) pattern now has its own canonical Method definition; the historical public projection remains provenance.
 
 A modality change need not imply failure or restart of the iteration; it can reflect successful learning.
 
@@ -71,6 +71,6 @@ Related history:
 
 Preserved from the existing pattern: focus on dominant uncertainty, next responsible decision, Context-/Problem-/Slice-First applicability, the characteristic risks of each, minimum useful emphasis, and the need to reevaluate selection as learning changes.
 
-Clarified rather than silently moved: the historical Method text provides examples describing the modalities, but their **definition** is Design-owned; examples here illustrate Method's selection decision. No claim is made that all three modalities' full Design semantics have already been migrated.
+Clarified rather than silently moved: the historical Method text provides examples describing the modalities, but their **definition** is Design-owned; examples here illustrate Method's selection decision. All three modalities now have bounded Design-owned canonical definitions; that later migration does not change the provenance or initial scope of this selection pattern.
 
-Not introduced: numerical uncertainty thresholds, compulsory assessment paperwork, a fixed transition ladder, automatic selection, or Orientation ownership. Concrete switching remains a separate existing Method concept.
+Not introduced: numerical uncertainty thresholds, compulsory assessment paperwork, a fixed transition ladder, automatic selection, or a mandatory Orientation gate. [Method-owned Orientation](orientation.md) is conceptually settled; its operational conditions remain under review. Concrete switching remains a separate Method concept.
