@@ -29,6 +29,10 @@ The specific lowering boundary recognized in the current implementation is:
 
 This is not a license to generalize that Tooling owns every operational mechanism.
 
+## Documentary relation traversal — current support boundary
+
+Docs Standard **already specifies explicit relations in documentary front-matter**, but **current Tooling does not yet support the proposed Documentary Reinterpretation traversal or propagated Orientation Factors updates**. See the [candidate mechanism](../../mechanisms/documentary-reinterpretation.md) and [responsibility map](../../relationships/evidence-orientation-responsibilities.md). The conceptual proposal is not an implemented Tooling capability, and no new front-matter relation contract is introduced here.
+
 ## Working mechanisms
 
 ### Progressive semantic authoring
