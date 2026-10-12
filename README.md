@@ -95,9 +95,9 @@ Current candidates:
 
 The approved five-phase iterative lifecycle is now **Design-owned**, in [products/design/lifecycle.md](products/design/lifecycle.md). The Suite lifecycle surface preserves cross-product context and historical transitions, not competing phase authority. [Orientation](products/method/orientation.md) is Method-owned; its detailed operational mechanisms remain under review.
 
-### Forces
+### Orientation Factors
 
-Candidate groups of forces that bias the direction and cost of engineering effort.
+The existing `forces/` path preserves continuity with the former **Work Forces** name. [Orientation Factors](forces/README.md) is the revised candidate term for Semantic, Technical, Delivery and Resource classifications of interpreted evidence. Their justified changes can inform [Value Orientations](mechanisms/value-orientations.md); [Documentary Reinterpretation](mechanisms/documentary-reinterpretation.md) explores iterative impact through documentary relations.
 
 Their strongest current ownership affinity is Design.
 
