@@ -28,7 +28,7 @@ The approved Design cycle is [Understanding → Contextualizing → Planning →
 
 ## Candidate priority interpretation
 
-[Value Orientations](../../mechanisms/value-orientations.md) is the current provisional name for the three historical Advancement Paths, understood as **short-term business value / long-term business value / business value at least justified effort during a standalone iteration**. Method considers these alongside interpreted [Work Forces](../../forces/README.md), uncertainty (local/general), organizational needs and operating context when selecting or reconsidering a Design modality. The relationships and extreme-case affinities remain candidate, not a validated automatic choice mechanism. See [Modality Selection](modality-selection.md).
+[Value Orientations](../../mechanisms/value-orientations.md) is the current provisional name for the three historical Advancement Paths, understood as **short-term business value / long-term business value / business value at least justified effort during a standalone iteration**. Method considers these alongside interpreted [Orientation Factors](../../forces/README.md), uncertainty (local/general), organizational needs and operating context when selecting or reconsidering a Design modality. The relationships and extreme-case affinities remain candidate, not a validated automatic choice mechanism. See [Modality Selection](modality-selection.md).
 
 ## History and evolution
 
