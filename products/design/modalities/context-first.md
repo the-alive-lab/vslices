@@ -85,5 +85,5 @@ The Anamnesis example was identified **retrospectively** as Context-First. It is
 - An exhaustive elicitation procedure for client problems or requirements.
 - A universal set of documents or interviews.
 - Numeric context sufficiency or switching thresholds.
-- Definition of Problem-First or Slice-First (each needs its own bounded migration).
-- Ownership of Orientation.
+- Duplicate definitions of [Problem-First](problem-first.md) or [Slice-First](slice-first.md), now migrated separately into their own Design-owned sources.
+- Detailed operational rules for [Method-owned Orientation](../../method/orientation.md), whose conceptual responsibility is already settled.
