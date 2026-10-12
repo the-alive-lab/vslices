@@ -66,7 +66,7 @@ Validating can produce new evidence or respond to feedback **when supplied**, in
 
 ## Changing value orientation (candidate clarification)
 
-New evidence, changes in organizational context, or retrospective artifacts and feedback responses from Validating can alter the interpreted [Work Forces](../../forces/README.md) and the relative emphasis of [Value Orientations](../../mechanisms/value-orientations.md). Method then reassesses whether the present Design modality remains defensible. A shift in emphasis does not automatically force a modality switch; similarly, a modality switch is not proof of one particular value orientation. Preserve why the **process priority** changed, not merely what value the preceding iteration happened to produce.
+New evidence, changes in organizational context, or retrospective artifacts and feedback responses from Validating can alter the interpreted [Orientation Factors](../../forces/README.md) and the relative emphasis of [Value Orientations](../../mechanisms/value-orientations.md). Method then reassesses whether the present Design modality remains defensible. A shift in emphasis does not automatically force a modality switch; similarly, a modality switch is not proof of one particular value orientation. Preserve why the **process priority** changed, not merely what value the preceding iteration happened to produce.
 
 This candidate reasoning model addresses **one standalone group's iteration**. Nested or parallel child-iteration compositions are outside scope and should not be inferred from these instructions.
 
