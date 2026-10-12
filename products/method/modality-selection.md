@@ -33,7 +33,7 @@ First distinguish **what is known locally and generally**, by whom, what sources
 
 | Dominant concern | Candidate Design modality | Reason for selection |
 | --- | --- | --- |
-| The surrounding domain and actual work cannot yet be explained reliably. | **Context-First** | Wider contextual understanding is needed before responsibly narrowing the problem or committing to a solution. |
+| The surrounding domain needs deeper understanding **and adequate organizational experts or other trustworthy sources are accessible**. | **Context-First** | Wider contextual understanding is needed before responsibly narrowing the problem or committing to a solution. |
 | A problem or opportunity is visible, but its causes, limits, impact or expected improvement are unclear. | **Problem-First** | Investigating the problem reduces the risk of treating symptoms or optimizing locally. |
 | The problem and surrounding context are sufficiently understood, and a small reversible realization can produce more useful evidence than further analysis. | **Slice-First** | Real-world feedback from a bounded slice can make the next decision safer. |
 
