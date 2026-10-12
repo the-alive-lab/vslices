@@ -19,6 +19,8 @@ Hernán's working interpretations, explicitly **not yet reconciled with current 
 
 These indicate **priorities governing the process**, not a retrospective classification by all benefits produced. A Least Resistance iteration might later yield long-term value without thereby having been directed by Most Continuity. An iteration may face competing priorities, but the triangle is not evidence that they form a mathematically complete or independent basis.
 
+The [current candidate conceptual specification](../../mechanisms/value-orientations.md) now gives the **working collective name** *Value Orientations* to the three legacy Paths, while preserving their historical files and keeping the proposal under research. This playground is a potential realization of that candidate interpretation, not its semantic authority.
+
 ## 2. The first unit: standalone iteration only
 
 Model **only the decision and development of one standalone group's iteration**.
