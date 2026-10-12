@@ -48,6 +48,12 @@ A candidate triangle midpoint may mean either (1) weakly discriminating evidence
 
 Docs Standard can preserve the evidence, interpretation, differences from earlier interpretation and reasons for a change. This proposal does not introduce a new compulsory document type or impose a universal schema.
 
+## Open question — how forces affect responses
+
+> **¿De qué maneras puede una Work Force afectar las alternativas disponibles y la posición dentro de Value Orientations?**
+
+**Status:** open, not resolved. *Pressure* and *restriction* are useful provisional distinctions but are **not asserted to exhaust** the ways a Work Force may affect response feasibility, relative affinity or triangle position. Do not freeze a taxonomy (including enabling conditions or other categories) before contrasting concrete cases and evidence. Distinguish interpretation of evidence from the justified consequence for the proposed position; preserve material reasoning through Docs Standard when appropriate.
+
 ## Minimal test before prescribing a mapping
 
 Take two or more independently documented standalone cases with comparable surface features but different viable responses. For each case, reconstruct the interpretation **without using the observed modality as an input**. Then ask whether the forces and source availability distinguish the defensible orientation/modality and whether a rival interpretation can explain the same evidence. Compare against existing uncertainty-only modality guidance. Document failures and unresolved ambiguity rather than optimizing the model to fit the known answer.
