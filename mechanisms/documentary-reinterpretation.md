@@ -28,11 +28,13 @@ An unchanged classification may carry additional reasoning. Whether that differe
 
 ## Documentary and authority boundaries
 
-- **Docs Standard** owns actual documentary identities, front-matter relationship properties and preservation semantics. This proposal uses those relationships **without inventing their key names, directionality, closure, or an all-relations-traversable rule**. Verify the exact current contracts before implementation.
+- **Docs Standard** owns actual documentary identities, front-matter relationship properties and preservation semantics. This proposal uses those relationships **without inventing their key names, directionality, closure, or an all-relations-traversable rule**. The **front-matter documentary relation property is already defined** by Docs Standard's official specification. **Current Tooling does not yet support it for this reinterpretation/traversal workflow**. Respect its actual contract when implementation becomes relevant; do not invent key names, directionality, closure or an all-relations-traversable rule.
 - **Tags** can classify or help discover topics, but do **not** constitute this propagation's traversal edges.
 - **Orientation Factors** describes the revisable factor classifications associated with evidence; it is not the propagation transport or an automatic modality selector.
 - **Value Orientations** consumes the resulting interpreted factors to reconsider response affinity and modality recommendation. Propagation need not move the triangle.
 - **Method** retains selection authority; **Tooling or an LLM** may implement or suggest interpretations without silently replacing documentary and organizational authority.
+
+See the [cross-product responsibility map](../relationships/evidence-orientation-responsibilities.md) for provisional Method affinity and the Docs Standard/Tooling/Protocols boundaries.
 
 ## Open behavior and performance questions
 
