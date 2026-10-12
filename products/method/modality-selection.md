@@ -29,7 +29,7 @@ The provisional collective name [**Value Orientations**](../../mechanisms/value-
 
 ## Selection criteria
 
-First determine what is insufficiently known and why that uncertainty matters to the next consequential decision. Then consider:
+First distinguish **what is known locally and generally**, by whom, what sources can actually provide missing knowledge, what the business needs, and what contextual pressures constrain progress. Then use the evidence and candidate orientation priorities to examine which Design modalities are **feasible** and justified. The table below is an initial uncertainty-focused guide, not a sufficient selector by itself:
 
 | Dominant concern | Candidate Design modality | Reason for selection |
 | --- | --- | --- |
