@@ -2,7 +2,7 @@
 
 **Status:** exploratory proposal, unimplemented; **not** a validated formal model or normative modality selector.  
 **Scope:** one **standalone VSlices iteration** conducted by one group, with one relevant Method Orientation and a revisable modality decision.  
-**Source of proposal:** dialogue with Hernán (2026-10-12), following distinctions between Orientation, Work Forces, three candidate Paths and modality selection.  
+**Source of proposal:** dialogue with Hernán (2026-10-12), following distinctions between Orientation, Orientation Factors, three candidate Paths and modality selection.  
 **Owners:** TBD after evidence; the playground specification does not transfer conceptual ownership from Method or Design to Tooling.
 
 ## 1. Why explore this
@@ -20,6 +20,8 @@ Hernán's working interpretations, explicitly **not yet reconciled with current 
 These indicate **priorities governing the process**, not a retrospective classification by all benefits produced. A Least Resistance iteration might later yield long-term value without thereby having been directed by Most Continuity. An iteration may face competing priorities, but the triangle is not evidence that they form a mathematically complete or independent basis.
 
 The [current candidate conceptual specification](../../mechanisms/value-orientations.md) now gives the **working collective name** *Value Orientations* to the three legacy Paths, while preserving their historical files and keeping the proposal under research. This playground is a potential realization of that candidate interpretation, not its semantic authority.
+
+**Documentary evidence update (candidate):** Orientation Factors are attached to interpretations of evidence; new related evidence may change or nuance them. Interpretive impact, with reasons, may propagate through explicit **front-matter relationships** (not topical tags) under [documentary reinterpretation](../../mechanisms/documentary-reinterpretation.md). A record can remain classified without a presently identified impact. The playground may visualize the results but does not own the traversal or define Docs Standard metadata.
 
 ## 2. The first unit: standalone iteration only
 
@@ -45,7 +47,7 @@ Available evidence and work context
       ↓
 Method Orientation (situate the work; recommended before/among iterations)
       ↓
-Work Forces (candidate interpretation of evidence)
+Orientation Factors (candidate interpretation of evidence)
   - semantic
   - technical
   - delivery
@@ -89,7 +91,7 @@ Visual history is useful when a new piece of evidence shifts interpretation: pre
 
 An initial quantity measure can be the **number of identifiable evidence items considered** (documents, observations or other distinct provenance-bearing entries). Call this **evidence count**, not calibrated confidence: volume cannot by itself establish relevance, diversity, independence or truth. Prefer making item inventory inspectable and avoid counting duplicates as independent. If the interpretation cannot be supported, mark the position *provisional/underdetermined*.
 
-Visualize a move as **new evidence → interpretation of Work Forces → reconsidered semantic position**, and preserve why it moved using Docs Standard artifacts where useful. Local/general uncertainty interpreted as Work Forces determines whether Context-/Problem-/Slice-First are viable; do not implement a post-hoc feasibility gate.
+Visualize a move as **new evidence → interpretation of Orientation Factors → reconsidered semantic position**, and preserve why it moved using Docs Standard artifacts where useful. Local/general uncertainty interpreted as Orientation Factors determines whether Context-/Problem-/Slice-First are viable; do not implement a post-hoc feasibility gate.
 
 ## 5. Playground interactions
 
@@ -101,7 +103,7 @@ Visualize a move as **new evidence → interpretation of Work Forces → reconsi
 
 **Evidence-assisted / later experiment**
 - Supply selected documents or snapshots **with provenance**, dates, scope and relevant actor/authority.
-- Distinguish observed excerpts from model interpretations about local/general uncertainty, needs, constraints and Work Forces.
+- Distinguish observed excerpts from model interpretations about local/general uncertainty, needs, constraints and Orientation Factors.
 - Produce a status: supported/contested/unknown claims, reasons for inferred forces, qualitative orientation emphasis, limits and missing evidence.
 - Offer a **candidate** modality recommendation **with alternatives**, feasibility conditions, risks, counterevidence and explanation of why another modality is less supported.
 - Reassess on new documents or retrospectives: display differences and their source, without silently rewriting previous states.
@@ -117,7 +119,7 @@ Visualize a move as **new evidence → interpretation of Work Forces → reconsi
 
 Candidate hypotheses for a research-oriented evaluation:
 
-1. Work Forces provide an **interpreted view of evidence** relevant to Value Orientations, rather than acting as synonyms for the orientations.
+1. Orientation Factors provide an **interpreted view of evidence** relevant to Value Orientations, rather than acting as synonyms for the orientations.
 2. Three orientations can help explain **process priority** for a standalone iteration without equating that priority with resulting benefits.
 3. Their evidence-sensitive combination improves the discriminating justification of a Method modality recommendation over current selection guidance alone.
 4. The triangle remains meaningful even when relative emphasis cannot be estimated numerically.
@@ -145,7 +147,7 @@ A fixed affinity of the three corners with the three modalities is **a hypothesi
 ## 8. Sources, governance and open design questions
 
 - [Current candidate Paths](../../mechanisms/README.md) — existing labels and definitions remain unchanged.
-- [Work Forces](../../forces/README.md) — candidate pressure groups.
+- [Orientation Factors](../../forces/README.md) — candidate pressure groups.
 - [Action Flow](../../mechanisms/action-flow.md) — work elaboration and transformation space; may be a useful source of evidence but is **not** the triangle.
 - [Method Orientation](../../products/method/orientation.md), [Modality Selection](../../products/method/modality-selection.md) and [Modality Switching](../../products/method/modality-switching.md).
 - [Design modalities](../../products/design/README.md) and [Design lifecycle](../../products/design/lifecycle.md).
