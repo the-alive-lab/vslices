@@ -27,6 +27,12 @@ The provisional collective name [**Value Orientations**](../../mechanisms/value-
 
 **Extreme-case affinities (hypotheses, not mandatory rules):** an urgent identifiable problem can favor Most Value / Problem-First; available broad organizational process expertise can make Most Continuity / Context-First productive for developing long-term software/process continuity; limited general but useful local knowledge under tight delivery conditions can favor Least Resistance / safe bounded Slice-First. Lack of general process knowledge may actually prevent broad Context-First if no appropriate experts or sources exist; it **never automatically dictates Slice-First**. Reassess actual feasibility, risk and evidence for all modalities.
 
+## Geometric response and evidence quantity (candidate)
+
+The [Value Orientations triangle](../../mechanisms/value-orientations.md) is proposed as a **semantic matrix of response**, not a post-hoc chart or an arbitrary modality scoring function. Corners recommend their associated modalities (Most Value / Problem-First, Most Continuity / Context-First, Least Resistance / Slice-First); edges support two defensible responses, and the center all three. Proximity represents relative recommendation affinity; distances toward other vertices prompt **trade-off/risk examination**, not measured numerical risks.
+
+Method must distinguish the **position** from the **amount of evidence supporting its interpretation**. In particular, a midpoint with few evidence items may be underdetermined; a midpoint sustained by substantial relevant evidence may indicate a genuine balance. **Initial quantity is merely a source-count indicator**, not confidence in the statistical, epistemic or correctness sense. Evidence interpretation through [Work Forces](../../forces/README.md) already considers local/general uncertainty and source availability and thus the *viability* of the responses that the triangle represents. No separate automatic feasibility threshold is implied.
+
 ## Selection criteria
 
 First distinguish **what is known locally and generally**, by whom, what sources can actually provide missing knowledge, what the business needs, and what contextual pressures constrain progress. Then use the evidence and candidate orientation priorities to examine which Design modalities are **feasible** and justified. The table below is an initial uncertainty-focused guide, not a sufficient selector by itself:
