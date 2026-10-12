@@ -115,3 +115,11 @@ The proposed Design/Method division and **five-phase Design lifecycle** received
 **Not approved yet:** final owner of Orientation. The current discussion treats initial Orientation as project entry, and Validating as possibly triggering an orientation refresh, not as a sixth Design phase. The particular authority for the refresh is still open.
 
 **Migration implication:** revise existing Suite lifecycle and product-boundary wording first; create/preserve a Design-owned source subsequently; only then project into `vslices/docs` and update Planifications' lifecycle references. Do not silently rewrite earlier four-phase or intermediate Feedback cycle history.
+
+## Reconciliation checkpoint — 2026-10-11
+
+This file preserves the sequence of earlier candidate interpretations; statements above that Orientation ownership remained unapproved describe **their historical decision point**. They do **not** override the present conceptual definitions.
+
+Current resolution: [Design owns its five-phase lifecycle and modality meanings](design/lifecycle.md), [Method owns Orientation as cross-cutting situated actor/team continuity](method/orientation.md) and modality selection/switching, and [Protocols](protocols/README.md) coordinates reusable execution procedures (the specialized repository is still named `vslices/planifications`, with a rename to `vslices/protocols` planned).
+
+**Still under review:** how Orientation is enacted in particular contexts, which actor/team divergences warrant shared reconciliation, and how old Feedback-based protocols are operationally migrated. The earlier disagreements remain reconstructible rather than retroactively erased.
