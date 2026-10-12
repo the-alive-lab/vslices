@@ -41,6 +41,8 @@ A product may use, document, realize, specialize, render, validate, or operation
 
 **Centralized canonical hosting does not collapse product responsibility.** Design, Method, Tooling, etc. retain distinct conceptual ownership even though their definitions live in one repository.
 
+**Authority by granularity:** an officially recognized product-specific repository may maintain detailed, versioned **normative specifications** (for example, VSIR 0.1 language contracts or Docs Standard artifact-definition YAML) that specialize the conceptual definitions hosted here. Those contracts govern conformance to their stated version; they are not merely implementation code or public documentation. They cannot silently redefine product identity, cross-product responsibilities, or a prior version's meaning. Any conceptual conflict must be surfaced for review with its provenance, not erased by choosing the more convenient location.
+
 Likewise, physical location does not establish semantic authority.
 
 ## Maturity
@@ -186,6 +188,6 @@ The earlier Design framing warned against confusing user stories, screens, APIs,
 ## Reconstruction rule
 
 1. Look to **this repository** for canonical meanings of the Suite **and each VSlices product**.
-2. Use implementation and publication repositories as evidence of existing realizations, constraints and feedback, **not** as automatic authority to change the underlying definition.
+2. Consult **official specialized specifications** for their detailed versioned contracts, and implementation/publication repositories for evidence of actual realizations and feedback. Neither a concrete implementation nor publication automatically changes the underlying conceptual authority.
 3. Use Research and historical artifacts to reconstruct emergence, test claims and flag unresolved ownership questions.
 4. Record substantive revision of canonical sources explicitly; propagate the results to relevant projections rather than silently rewriting history.
