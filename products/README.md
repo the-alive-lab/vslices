@@ -51,7 +51,7 @@ Method may:
 
 ## Candidate Value Orientations and Method choices
 
-The newly named candidate [Value Orientations](../mechanisms/value-orientations.md) revisits three historical *Advancement Paths*: **Most Value** (short-term business value), **Most Continuity** (long-term business value, including process/software continuity), and **Least Resistance** (business value with minimum justified effort) as **process priorities for one standalone iteration**. Method may use interpreted [Work Forces](../forces/README.md) plus uncertainty, needs and context to consider their relative emphasis when selecting modalities. This proposal and its extreme-case affinities remain unvalidated; the former Path files preserve distinct historical semantics. A [playground](../playgrounds/value-orientations/README.md) explores the model without claiming decision automation.
+The newly named candidate [Value Orientations](../mechanisms/value-orientations.md) revisits three historical *Advancement Paths*: **Most Value** (short-term business value), **Most Continuity** (long-term business value, including process/software continuity), and **Least Resistance** (business value with minimum justified effort) as **process priorities for one standalone iteration**. Method may use interpreted [Orientation Factors](../forces/README.md) plus uncertainty, needs and context to consider their relative emphasis when selecting modalities. This proposal and its extreme-case affinities remain unvalidated; the former Path files preserve distinct historical semantics. A [playground](../playgrounds/value-orientations/README.md) explores the model without claiming decision automation.
 
 ## Docs Standard
 
