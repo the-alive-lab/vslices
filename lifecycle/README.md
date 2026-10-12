@@ -8,7 +8,7 @@ The **five-phase Design iteration** and the definition of **Validating** below a
 
 **Design owns** the phases and their meanings, as well as the definitions of Context-First, Problem-First and Slice-First. **Method owns** contextual selection or switching of modalities according to uncertainty, priorities and continuity; **Protocols** operationalizes them in runs (the specialized repository is currently named `vslices/planifications`).
 
-Orientation is intentionally **outside** the five-phase Design iteration and is [Method-owned](../products/method/orientation.md). It situates actors and teams relative to the continuity of work regardless of iteration completeness. Entry/re-entry triggers and the operational reconciliation of actor/team perspectives remain subject to evidence and review; Validating may produce a reason to reorient, but does not mandate a sixth Design phase.
+Orientation is intentionally **outside** the five-phase Design iteration and is [Method-owned](../products/method/orientation.md). It situates actors and teams relative to the continuity of work regardless of iteration completeness. Orientation is **recommended at process start and between iterations when using Method**; other re-entry triggers and actor/team reconciliation details remain under review. **Validating closes an iteration through retrospective artifacts and responses to received feedback**, which feed the next Orientation. None of this introduces a sixth Design phase or a compulsory gate.
 
 ## Approved Design iteration
 
@@ -17,6 +17,8 @@ Understanding -> Contextualizing -> Planning -> Building -> Validating
        ^                                             |
        +---------------------------------------------+
 ```
+
+**Cross-product iteration handoff:** `Design Validating (retrospective artifacts + feedback responses) → Method Orientation → Method modality selection/reconsideration → next Design iteration`. The direct return arrow in the five-phase diagram describes Design's repeated phase structure, not a bypass of Orientation when using Method.
 
 The cycle's earlier evolution must remain reconstructible:
 
@@ -28,7 +30,7 @@ This is a conceptual decision, not evidence that all existing tools, plans or pu
 
 ## Orientation — Method-owned; operational details open
 
-[Method Orientation](../products/method/orientation.md) mediates between inherited work state and responsible present participation, distinguishing an actor's own position from shared team understanding and authority. It can matter when joining, resuming, changing scope or participants, or discovering contradictory evidence—even during an unfinished Design iteration. Evidence from Validating may justify refresh without making it automatic. Its **conceptual owner is settled**; specific operational triggers and methods of reconciling perspectives are still candidates.
+[Method Orientation](../products/method/orientation.md) mediates between inherited work state and responsible present participation, distinguishing an actor's own position from shared team understanding and authority. It can matter when joining, resuming, changing scope or participants, or discovering contradictory evidence—even during an unfinished Design iteration. Validating's retrospective artifacts and feedback responses supply the normal between-iteration Orientation. Orientation is recommended, rather than a compulsory gate; its extent and any additional mid-iteration refresh remain contextual. Its **conceptual owner is settled**; specific operational triggers and methods of reconciling perspectives are still candidates.
 
 ## Understanding
 
@@ -96,7 +98,7 @@ Building may confirm, refine, or contradict earlier understanding.
 
 Its results may confirm, challenge, or change the understanding, decisions, and realizations that motivated the iteration. Responding to feedback does **not** require accepting it automatically: an adequate response may accept an observation, explain or justify a decision, identify uncertainty, propose a change, or explain why a change is not warranted.
 
-Validating is not limited to technical verification. Feedback is an optional input, not a guaranteed event and not a mandatory separate Design phase. Evidence from Validating may inform the next Understanding iteration and any orientation refresh.
+Validating is not limited to technical verification. Feedback is an optional input, not a guaranteed event and not a mandatory separate Design phase. Retrospective artifacts and feedback responses from Validating are inputs to the recommended Method Orientation preceding the next iteration; that Orientation decides how to continue, without taking ownership of Design's results.
 
 ## Distinct concerns
 
