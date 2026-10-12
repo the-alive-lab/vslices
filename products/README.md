@@ -110,6 +110,12 @@ Automation does not acquire semantic authority merely by existing.
 
 [Canonical product definition](protocols/README.md). Coordinates reusable procedures, meta-protocols, planning traversals, authorized runs and their review without redefining Method, Design or other product semantics. The official specialized repository is currently [vslices/planifications](https://github.com/vslices/planifications); **renaming it to `vslices/protocols` is planned, not yet executed**. Protocol execution evidence stays with the relevant consumer, while distinct protocol-owned supervision can retain its own provenance.
 
+## Intermediate Representation (VSIR)
+
+[Canonical product definition](intermediate-representation/README.md). Owns the language-level semantics, versioning, reconstructible `.vsir` contract and conformance expectations. The [official specification repository](https://github.com/vslices/intermediate-representation) defines the detailed experimental language and amendments; Tooling implements executable authoring, parsing, validation and lowering, while Ruleset supplies target-realization knowledge.
+
+**Open reconciliation:** VSIR 0.1 still defines `kind: domain-type` while Framework's conceptual vocabulary has evolved; intrinsic semantic-signature ownership relative to Ruleset also requires review. Neither tension authorizes silent reinterpretation of existing VSIR 0.1 artifacts.
+
 ## Research / Alive Lab
 
 Preserves observations, hypotheses, tensions, and evidence before promotion.
