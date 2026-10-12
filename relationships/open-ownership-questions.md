@@ -90,9 +90,9 @@ belonged to Method or Suite. This remains **historical evidence of an intermedia
 **Still open:** exact operational re-entry/refresh conditions for Orientation, thresholds for reconciling actor/team divergence, and how historical protocols should be updated without rewriting frozen evidence. The ownership question itself is **not still open**.
 
 
-## Work forces ownership
+## Orientation Factors ownership (formerly Work Forces)
 
-Semantic, Technical, Delivery, and Resource forces affect the direction of effort across organizational and system perspectives.
+Semantic, Technical, Delivery, and Resource factors affect the direction of effort across organizational and system perspectives.
 
 Design has the strongest current ownership affinity because the forces influence modality and candidate realization.
 
