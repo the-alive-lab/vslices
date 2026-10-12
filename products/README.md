@@ -49,6 +49,10 @@ Method may:
 
 **Approved boundary (2026-10-09):** Design defines its phases and modalities; Method selects and changes their use in context. [Orientation](method/orientation.md) is Method-owned as a cross-cutting responsibility for situated continuity, distinct from Design's phases and independent of iteration completeness. Its operational details remain under review.
 
+## Candidate Value Orientations and Method choices
+
+The newly named candidate [Value Orientations](../mechanisms/value-orientations.md) revisits three historical *Advancement Paths*: **Most Value** (short-term business value), **Most Continuity** (long-term business value, including process/software continuity), and **Least Resistance** (business value with minimum justified effort) as **process priorities for one standalone iteration**. Method may use interpreted [Work Forces](../forces/README.md) plus uncertainty, needs and context to consider their relative emphasis when selecting modalities. This proposal and its extreme-case affinities remain unvalidated; the former Path files preserve distinct historical semantics. A [playground](../playgrounds/value-orientations/README.md) explores the model without claiming decision automation.
+
 ## Docs Standard
 
 [Canonical Docs Standard conceptual source](docs-standard/README.md) now consolidates its [principles](docs-standard/principles.md), [anti-bureaucracy criteria](docs-standard/anti-bureaucracy.md), [glossary](docs-standard/glossary.md), [compliance boundary](docs-standard/compliance-support.md) and [root-question inventory](docs-standard/root-question-inventory.md) while explicitly distinguishing [legacy modeling](docs-standard/legacy-modeling-review.md) from the current normative `vslices/docs-standard` vocabulary.
