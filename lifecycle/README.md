@@ -6,9 +6,9 @@
 
 The **five-phase Design iteration** and the definition of **Validating** below are **conceptually approved (2026-10-09)**. This file preserves the Suite's cross-product relationship to the Design-owned concept; it must not make the Suite the permanent substitute for a Design-owned canonical surface.
 
-**Design owns** the phases and their meanings, as well as the definitions of Context-First, Problem-First and Slice-First. **Method owns** contextual selection or switching of modalities according to uncertainty, priorities and continuity; **Planifications operationalizes** them in runs.
+**Design owns** the phases and their meanings, as well as the definitions of Context-First, Problem-First and Slice-First. **Method owns** contextual selection or switching of modalities according to uncertainty, priorities and continuity; **Protocols** operationalizes them in runs (the specialized repository is currently named `vslices/planifications`).
 
-Orientation is intentionally **outside** the five-phase Design iteration. Its final conceptual ownership (Method vs Design), initial entry behavior and refresh mechanism have **not** been approved as a stable assignment. The current working hypothesis is an initial orientation when joining a project and refresh informed by Validating, without a sixth Design phase.
+Orientation is intentionally **outside** the five-phase Design iteration and is [Method-owned](../products/method/orientation.md). It situates actors and teams relative to the continuity of work regardless of iteration completeness. Entry/re-entry triggers and the operational reconciliation of actor/team perspectives remain subject to evidence and review; Validating may produce a reason to reorient, but does not mandate a sixth Design phase.
 
 ## Approved Design iteration
 
@@ -26,9 +26,9 @@ The cycle's earlier evolution must remain reconstructible:
 
 This is a conceptual decision, not evidence that all existing tools, plans or public pages already conform.
 
-## Orientation — ownership not yet settled
+## Orientation — Method-owned; operational details open
 
-Orientation establishes sufficient entry continuity when entering existing work. Validating can provide evidence that the orientation needs refreshing; whether refresh is a Method action, a Design action, or an operational consequence of the run remains under review. **Do not** represent Orientation as an automatic sixth Design phase or claim an agreed owner.
+[Method Orientation](../products/method/orientation.md) mediates between inherited work state and responsible present participation, distinguishing an actor's own position from shared team understanding and authority. It can matter when joining, resuming, changing scope or participants, or discovering contradictory evidence—even during an unfinished Design iteration. Evidence from Validating may justify refresh without making it automatic. Its **conceptual owner is settled**; specific operational triggers and methods of reconciling perspectives are still candidates.
 
 ## Understanding
 
@@ -103,5 +103,5 @@ Validating is not limited to technical verification. Feedback is an optional inp
 - **Design lifecycle**: meaning of the five phases and iterative return.
 - **Design modalities**: meaning of Context-First, Problem-First, Slice-First.
 - **Method**: given uncertainty, priorities and continuity, select or change modality and coordinate participating VSlices responsibilities.
-- **Planifications**: operational execution, state and traceable application of this guidance.
-- **Orientation**: entry and continuity concern whose *ownership remains under review*.
+- **Protocols** (currently `vslices/planifications`): operational execution, state and traceable application of this guidance.
+- **Orientation (Method)**: cross-cutting situated continuity for actors and teams; its operational procedures remain revisable.
