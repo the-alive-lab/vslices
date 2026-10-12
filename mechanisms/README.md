@@ -52,6 +52,12 @@ The three Path mechanisms are currently distinct because they favor different pr
 
 Their relationship, completeness, independence, ownership, and possible common abstraction remain open to Research.
 
+## Explanatory gaps behind existing procedures
+
+[Reasoning reconstruction gap](reasoning-reconstruction-gap.md) records a broader, **still-unverified** concern: VSlices may describe procedures and selected alternatives more completely than the tacit judgments that originally led to them. It starts from the corrected modality-selection witness behind [Research Input #23](https://github.com/vslices/research-space/issues/23), but it does **not** assert that all VSlices procedures share one reasoning mechanism or that the three Paths solve the gap.
+
+The next step is to inspect real decisions, their contemporaneous evidence and rival explanations before claiming a reusable mechanism. **This is an investigation note, not an additional canonical Path or established mechanism.**
+
 ## Promotion rule
 
 A mechanism candidate should gain stability only when evidence shows that:
