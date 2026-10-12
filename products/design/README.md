@@ -2,7 +2,7 @@
 
 **Semantic owner:** VSlices Design.
 **Maturity:** approved conceptual core; other details remain candidates.
-**Hosting:** this product-owned namespace is canonical within `the-alive-lab/vslices-suite`, the shared source-of-truth repository for the Suite and its products. Design retains conceptual authority within that repository; no standalone Design repository is required.
+**Hosting:** this product-owned namespace is canonical within `the-alive-lab/vslices`, the shared source-of-truth repository for the Suite and its products. Design retains conceptual authority within that repository; no standalone Design repository is required.
 
 ## Purpose
 
