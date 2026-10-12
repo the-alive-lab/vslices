@@ -48,6 +48,12 @@ Design iteration N: ... -> Validating
 
 The recommendation is **not** a compulsory gate or a universal artifact requirement. Adequate orientation can be brief, already substantially available or revisited as needed; its depth is proportional to the situation. This iteration-boundary recommendation does not prevent reorientation within an unfinished iteration when material changes require it.
 
+## Evidence for value-oriented continuation (candidate)
+
+Orientation recognizes **(a) local and general uncertainty** in what the organization and participating team know, **(b) needs, problems and opportunities across the organization**, and **(c) the operating context**, including economic, delivery, institutional, resource and technical constraints. These are distinguishable: an urgent financial deadline is not itself organizational process knowledge. Recover only the relevant evidence and its provenance, including inputs from the previous Validating.
+
+Method may interpret that evidence through [Work Forces](../../forces/README.md) and consider the relative emphases in the candidate [Value Orientations](../../mechanisms/value-orientations.md) before [Modality Selection](modality-selection.md). This is a revisable reasoning aid, not a mandatory triangle assessment, score or automatic modality decision. Orientation may identify that evidence is insufficient; it does not itself advance the Design resolution.
+
 ## When Orientation matters
 
 Possible occasions include joining work, resuming after interruption, inheriting a partial iteration, a consequential change in participants or responsibilities, contradictions among artifacts and behavior, an external change, or evidence produced by Building/Validating.
