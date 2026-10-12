@@ -1,4 +1,4 @@
-# Work forces
+# Orientation Factors (formerly Work Forces)
 
 ## Status
 
@@ -12,7 +12,9 @@ The model is preserved here because it affects cross-product movement between or
 
 ## Purpose
 
-Work forces bias the direction, origin, destination, and cost of engineering effort.
+**Orientation Factors** is the current candidate name for the formerly named **Work Forces**. The four categories remain Semantic, Technical, Delivery and Resource. They classify interpreted evidence, including evidence that currently has **no identified impact** on effort. The interpretation is revisable through new related evidence; justified changes or nuances may have an impact transmitted through explicit document relationships in front matter, **not tags**. See [documentary reinterpretation](../mechanisms/documentary-reinterpretation.md) and [interpretation model](interpretation-model.md).
+
+Orientation Factors bias the direction, origin, destination, and cost of engineering effort.
 
 They are not exclusive territories.
 
@@ -133,7 +135,7 @@ Strong semantic pressure may first require more work on the Organization / Proce
 
 Strong resource pressure may reduce the number of transformations attempted in the current iteration.
 
-## Local and general uncertainty as part of force interpretation
+## Local and general uncertainty as part of factor interpretation
 
 **Uncertainty is not an external pass/fail gate after the triangle.** Interpreting available evidence as Work Forces includes what the organization and the developing group know **locally** (bounded people, tasks and areas) and **generally** (relationships and processes across the organization), what they do not know, and **whether credible knowledge sources or experts are actually available**.
 
