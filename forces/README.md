@@ -133,6 +133,16 @@ Strong semantic pressure may first require more work on the Organization / Proce
 
 Strong resource pressure may reduce the number of transformations attempted in the current iteration.
 
+## Local and general uncertainty as part of force interpretation
+
+**Uncertainty is not an external pass/fail gate after the triangle.** Interpreting available evidence as Work Forces includes what the organization and the developing group know **locally** (bounded people, tasks and areas) and **generally** (relationships and processes across the organization), what they do not know, and **whether credible knowledge sources or experts are actually available**.
+
+This directly affects which responses are viable. A need to understand broad organizational processes is not sufficient for Context-First if there is no access to the knowledge needed to conduct the investigation. A locally understood task does not automatically license Slice-First unless the proposed action can be bounded and evaluated responsibly. Work Forces should represent these feasibility implications before a location is proposed in Value Orientations.
+
+Interpretation is situated: a new piece of evidence **does not directly displace a point**; it can change an interpreted force, whose justified implications may change the viable response affinities and hence the position. No automatic vector or formula has been established.
+
+See [Value Orientations](../mechanisms/value-orientations.md) and the candidate [force-interpretation protocol](interpretation-model.md).
+
 ## Relationship with Value Orientations (candidate)
 
 Work Forces can be understood as **interpretations of evidence** about organizational and delivery circumstances, rather than synonyms for the value orientation itself. A financial deadline is contextual evidence; it is not knowledge of business processes. The local/general uncertainty of the client and developing group, needs across organizational areas, available experts and risk also matter.
