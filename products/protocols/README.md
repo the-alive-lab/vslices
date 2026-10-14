@@ -3,14 +3,14 @@
 **Conceptual owner:** VSlices Protocols  
 **Status:** product-boundary consolidation, 2026-10-11; individual protocols retain their own maturity and evidence.
 
-## Official repository and planned rename
+## Official repository and completed rename
 
-- **Current official specialized source:** [`vslices/planifications`](https://github.com/vslices/planifications).
-- **Planned repository rename:** **`vslices/planifications` → `vslices/protocols`**.
-- **Rename status:** **planned, not executed** as of this review. Links to `vslices/planifications` refer to the real current repository; do not assert that `vslices/protocols` already hosts anything.
-- **Conceptual identity:** VSlices Protocols. The former term *Planifications* remains useful as historical repository naming and for particular planning artifacts; it does not exhaust this product's responsibility.
+- **Current official specialized source:** [`vslices/protocols`](https://github.com/vslices/protocols).
+- **Former repository name:** `vslices/planifications`.
+- **Rename status:** completed and verified on 2026-10-14. GitHub redirects the former repository address to `vslices/protocols`.
+- **Conceptual identity:** VSlices Protocols. *Planifications* remains relevant to historical documents and particular plans; the rename does not retroactively change frozen evidence or protocol identifiers.
 
-A future physical rename should preserve Git history, existing references, consumers and protocol identity, and review links in the Suite, agents, Tooling integrations and other VSlices repositories. Renaming the repository is **not** a license to rename protocol identifiers or rewrite frozen execution evidence.
+Existing references to the former name in historical commits, reports and run artifacts remain historical evidence. Current navigation should use `vslices/protocols`.
 
 ## Purpose
 
@@ -58,32 +58,32 @@ The existing protocols demonstrate reusable concerns, **not universal mandatory 
 
 ## Current official corpus and maturity
 
-### In `vslices/planifications/main`
+### In `vslices/protocols/main`
 
-- [VSlices Usage](https://github.com/vslices/planifications/blob/main/protocols/vslices-usage/README.md): shared operational entrypoint, minimal orientation, work geometry and routing. **Its Feedback-based traversal is historically provisional and conflicts with the subsequently approved Design lifecycle**; it must be reconciled rather than treated as authority over Design.
-- [Docs Standard Usage](https://github.com/vslices/planifications/blob/main/protocols/vslices-docs-standard-usage/README.md): documentary application beginning from continuity pressure, not a required artifact list. Some historical public artifact references need re-routing to official current Docs Standard definitions.
-- [Docs Standard Extension](https://github.com/vslices/planifications/blob/main/protocols/vslices-docs-standard-extension/README.md): procedure for bringing evidence-backed extension pressure to the owning artifact family, without assuming candidate definitions are installed/promoted.
-- [Tooling Usage](https://github.com/vslices/planifications/blob/main/protocols/vslices-tooling-usage/README.md): an intentionally incomplete operational handoff pending concrete supported Tooling capabilities.
-- [Software Migration](https://github.com/vslices/planifications/blob/main/protocols/software-migration/README.md): meta-protocol for migration, decision-specific authority, bounded Planning-to-Building, source evidence, reversible uncertainty, state/placement, findings and evolution. Its Research-based revision was [merged in PR #2](https://github.com/vslices/planifications/pull/2) on 2026-10-09; its effectiveness still needs execution evidence/replay.
-- [Progressive Source Migration](https://github.com/vslices/planifications/blob/main/plans/progressive-source-migration.md): experimental, specialized reconstruction plan, not the full identity of Protocols.
+- [VSlices Usage](https://github.com/vslices/protocols/blob/main/protocols/vslices-usage/README.md): shared operational entrypoint, minimal orientation, work geometry and routing. **Its Feedback-based traversal is historically provisional and conflicts with the subsequently approved Design lifecycle**; it must be reconciled rather than treated as authority over Design.
+- [Docs Standard Usage](https://github.com/vslices/protocols/blob/main/protocols/vslices-docs-standard-usage/README.md): documentary application beginning from continuity pressure, not a required artifact list. Some historical public artifact references need re-routing to official current Docs Standard definitions.
+- [Docs Standard Extension](https://github.com/vslices/protocols/blob/main/protocols/vslices-docs-standard-extension/README.md): procedure for bringing evidence-backed extension pressure to the owning artifact family, without assuming candidate definitions are installed/promoted.
+- [Tooling Usage](https://github.com/vslices/protocols/blob/main/protocols/vslices-tooling-usage/README.md): an intentionally incomplete operational handoff pending concrete supported Tooling capabilities.
+- [Software Migration](https://github.com/vslices/protocols/blob/main/protocols/software-migration/README.md): meta-protocol for migration, decision-specific authority, bounded Planning-to-Building, source evidence, reversible uncertainty, state/placement, findings and evolution. Its Research-based revision was [merged in PR #2](https://github.com/vslices/protocols/pull/2) on 2026-10-09; its effectiveness still needs execution evidence/replay.
+- [Progressive Source Migration](https://github.com/vslices/protocols/blob/main/plans/progressive-source-migration.md): experimental, specialized reconstruction plan, not the full identity of Protocols.
 
-### Distinct candidate branches, **not** integrated into `main`
+### Distinct candidate branches, **not confirmed as integrated into `main` in the 2026-10-11 review**
 
-- [Software Development — PR #3](https://github.com/vslices/planifications/pull/3), branch `feat/software-development-meta-protocol`: candidate meta-protocol, startup/state, execution bootstrap, supervision bootstrap, run convention and protocol-design considerations. It uses approved **Validating** and Method-owned situational Orientation, and contains initial supervision witnesses from a TDidacta Platform development run. The existence of a run **does not yet validate the whole meta-protocol**.
-- [Executable Discovery — PR #1](https://github.com/vslices/planifications/pull/1), branch `feat/executable-discovery`: experimental bounded observation of existing software to reconstruct organizational work using execution evidence, not simply regression testing.
-- [Protocol Design](https://github.com/vslices/planifications/blob/feat/software-development-meta-protocol/protocols/protocol-design/README.md) and [considerations](https://github.com/vslices/planifications/blob/feat/software-development-meta-protocol/protocols/protocol-design/considerations.md): candidate evidence-based internal procedure for creating/updating protocols; belongs operationally to Protocols, **not** to Design's ownership of methodologies.
+- [Software Development — PR #3](https://github.com/vslices/protocols/pull/3), branch `feat/software-development-meta-protocol`: candidate meta-protocol, startup/state, execution bootstrap, supervision bootstrap, run convention and protocol-design considerations. It uses approved **Validating** and Method-owned situational Orientation, and contains initial supervision witnesses from a TDidacta Platform development run. The existence of a run **does not yet validate the whole meta-protocol**.
+- [Executable Discovery — PR #1](https://github.com/vslices/protocols/pull/1), branch `feat/executable-discovery`: experimental bounded observation of existing software to reconstruct organizational work using execution evidence, not simply regression testing.
+- [Protocol Design](https://github.com/vslices/protocols/blob/feat/software-development-meta-protocol/protocols/protocol-design/README.md) and [considerations](https://github.com/vslices/protocols/blob/feat/software-development-meta-protocol/protocols/protocol-design/considerations.md): candidate evidence-based internal procedure for creating/updating protocols; belongs operationally to Protocols, **not** to Design's ownership of methodologies.
 
 ## Execution and supervision provenance
 
 The general rule supported by Software Migration and Software Development is: **primary execution evidence and executor state belong to the consumer/source repository**, not the reusable definition repository. Resume existing authorized runs rather than create duplicates.
 
-The candidate [protocol run convention](https://github.com/vslices/planifications/blob/feat/software-development-meta-protocol/protocols/run-convention.md) distinguishes a different responsibility: **protocol-owned supervision, observation and review records** may live within that protocol under `protocols/<protocol-id>/run/<run-id>/`, linking the consumer evidence. These are not competing executor states, automatic Research studies or a requirement to move existing runs. This convention is still on a candidate branch.
+The candidate [protocol run convention](https://github.com/vslices/protocols/blob/feat/software-development-meta-protocol/protocols/run-convention.md) distinguishes a different responsibility: **protocol-owned supervision, observation and review records** may live within that protocol under `protocols/<protocol-id>/run/<run-id>/`, linking the consumer evidence. These are not competing executor states, automatic Research studies or a requirement to move existing runs. This convention is still on a candidate branch.
 
 Preserve actual authorization, execution placement and primary witnesses. A command that *should* succeed is not an executed result.
 
 ## Open reconciliation and next decisions
 
-1. **Naming:** implement the planned `vslices/planifications` → `vslices/protocols` repository rename separately, with reconstructible references and without rewriting historic protocol runs.
+1. **Naming (completed):** the repository is now `vslices/protocols`. Review remaining historical and operational references as appropriate without rewriting frozen execution evidence.
 2. **Lifecycle:** align shared Usage and older migration/Docs Standard procedures with the canonical five-phase **Design** cycle and **Method** Orientation; maintain historical provenance rather than silently calling Feedback a sixth/alternate phase.
 3. **Documentary semantics:** replace legacy public Docs Standard taxonomy and path-priority assumptions in operational references with links to current owning definitions; do not mandate all Paths or create fixed path rankings.
 4. **Source-of-truth boundary:** keep a compact product definition here and the detailed protocol definitions in the official specialized repository, allowing those definitions to evolve without mirroring them in Suite.
@@ -93,6 +93,6 @@ Preserve actual authorization, execution placement and primary witnesses. A comm
 
 ## Provenance
 
-Primary sources: [repository README](https://github.com/vslices/planifications/blob/main/README.md), [AGENTS](https://github.com/vslices/planifications/blob/main/AGENTS.md), [VSlices Usage](https://github.com/vslices/planifications/blob/main/protocols/vslices-usage/README.md), [Software Migration](https://github.com/vslices/planifications/blob/main/protocols/software-migration/README.md), [PR #2](https://github.com/vslices/planifications/pull/2), [Software Development PR #3](https://github.com/vslices/planifications/pull/3), [Executable Discovery PR #1](https://github.com/vslices/planifications/pull/1), and canonical Suite [Design](../design/lifecycle.md) / [Method](../method/orientation.md).
+Primary sources: [repository README](https://github.com/vslices/protocols/blob/main/README.md), [AGENTS](https://github.com/vslices/protocols/blob/main/AGENTS.md), [VSlices Usage](https://github.com/vslices/protocols/blob/main/protocols/vslices-usage/README.md), [Software Migration](https://github.com/vslices/protocols/blob/main/protocols/software-migration/README.md), [PR #2](https://github.com/vslices/protocols/pull/2), [Software Development PR #3](https://github.com/vslices/protocols/pull/3), [Executable Discovery PR #1](https://github.com/vslices/protocols/pull/1), and canonical Suite [Design](../design/lifecycle.md) / [Method](../method/orientation.md).
 
-This definition records present responsibility and planned naming. It **does not itself rename GitHub repositories, merge candidate PRs or authorize new consumer runs**.
+This definition records present responsibility and the verified repository rename. It **does not itself merge candidate PRs or authorize new consumer runs**.
