@@ -116,7 +116,7 @@ Automation does not acquire semantic authority merely by existing.
 
 ## Protocols (formerly Planifications)
 
-[Canonical product definition](protocols/README.md). Coordinates reusable procedures, meta-protocols, planning traversals, authorized runs and their review without redefining Method, Design or other product semantics. The official specialized repository is currently [vslices/planifications](https://github.com/vslices/planifications); **renaming it to `vslices/protocols` is planned, not yet executed**. Protocol execution evidence stays with the relevant consumer, while distinct protocol-owned supervision can retain its own provenance.
+[Canonical product definition](protocols/README.md). Coordinates reusable procedures, meta-protocols, planning traversals, authorized runs and their review without redefining Method, Design or other product semantics. The official specialized repository is now [vslices/protocols](https://github.com/vslices/protocols); its former name was `vslices/planifications` (GitHub redirects the old address). Protocol execution evidence stays with the relevant consumer, while distinct protocol-owned supervision can retain its own provenance.
 
 ## Intermediate Representation (VSIR)
 
