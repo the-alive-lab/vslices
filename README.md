@@ -191,3 +191,13 @@ The earlier Design framing warned against confusing user stories, screens, APIs,
 2. Consult **official specialized specifications** for their detailed versioned contracts, and implementation/publication repositories for evidence of actual realizations and feedback. Neither a concrete implementation nor publication automatically changes the underlying conceptual authority.
 3. Use Research and historical artifacts to reconstruct emergence, test claims and flag unresolved ownership questions.
 4. Record substantive revision of canonical sources explicitly; propagate the results to relevant projections rather than silently rewriting history.
+
+## Canonical definitions as a basis for funding applications
+
+An operational purpose of these canonical definitions is to provide a **sufficient, current, and traceable** knowledge base for deriving abstracts and funding applications without repeatedly reconstructing the project's identity, addressed problem, purpose, responsibilities, mechanisms, current state, and evidence.
+
+Each application is a **contextual projection** of relevant definitions and supporting material. It must be tailored to the funding program's method, audience, eligibility rules, field limits, and evaluation criteria. Application constraints do not redefine the project, and a submitted application does not thereby gain canonical authority.
+
+Canonical material should preserve material distinctions while remaining concise. The README need not become an application form: link to the appropriate history, decisions, hypotheses, research, evidence, and realizations, preserving their status and authority. Do not present proposed capabilities, unverified results, unconfirmed partners, or future commitments as established facts. Recheck current claims and obtain appropriate approval before submission.
+
+**Sufficiency criterion:** an author should be able to derive a faithful proposal from this repository and its explicit references without reconstructing most of the project's context from scratch. This is a documentation objective, not a promise that any application can be completed without further work.
