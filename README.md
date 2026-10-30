@@ -91,6 +91,7 @@ Que un mecanismo sea aplicable a varios productos no convierte por sí solo a la
 Candidatos actuales:
 
 - [Action Flow](mechanisms/action-flow.md)
+- [Semantic Determination — candidata](mechanisms/semantic-determination-candidate.md) — nota de alcance amplio trasladada desde Language Specification; pertenencia VSlices/PResolver todavía abierta
 - [Semantic Pressure](mechanisms/semantic-pressure.md) — pertenece a Method, con aplicabilidad transversal a la Suite
 - [Value Orientations](mechanisms/value-orientations.md) — modelo candidato actual para tres prioridades de valor de negocio; las fuentes históricas [Least Resistance](mechanisms/path-of-least-resistance.md), [Most Continuity](mechanisms/path-of-most-continuity.md) y [Most Value](mechanisms/path-of-most-value.md) Path se conservan por procedencia
 - [Documentary Reinterpretation](mechanisms/documentary-reinterpretation.md) — candidato de reinterpretación de impacto mediante relaciones del front matter de Docs Standard; todavía no es ejecutable en Tooling
@@ -106,6 +107,8 @@ La ruta existente `forces/` preserva la continuidad con el nombre anterior **Wor
 Su afinidad actual de pertenencia más fuerte es con Design.
 
 ### Productos
+
+El [índice de productos](products/README.md) orienta hacia [Language Specification](products/lang-specification/README.md) y las demás superficies especializadas. Para agentes que desarrollen VSlices o sus consumidores, [VSlices Agent Skills](https://github.com/vslices/agent-skills) proporciona procedimientos reutilizables y referencias; **no sustituye las fuentes canónicas ni adquiere autoridad conceptual por su uso**.
 
 Definiciones canónicas de productos y límites de sus responsabilidades, incluido [VSlices Design](products/design/README.md). Los significados específicos de cada producto se definen aquí, bajo el espacio de nombres del producto responsable; los repositorios de realización independientes son proyecciones, no fuentes de verdad competidoras.
 
