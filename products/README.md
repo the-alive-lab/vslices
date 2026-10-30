@@ -120,6 +120,8 @@ Automation does not acquire semantic authority merely by existing.
 
 ## Language Specification (antes Intermediate Representation / VSIR)
 
+**Redirección de nomenclatura:** cualquier referencia a la antigua superficie conceptual `products/intermediate-representation/` o al anterior repositorio `vslices/intermediate-representation` debe resolverse hacia [Language Specification](lang-specification/README.md) y [vslices/lang-specification](https://github.com/vslices/lang-specification), respectivamente. La ruta física anterior deja de mantenerse como archivo de redirección; los contratos históricos versionados de VSIR permanecen en la superficie especializada.
+
 [Canonical product definition](lang-specification/README.md). Owns the language-level semantics, versioning, reconstructible `.vsir` contract and conformance expectations. The [official specification repository](https://github.com/vslices/lang-specification) defines the detailed experimental language and amendments; Tooling implements executable authoring, parsing, validation and lowering, while Ruleset supplies target-realization knowledge.
 
 **Open reconciliation:** VSIR 0.1 still defines `kind: domain-type` while Framework's conceptual vocabulary has evolved; intrinsic semantic-signature ownership relative to Ruleset also requires review. Neither tension authorizes silent reinterpretation of existing VSIR 0.1 artifacts.
