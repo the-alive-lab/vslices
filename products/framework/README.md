@@ -21,7 +21,7 @@ The current language-generation research does not automatically revise earlier V
 - **Rules of Space** remain meaningful; the former **Domain Type** category is historical in Framework, and the formal status of `Invariant` is still to be verified.
 - **Result / Error as Value** remain relevant. Trait, Effect and functional composition are generally implementation approaches, not obligatory universal Framework concepts.
 
-The .NET implementation of Space, Work and Grounding is evidence of a realization; the organizational surfaces are now conceptually articulated in Language Specification. Those articulations are not automatically a closed taxonomy or proof of implementation.
+**Ownership clarification pending:** VSlices Framework is understood as a software development system that **uses Language Specification**. Spaces, Work and Grounding belong conceptually to **Framework**; their articulation in the language repository is not a transfer of ownership. The precise distinction between Framework's organizational concepts and their expression in Language Specification is **pending explicit review in the Language Specification discussion**. Do not silently resolve it here, revise those approved concept files, or treat their location as authority. The .NET implementation remains evidence of a realization, not a closed taxonomy.
 
 ## Distinct responsibilities
 
@@ -31,7 +31,7 @@ The .NET implementation of Space, Work and Grounding is evidence of a realizatio
 - [Ruleset](../ruleset/README.md) supplies target-specific deterministic realization knowledge, without inventing missing semantic contracts.
 - Concrete software [vslices/framework](https://github.com/vslices/framework) is the official specialized .NET realization and continuing experimental source; code, tests and branches witness what actually works.
 
-For the unresolved VSIR/Framework and intrinsic-signature boundaries, see the [IR product review](../lang-specification/README.md#open-conceptual-tensions--do-not-silently-resolve).
+For the unresolved VSIR/Framework and intrinsic-signature boundaries, see the [Language Specification product orientation](../lang-specification/README.md).
 
 ## Next evidence
 
