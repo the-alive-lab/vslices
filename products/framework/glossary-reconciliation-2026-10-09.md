@@ -1,6 +1,6 @@
 # Framework — conciliación del glosario público (2026-10-09)
 
-**Autoridad conceptual:** VSlices Framework. **Estado:** revisión conceptual; las relaciones detalladas entre algunos conceptos continúan abiertas.
+**Autoridad conceptual:** VSlices Framework. **Estado:** revisión histórica acotada al 2026-10-09; las formulaciones posteriores de [Spaces, Work, Grounding y Feature](https://github.com/vslices/lang-specification/tree/main/concepts) deben consultarse antes de tratar esta nota como estado vigente. La especificación del lenguaje no adquiere por ello autoridad sobre la identidad conceptual de Framework.
 
 ## Propósito y procedencia
 
