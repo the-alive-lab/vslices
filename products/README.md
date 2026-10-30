@@ -118,11 +118,15 @@ Automation does not acquire semantic authority merely by existing.
 
 [Canonical product definition](protocols/README.md). Coordinates reusable procedures, meta-protocols, planning traversals, authorized runs and their review without redefining Method, Design or other product semantics. The official specialized repository is now [vslices/protocols](https://github.com/vslices/protocols); its former name was `vslices/planifications` (GitHub redirects the old address). Protocol execution evidence stays with the relevant consumer, while distinct protocol-owned supervision can retain its own provenance.
 
-## Intermediate Representation (VSIR)
+## Language Specification (antes Intermediate Representation / VSIR)
 
-[Canonical product definition](intermediate-representation/README.md). Owns the language-level semantics, versioning, reconstructible `.vsir` contract and conformance expectations. The [official specification repository](https://github.com/vslices/intermediate-representation) defines the detailed experimental language and amendments; Tooling implements executable authoring, parsing, validation and lowering, while Ruleset supplies target-realization knowledge.
+[Canonical product definition](lang-specification/README.md). Owns the language-level semantics, versioning, reconstructible `.vsir` contract and conformance expectations. The [official specification repository](https://github.com/vslices/lang-specification) defines the detailed experimental language and amendments; Tooling implements executable authoring, parsing, validation and lowering, while Ruleset supplies target-realization knowledge.
 
 **Open reconciliation:** VSIR 0.1 still defines `kind: domain-type` while Framework's conceptual vocabulary has evolved; intrinsic semantic-signature ownership relative to Ruleset also requires review. Neither tension authorizes silent reinterpretation of existing VSIR 0.1 artifacts.
+
+## Agent Skills (superficie transversal de asistencia)
+
+[vslices/agent-skills](https://github.com/vslices/agent-skills) organiza Skills para orientar a agentes al desarrollar con VSlices, sin adquirir autoridad para redefinir Framework, Language Specification ni decisiones arquitectónicas de productos consumidores. Consultar su [procedimiento de construcción y evaluación](https://github.com/vslices/agent-skills/blob/main/docs/skill-development-procedure.md).
 
 ## Related Research / Alive Lab evidence (not a VSlices product)
 
