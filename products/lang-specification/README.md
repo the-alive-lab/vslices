@@ -54,4 +54,4 @@ Distinguir en cada revisión: admisibilidad de un estado parcial de autoría, co
 
 ## Navegación histórica
 
-La ruta anterior [products/intermediate-representation/README.md](../intermediate-representation/README.md) se conserva como redirección documental. Los nombres antiguos siguen siendo útiles para reconstruir evidencia y decisiones históricas; la denominación actual del producto y de su repositorio especializado es **Language Specification**.
+La instrucción de redirección de la antigua denominación **Intermediate Representation** vive únicamente en [products/README.md](../README.md). No se mantiene un archivo de redirección en la antigua ruta. Los contratos versionados históricos permanecen en el repositorio especializado.
