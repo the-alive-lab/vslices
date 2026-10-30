@@ -1,6 +1,8 @@
-# Servicio, Producto y Nexo — arquitectura de solución y composición operacional
+# Servicio, Producto y Composition (antes Nexo) — arquitectura de solución
 
-**Estado:** propuesta reconstruida y delimitada; pendiente de validación con consumidores reales.
+**Estado:** antecedente conceptual fechado (2026-10-22), enriquecido por decisiones de Landing del 2026-10-29. **Composition** es el nombre operacional vigente; el vocabulario Nexus/Nexo se conserva en los apartados históricos. Las decisiones de Ticket Support (incluido PostgreSQL) no se trasladan automáticamente a Landing, que ha elegido SQL Server.
+
+**Para aplicación actual:** [Landing Composition](https://github.com/atom-dev-serviu/landing-composition/blob/main/RESPONSIBILITIES.md), [Landing Product](https://github.com/atom-dev-serviu/landing-product/blob/main/RESPONSIBILITIES.md), [Account Service](https://github.com/atom-dev-serviu/account-service/blob/main/RESPONSIBILITIES.md) y [Identity Service](https://github.com/atom-dev-serviu/identity-service/blob/main/RESPONSIBILITIES.md).
 **Fecha:** 2026-10-22
 **Responsabilidad conceptual candidata:** VSlices Framework, arquitectura de solución.
 **Fuente histórica principal:** `vslices/ideas/proyectos/v-slices/Framework/arquitecturas/solucion/productos-y-servicios/` y `vslices/ideas/servicios/serviu/lecciones/leccion-1/lado-tecnico/06-dependencies-y-nexus.md`.
@@ -48,7 +50,7 @@ Para **servicios** se utiliza una aproximación funcional: las definiciones esta
 
 **No está demostrado ni acordado extrapolar esa estructura a Queries o Views.** Queries tiene una responsabilidad representacional reconocida, pero cómo formalizarla mediante espacios, proyecciones, observaciones u otro vocabulario se investigará desde casos reales. No imponer simetrías ni nuevas categorías de VSIR por anticipado.
 
-## Nexo operacional (Nexus)
+## Composition (antes Nexo operacional / Nexus)
 
 Reúne productos, servicios y recursos **ya existentes** en un escenario reconocible de desarrollo, integración, ejecución o prueba.
 
@@ -61,7 +63,7 @@ Reúne productos, servicios y recursos **ya existentes** en un escenario reconoc
 
 Pregunta: **¿qué debe estar disponible para ejecutar y examinar este escenario?**
 
-La palabra *Nexus* aquí refiere a la **composición operacional**, no al artefacto documental `Nexus` de VSlices Docs Standard. Ambos pueden relacionarse, pero no se deben confundir.
+El término operacional vigente es **Composition**. *Nexus* en esta fuente histórica se refiere a la composición operacional, no al artefacto documental `Nexus` de VSlices Docs Standard. Ambos pueden relacionarse, pero no se deben confundir.
 
 ## Dependency y recurso operacional
 
@@ -106,6 +108,12 @@ Esta secuencia es una **obligación de proceso por representar en VSIR**; todav�
 **Objetivo investigativo:** obtener una realización ejecutable de inicio de sesión + ticketera y después someter sus garantías a Verification y Challenge, incluido testing de seguridad **solo en entornos propios y autorizados**, con datos sintéticos y aislamiento.
 
 Los nueve repositorios de destino (dos productos, cinco servicios, una dependencia y un nexo) fueron verificados vacíos el 2026-10-22. La descripción de responsabilidades deriva de acuerdos y evidencia del monolito original, **no** de implementaciones verificadas en esos destinos.
+
+## Ampliación posterior: responsabilidad de regresión (2026-10-29)
+
+Además de reunir y ejecutar participantes, una **Composition** es una superficie principal de desarrollo e integración y, fundamentalmente, de **supervisión de regresión** de los productos y servicios que la componen. Mantiene referencias reproducibles mediante Git submodules y gitlinks fijados a commits; los cambios multi-repositorio usan preferentemente ramas homónimas en participantes efectivamente modificados. Cada composición evalúa su matriz E2E y aporta evidencia de compatibilidad para versiones exactas. Cuando un servicio compartido cambia, la publicación requiere la verificación de **todas las composiciones consumidoras afectadas**; el pipeline propietario del servicio consolida estas aprobaciones y controla la publicación. Un check fallido, omitido, cancelado o pendiente no equivale a aprobación.
+
+Es una **responsabilidad acordada**, no una afirmación de que el mecanismo de CI global ya esté implementado. El objetivo incluye examinar riesgos, efectos y regresiones aunque aumente la capacidad de generar código. Véase el [contrato vigente de Landing Composition](https://github.com/atom-dev-serviu/landing-composition/blob/main/RESPONSIBILITIES.md).
 
 ## Preguntas abiertas
 
