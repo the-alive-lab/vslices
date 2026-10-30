@@ -7,27 +7,31 @@
 
 Framework expresses and preserves **software-semantic intention** so that justified behavior can be composed, examined, validated, transformed and realized in executable forms. It distinguishes meanings and rules from specific technological realization mechanisms.
 
-The canonical [public-glossary reconciliation](glossary-reconciliation-2026-10-09.md) is the current bounded source of reviewed Framework concepts, not an exhaustive stable ontology.
+The [public-glossary reconciliation](glossary-reconciliation-2026-10-09.md) preserves an earlier bounded review, **not the exhaustive or most recent conceptual state**. Consult the approved conceptual articulations in [Language Specification](https://github.com/vslices/lang-specification/tree/main/concepts) alongside Framework's own responsibility. Conceptual ownership of Framework is not transferred to the language repository.
 
-## Current conceptual orientation
+## Current conceptual orientation (reconciled with Language Specification)
+
+The approved articulations [C-021 Spaces](https://github.com/vslices/lang-specification/blob/main/concepts/C-021-spaces.md), [C-005 Work](https://github.com/vslices/lang-specification/blob/main/concepts/C-005-work.md), [C-006 Grounding](https://github.com/vslices/lang-specification/blob/main/concepts/C-006-grounding.md) and [C-020 Feature](https://github.com/vslices/lang-specification/blob/main/concepts/C-020-feature.md) recognize **Spaces, Work and Grounding as current organizational surfaces**, without declaring an exhaustive taxonomy or requiring physical project separation. **Spaces** (organizational surface) is distinct from a **Space** (semantic concept whose admissible instances are Points); **Work** organizes Features and their required Capabilities; **Grounding** organizes concrete realizations for the required capabilities and execution conditions. These are **not** aliases of Domain, Application and Infrastructure from DDD. A Feature does not necessarily require external effects or Grounding.
+
+The current language-generation research does not automatically revise earlier VSIR 0.1 normative contracts. Conceptual definitions and grammar/conformance remain distinct authorities. The following glossary distinctions are retained as historical context where not superseded:
 
 - **Flow** remains in active investigation; absence from the `master` implementation is not conceptual retirement.
-- **Feature** is a reusable definition for WorkFlows at Service level and WorkFlows or WorkProcesses at Product level. **WorkStep** is the relevant narrower work concept; their full contracts remain subject to evidence.
+- **Feature** is an identifiable semantic unit of functional behavior with input, output and result promise ([C-020](https://github.com/vslices/lang-specification/blob/main/concepts/C-020-feature.md)). Earlier statements about WorkFlow, WorkProcess and WorkStep are historical orientation; their detailed contracts remain subject to evidence.
 - **Capability** expresses a behavior or operation that may be requested or offered. **Guarantee** expresses a property a valid realization must satisfy in a specified scope. Availability of one does not prove the other.
 - **Rules of Space** remain meaningful; the former **Domain Type** category is historical in Framework, and the formal status of `Invariant` is still to be verified.
 - **Result / Error as Value** remain relevant. Trait, Effect and functional composition are generally implementation approaches, not obligatory universal Framework concepts.
 
-Current .NET implementation experiments distinguish **Space, Work and Grounding**. Those are useful witnesses, not an automatic closed taxonomy of all future Framework semantics.
+The .NET implementation of Space, Work and Grounding is evidence of a realization; the organizational surfaces are now conceptually articulated in Language Specification. Those articulations are not automatically a closed taxonomy or proof of implementation.
 
 ## Distinct responsibilities
 
 - [Design](../design/README.md) defines how problems, requirements and candidate responses are understood and examined; Framework does not replace that methodology.
-- [Intermediate Representation](../intermediate-representation/README.md) defines its **versioned** VSIR language and its conformance. VSIR 0.1 currently retains a `kind: domain-type` family: that contract is not silently invalidated or rewritten by Framework's evolving vocabulary.
+- [Language Specification](../lang-specification/README.md) owns **versioned** VSIR language contracts, conformance and exploration of the new language generation; historical VSIR 0.1 remains a separate versioned contract. VSIR 0.1 currently retains a `kind: domain-type` family: that contract is not silently invalidated or rewritten by Framework's evolving vocabulary.
 - [Tooling](../tooling/README.md) implements authoring, validation and transformation mechanisms, but does not gain Framework conceptual authority by generating code.
 - [Ruleset](../ruleset/README.md) supplies target-specific deterministic realization knowledge, without inventing missing semantic contracts.
 - Concrete software [vslices/framework](https://github.com/vslices/framework) is the official specialized .NET realization and continuing experimental source; code, tests and branches witness what actually works.
 
-For the unresolved VSIR/Framework and intrinsic-signature boundaries, see the [IR product review](../intermediate-representation/README.md#open-conceptual-tensions--do-not-silently-resolve).
+For the unresolved VSIR/Framework and intrinsic-signature boundaries, see the [IR product review](../lang-specification/README.md#open-conceptual-tensions--do-not-silently-resolve).
 
 ## Next evidence
 
