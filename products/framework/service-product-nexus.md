@@ -39,7 +39,7 @@ Pregunta: **¿qué experiencia o resultado ofrece al consumidor y cómo compone 
 ### Responsabilidades internas del producto (caso de referencia)
 
 - **Views:** superficies públicas de interacción y representación (Blazor en el caso Serviu). El usuario consume el producto, no invoca los servicios directamente.
-- **BFF:** frontera de operaciones del producto. Puede actuar como proxy y además expresa WorkFlows/WorkProcesses propios que coordinan capacidades privadas genéricas y específicas de servicios, interpretan la intención y producen feedback. La coordinación entre Ticket Service y Monitoring Service pertenece al BFF, no a Ticket Service ni al nexo.
+- **BFF:** frontera de operaciones del producto. Puede actuar como proxy y expresar **procesos de sistema** que coordinan acciones semánticas y capacidades privadas, interpretan la intención y producen feedback. La coordinación entre Ticket Service y Monitoring Service pertenece al BFF en este caso de referencia, no a Ticket Service ni a Composition. **Vocabulario revisado (2026-11-10):** consultar [Action Flow](../../mechanisms/action-flow.md) para la distinción candidata entre `Work Flow` organizacional, `System Process` (coordinación), `System Action` (acción funcional; nombre provisional) y `System Step`. El uso histórico de `WorkFlows/WorkProcesses` aquí no autoriza a igualar esos niveles ni a imponer una relación uno a uno.
 - **Queries:** **dominio de lectura y representación propio del producto**, no un conjunto de sentencias SQL. Define los significados y estructuras que la presentación necesita, componiendo información de diversos propietarios funcionales (por ejemplo, tickets, archivos e historial transversal). Puede realizarse con proyecciones, vistas o vistas materializadas, sin que un mecanismo particular defina universalmente su semántica. No es una API directamente consumida por el usuario; su acceso está dentro del producto, incluido el consumo por el BFF según el caso.
 
 Aquí *dominio* significa un ámbito de conocimiento e información sobre un tema; no presupone adoptar Domain-Driven Design ni sus patrones estructurales.
@@ -72,6 +72,14 @@ Una **Dependency** ofrece mecanismos técnicos reutilizables (por ejemplo, integ
 Un **recurso operacional** es algo necesario durante la ejecución (por ejemplo, PostgreSQL o almacenamiento), sin que ello lo convierta en una biblioteca compartida ni en un servicio de dominio.
 
 Ni la reutilización ni la coincidencia de repositorio justifican por sí mismas una extracción.
+
+## Relación con Action Flow (revisión candidata del 2026-11-10)
+
+La [revisión de Action Flow](../../mechanisms/action-flow.md) diferencia la cadena y procesos de trabajo de la organización, sus flujos como **acciones semánticas**, y la coordinación de su realización mediante procesos, acciones y pasos de sistema.
+
+En el ejemplo de un producto que atiende «Crear solicitud de pago DS 49», un **System Process** puede coordinar acciones tales como crear la solicitud, notificar a sus participantes y registrar auditoría. Cada **System Action** conserva significado funcional específico, aunque varios efectos se realicen mediante el mismo servicio o despliegue. Los pasos de validación y persistencia son ejemplos de **System Steps**.
+
+Esta relación **no redefine** Servicio, Producto o Composition, ni implica un servicio por acción. Tampoco confunde la coordinación de una acción en BFF con la gestión transversal de **instancias de procesos** por un eventual orquestador: la autoridad de reglas, estados y transiciones de este último permanece por decidir.
 
 ## Flujo observable de composición de producto
 
