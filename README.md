@@ -90,7 +90,7 @@ Que un mecanismo sea aplicable a varios productos no convierte por sí solo a la
 
 Candidatos actuales:
 
-- [Action Flow](mechanisms/action-flow.md)
+- [Work Modeling](mechanisms/work-modeling.md) (antes «Action Flow»)
 - [Semantic Determination — candidata](mechanisms/semantic-determination-candidate.md) — nota de alcance amplio trasladada desde Language Specification; pertenencia VSlices/PResolver todavía abierta
 - [Semantic Pressure](mechanisms/semantic-pressure.md) — pertenece a Method, con aplicabilidad transversal a la Suite
 - [Value Orientations](mechanisms/value-orientations.md) — modelo candidato actual para tres prioridades de valor de negocio; las fuentes históricas [Least Resistance](mechanisms/path-of-least-resistance.md), [Most Continuity](mechanisms/path-of-most-continuity.md) y [Most Value](mechanisms/path-of-most-value.md) Path se conservan por procedencia
