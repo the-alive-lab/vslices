@@ -36,7 +36,7 @@ without automatically acquiring authority over the mechanism's base meaning.
 
 ## Current candidates
 
-- [Action Flow](action-flow.md)
+- [Work Modeling](work-modeling.md) — antes «Action Flow»; representa trabajo organizacional y estudia su continuidad hacia la realización sistematizada
 - [Semantic Pressure](semantic-pressure.md) — owned by Method, applicable across the suite
 - [Path of Least Resistance](path-of-least-resistance.md)
 - [Path of Most Continuity](path-of-most-continuity.md)
