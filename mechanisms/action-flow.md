@@ -1,11 +1,13 @@
 # Action Flow — denominación histórica
 
-**Estado:** nombre anterior, sustituido el 2026-11-10 por **[Work Modeling](work-modeling.md)**.
+**Estado:** denominación original; posteriormente revisada como `Work Modeling` y finalmente **[Domain Modeling](domain-modeling.md)** (2026-11-10).
 
-Esta entrada conserva la localización histórica para lectores y agentes que lleguen mediante referencias anteriores. La **definición vigente del mecanismo candidato**, sus perspectivas, jerarquías, relaciones y trayectoria de decisión pertenecen exclusivamente a [Work Modeling](work-modeling.md); no se reproducen aquí para evitar una segunda autoridad documental.
+Esta entrada preserva enlaces históricos. La definición vigente del mecanismo candidato, sus ámbitos, jerarquías, relaciones y trayectoria pertenecen exclusivamente a [Domain Modeling](domain-modeling.md).
 
-**Razón del cambio:** «Action Flow» acentuaba los flujos de acciones, pero el mecanismo busca comprender y representar el trabajo organizacional —incluidos procesos, participantes, responsabilidades y consecuencias— y estudiar su realización sistematizada. El flujo no es requisito de todo trabajo modelable.
+**Razón de la primera revisión:** `Action Flow` resaltaba la secuencia de acciones, aunque el mecanismo comprendía procesos, participantes, responsabilidades y consecuencias; no todo trabajo modelable requiere un flujo.
 
-**Procedencia:** revisión acordada por Hernán y Limen el 2026-11-10, al contrastar la definición previa con el caso de Ticket Service. La versión anterior permanece recuperable mediante el historial Git de este archivo.
+**Razón de la segunda revisión:** avanzar desde `Work Semantics` hacia `System Realizations` supone descubrir y expresar conceptos, comportamientos y capacidades propios de VSlices, no solo representar el trabajo.
 
-**Acción para agentes:** ante cualquier referencia previa a «Action Flow», consultar primero [Work Modeling](work-modeling.md). No mantener definiciones paralelas ni asumir que se han resuelto sus preguntas abiertas.
+**Procedencia:** revisiones acordadas por Hernán y Limen el 2026-11-10. Las versiones anteriores permanecen en el historial Git.
+
+**Para agentes:** utilizar [Domain Modeling](domain-modeling.md) como única definición vigente. No inferir equivalencia automática con taxonomías o técnicas de DDD ni mantener definiciones paralelas.
