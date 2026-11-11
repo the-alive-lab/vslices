@@ -64,6 +64,30 @@ La claridad no exige haber descubierto toda una [Work Chain](../concepts/work-ch
 
 **Cómo examinar la comprensión:** ¿podemos explicar desde dónde partimos y por qué ese conocimiento es confiable?, ¿distinguimos los niveles sin imponer una dirección de estudio?, ¿podemos indicar qué sabemos que antecede o sigue y qué desconocemos?, ¿evitamos convertir una relación desconocida en una ausencia afirmada?, ¿podría otra persona extender nuestra comprensión desde los límites identificados sin tener que adivinar qué asumimos?
 
+## Ejemplo opcional para expresar el conocimiento
+
+Un [Work Coordination Diagram](../../../products/docs-standard/diagramas/work-coordination-diagram.md) puede ayudar a **hacer visible la parte del trabajo que conocemos y sus relaciones**, pero no es necesario producirlo para alcanzar la claridad esperada.
+
+En este paso todavía podríamos **no haber reconocido perfiles**. El siguiente ejemplo utiliza **un solo carril provisional, no un perfil organizacional definido**, exclusivamente como recurso de exposición: ilustra dos Work Flows y una relación secuencial, sin asignarles todavía responsabilidades.
+
+```mermaid
+---
+config:
+  theme: redux-color
+---
+swimlane-beta LR
+    subgraph pendiente ["Perfil aún por reconocer (provisional)"]
+        registrar["1. Registrar solicitud de soporte"]
+        evaluar["2. Evaluar solicitud de soporte"]
+    end
+
+    registrar --> evaluar
+```
+
+Las acciones son una **selección parcial del caso de Serviu**, no un proceso que deba descubrirse siempre desde el inicio. El diagrama solo afirma aquí que conocemos esas dos acciones y su relación. No permite concluir que conozcamos todos sus antecedentes, continuaciones o perfiles. Tampoco establece que no existan otras acciones.
+
+El carril provisional no debe confundirse con un [perfil](../concepts/profile.md) reconocido: una vez que conozcamos sus participaciones, podremos expresar esa comprensión en el [paso 4](04-relacionar-perfiles-con-work-flows.md). Las convenciones de lectura pertenecen a [Docs Standard](../../../products/docs-standard/diagramas/work-coordination-diagram.md), no a esta guía.
+
 ## Relación con los pasos siguientes
 
 [Identificar perfiles](03-identificar-perfiles.md) examina quién realiza cada [Work Flow](../concepts/work-flow.md) y puede hacer visibles responsabilidades o acciones omitidas. Profundizar los [Work Flows](../concepts/work-flow.md) es un paso posterior aún sin guía especializada.
