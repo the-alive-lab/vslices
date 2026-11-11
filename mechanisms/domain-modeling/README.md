@@ -22,6 +22,7 @@ Preservar la continuidad semántica entre la comprensión del trabajo y las real
 - [Guía de uso](usage-guide/README.md): recorrido inicial de modelado de Work Semantics.
   - [Paso 1 — Reconocer actores](usage-guide/01-reconocer-actores.md).
   - [Paso 2 — Reconocer procesos semánticos de trabajo](usage-guide/02-reconocer-procesos.md).
-  - [Paso 3 — Identificar perfiles participantes](usage-guide/03-identificar-perfiles.md).
+  - [Paso 3 — Reconocer perfiles organizacionales](usage-guide/03-identificar-perfiles.md).
+  - [Paso 4 — Relacionar perfiles con Work Flows](usage-guide/04-relacionar-perfiles-con-work-flows.md).
 
 Las definiciones particulares pertenecen a **concepts/**; este README expresa únicamente el mecanismo, su propósito y las rutas de consulta. Los contratos de Spaces, Features y otras construcciones permanecen bajo [VSlices Framework](../../products/framework/README.md).
