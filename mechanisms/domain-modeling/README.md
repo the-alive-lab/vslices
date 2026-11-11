@@ -6,7 +6,10 @@
 
 ## Documentación del mecanismo
 
-- [Guía de modelado de Work Semantics](work-semantics-guide.md): cómo iniciar el estudio del dominio identificando actores, procesos semánticos y perfiles participantes, antes de estudiar realizaciones de sistema.
+- [Guía de uso de Work Semantics](usage-guide/README.md): recorrido de modelado y acceso a sus pasos.
+  - [Paso 1 — Reconocer actores](usage-guide/01-reconocer-actores.md).
+  - [Paso 2 — Reconocer procesos semánticos de trabajo](usage-guide/02-reconocer-procesos.md).
+  - [Paso 3 — Identificar perfiles participantes en los Work Flows](usage-guide/03-identificar-perfiles.md).
 
 ## Propósito
 
