@@ -16,6 +16,10 @@ Este índice dirige a las **definiciones conceptuales** utilizadas por [Domain M
 - [Work Process](work-process.md): proceso que coordina acciones semánticas.
 - [Work Flow](work-flow.md): acción semántica específica en un proceso.
 
+## Continuidad entre ámbitos
+
+- [Continuidad y movimientos de elaboración](continuity.md): correspondencias candidatas, revisión, ejemplo DS 49 y límites de arquitectura.
+
 ## Realización sistematizada
 
 - [System Realizations](system-realizations.md): elaboración de realizaciones de sistema.
