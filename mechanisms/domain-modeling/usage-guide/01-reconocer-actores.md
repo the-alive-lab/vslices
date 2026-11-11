@@ -37,15 +37,17 @@ No confundir:
 2. **Recopilar [participantes](../concepts/participant.md) y situaciones reales**, buscando posiciones distintas de participación.
 3. **Proponer tipos de [actor](../concepts/actor.md)** por las distinciones que explican esas situaciones, no por organigramas, cargos o interfaces.
 4. **Contrastar la clasificación** con casos frontera: una persona en dos posiciones, equipos externos operando por delegación, sistemas [participantes](../concepts/participant.md).
-5. **Registrar la definición una sola vez** en su documento propietario; enlazar los tipos de [actor](../concepts/actor.md) desde otras superficies.
+5. **Explicitar las distinciones comprendidas** y los casos que todavía cuestionan la clasificación, independientemente de cómo se expresen o conserven.
 
 No crear todavía un inventario exhaustivo de permisos o [perfiles](../concepts/profile.md): pertenecen a preguntas posteriores.
 
-## Resultado examinable
+## Claridad esperada sobre el dominio
 
-Un conjunto navegable de **tipos de [actores](../concepts/actor.md) contextualizados** con: definición, frontera, ejemplos de participación, procedencia y dudas abiertas. Es suficiente para pasar al siguiente estudio cuando permite identificar quiénes intervienen **sin inventar responsabilidades funcionales**.
+Al recorrer este paso, deberíamos poder **reconocer quiénes intervienen en el trabajo, desde qué posiciones lo hacen, qué distingue esas posiciones y en qué circunstancias pueden cambiar**. Deberíamos ser capaces de explicar las distinciones que efectivamente reconoce la organización, diferenciándolas de nuestras hipótesis, y de señalar los casos que aún no comprendemos.
 
-**Comprobaciones:** ¿la clasificación depende indebidamente de la situación contractual?, ¿está escrita como si una persona fuera siempre del mismo tipo?, ¿se inventaron permisos?, ¿podemos reconstruir por qué se distinguió cada [actor](../concepts/actor.md)?
+No hace falta haber elaborado un catálogo o documento para alcanzar esta claridad. Tampoco es necesario conocer todavía todas las responsabilidades específicas de los Work Flows.
+
+**Cómo examinar la comprensión:** ¿la clasificación depende indebidamente de la situación contractual?, ¿está escrita como si una persona fuera siempre del mismo tipo?, ¿se inventaron permisos?, ¿podemos reconstruir por qué se distinguió cada [actor](../concepts/actor.md)?
 
 ## Relación con los pasos siguientes
 
