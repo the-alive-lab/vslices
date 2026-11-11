@@ -28,6 +28,10 @@ Este índice dirige a las **definiciones conceptuales** utilizadas por [Domain M
 
 Estas entradas son candidatas y conservan alcances distintos. Coherencia y cohesión se examinan inicialmente en el paso 6; no anticipar el análisis del acoplamiento.
 
+## Clasificación durante la sistematización
+
+- [Burbujas de clasificación](burbujas-de-clasificacion.md): agrupaciones conceptuales revisables; **Space, Feature y Capability** son las tres burbujas iniciales aportadas por VSlices en el paso 6, sin constituir capas obligatorias.
+
 ## Realización sistematizada
 
 - [System Realizations](system-realizations.md): elaboración de realizaciones de sistema.
