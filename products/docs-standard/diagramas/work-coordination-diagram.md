@@ -68,7 +68,8 @@ config:
 ---
 swimlane-beta LR
     subgraph solicitante ["Solicitante de soporte"]
-        inicio(("¿A que necesidad responde el flujo?"))
+        dudaInicio@{ shape: notch-rect, label: "¿Que procesos activan este?" }
+        inicio(("Inicio))
         registrar["1. Registro y<br/>seguimiento"]
     end
 
@@ -83,7 +84,7 @@ swimlane-beta LR
         fin((("Fin")))
     end
 
-    inicio --> registrar --> evaluar
+    dudaInicio ~~~ inicio --> registrar --> evaluar
     evaluar -.->|"Si es soporte"| sync
     evaluar -.->|"Si es mejora"| aprobar
     aprobar --> sync --> supervisar --> fin
