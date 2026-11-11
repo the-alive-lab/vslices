@@ -8,11 +8,11 @@ Una **burbuja de clasificación** es una agrupación revisable de conceptos reco
 
 Para comenzar a clasificar los conceptos nombrados, VSlices aporta **tres burbujas disponibles por defecto**:
 
-- **[Space](../../../products/framework/spaces.md):** permite agrupar conceptos y sus condiciones de admisibilidad, sin asumir por ello que se haya definido un Space formal en Framework.
-- **[Feature](../../../products/framework/work.md):** permite agrupar funcionalidades con intención, comportamiento y promesa de resultado, sin reducirlas a endpoints, métodos o mecanismos de activación.
-- **[Capability](../../../products/framework/work.md):** permite agrupar capacidades requeridas para realizar funcionalidades, sin decidir todavía los mecanismos que las proveen.
+- **[Space](https://github.com/vslices/lang-specification/blob/main/concepts/C-002-space.md):** permite reconocer conceptos y las condiciones de admisibilidad de sus Points, sin asumir por ello que se haya formalizado un Space en una realización.
+- **[Feature](https://github.com/vslices/lang-specification/blob/main/concepts/C-020-feature.md):** permite reconocer comportamientos funcionales con intención y contrato de entrada, salida y promesa de resultado, sin reducirlos a endpoints, métodos o mecanismos de activación.
+- **[Capability](https://github.com/vslices/lang-specification/blob/main/concepts/C-007-capability.md):** permite reconocer operaciones o familias de operaciones que un comportamiento puede solicitar u ofrecer, independientemente del mecanismo que las realiza.
 
-Estas son **categorías de clasificación iniciales**, no una lista exhaustiva ni una exigencia de que todo concepto entre en una de ellas. Sus definiciones y contratos pertenecen a **VSlices Framework**; Domain Modeling solo las emplea para explorar y relacionar conceptos.
+Estas son **categorías de clasificación iniciales**, no una lista exhaustiva ni una exigencia de que todo concepto entre en una de ellas. Las fichas enlazadas de **Language Specification** articulan estos conceptos para VSIR y conservan la autoridad conceptual de **[VSlices Framework](../../../products/framework/README.md)**. Domain Modeling los emplea para explorar y relacionar conceptos, sin redefinirlos ni confundir las burbujas **Space, Feature y Capability** con las superficies organizacionales **Spaces** y **Work** (véanse [C-021 — Spaces](https://github.com/vslices/lang-specification/blob/main/concepts/C-021-spaces.md) y [C-005 — Work](https://github.com/vslices/lang-specification/blob/main/concepts/C-005-work.md)).
 
 ## Burbujas descubiertas durante el estudio
 
