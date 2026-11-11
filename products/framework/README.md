@@ -9,6 +9,10 @@ Framework expresses and preserves **software-semantic intention** so that justif
 
 The [public-glossary reconciliation](glossary-reconciliation-2026-10-09.md) preserves an earlier bounded review, **not the exhaustive or most recent conceptual state**. Consult the approved conceptual articulations in [Language Specification](https://github.com/vslices/lang-specification/tree/main/concepts) alongside Framework's own responsibility. Conceptual ownership of Framework is not transferred to the language repository.
 
+## Relación con Domain Modeling
+
+[Domain Modeling](../../mechanisms/domain-modeling.md) es un mecanismo candidato de la Suite: parte de **Work Semantics** y elabora **System Realizations**, descubriendo durante esa elaboración conceptos, comportamientos y capacidades. **Framework mantiene** la autoridad conceptual sobre Spaces, Work, Grounding y Hosting; no son capas de DDD ni una tercera perspectiva paralela del mecanismo. Compartir la noción de *domain* con Eric Evans no impone la metodología ni la taxonomía de DDD a VSlices.
+
 ## Framework organizational surfaces
 
 The current organizational model distinguishes four Framework-owned surfaces: [Spaces](spaces.md) defines spaces of domain concepts; [Work](work.md) defines functionalities and required access/exposure capabilities; [Grounding](grounding.md) supplies mechanisms to realize those capabilities; [Hosting](hosting.md) assembles configured realizations to make a participant available. These are responsibilities, not aliases of DDD layers. Terminology for exposure forms (e.g. Endpoint, TimedTask) and their provider contracts remains under review. Hosting of a participant must not be confused with operational **Composition** of multiple products and services.
