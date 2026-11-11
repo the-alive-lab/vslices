@@ -1,4 +1,4 @@
-# Paso 2 — Reconocer los procesos semánticos de trabajo
+# Paso 2 — Reconocer Work Chains, Work Processes y Work Flows
 
 **Estado:** guía candidata, elaborada a partir del modelado organizacional de Serviu (2026-11-10).  
 **Pertenece a:** [Guía de uso de Work Semantics](README.md).  
@@ -6,33 +6,39 @@
 
 ## Propósito
 
-Comprender **qué trabajo reconoce y coordina la organización**, cuáles son los resultados que persigue y **qué acciones semánticas se relacionan** dentro de cada proceso. Este paso parte de los [actores reconocidos](01-reconocer-actores.md), pero permite revisar esa clasificación si aparecen nuevas formas de participación.
+Comprender **qué trabajo reconoce la organización, cómo se articula y qué significado tienen sus relaciones**, utilizando [Work Chains](../concepts/work-chain.md), [Work Processes](../concepts/work-process.md) y [Work Flows](../concepts/work-flow.md) como conceptos de modelado.
+
+Podemos comenzar **en cualquiera de los tres niveles**: aquel para el que tengamos suficiente evidencia y comprensión como para establecer una **isla de conocimiento estable**. Desde ella podemos ampliar el conocimiento hacia niveles superiores, inferiores o relacionados. Reconocer un nivel no requiere completar los demás, y los [actores reconocidos](01-reconocer-actores.md) pueden revisarse a medida que comprendemos el trabajo.
 
 ## Preguntas que orientan
 
 - ¿Qué servicio, producción o responsabilidad motiva este conjunto de esfuerzos?
-- ¿Qué cadena de trabajo lo contiene, y qué parte reconocible de ella estamos estudiando?
+- ¿Desde qué Work Chain, Work Process o Work Flow podemos partir con suficiente conocimiento para sostener lo que afirmamos?
 - ¿Cuál es el propósito y el resultado del [Work Process](../concepts/work-process.md)?
 - ¿Qué acciones constituyen [Work Flows](../concepts/work-flow.md) **con significado propio** para la organización?
 - ¿Qué relaciones, condiciones, alternativas o retornos existen entre esas acciones?
 - ¿Qué decisiones pertenecen al proceso y cuáles al interior de una acción?
+- ¿Qué relaciones, antecedentes, continuaciones o niveles de contexto conocemos realmente? ¿Dónde termina nuestra comprensión?
+- ¿Qué es **desconocido**, y qué podemos afirmar con fundamento que **no existe**?
 
 ## Evidencia y límites
 
 Contrastar cómo las personas **describen y realizan** el trabajo, procedimientos organizacionales, excepciones y casos observados. Las pantallas, endpoints, transiciones de estado y nombres de [Features](https://github.com/the-alive-lab/vslices/blob/main/products/framework/work.md) pueden aportar pistas, **pero no definen por sí mismos** el proceso organizacional.
 
-Conservar la separación entre trabajo **actual**, trabajo **propuesto** y trabajo **deducido**. Si un diagrama de sistema no refleja el comportamiento organizacional, registrar la discrepancia en lugar de ocultarla.
+Conservar la separación entre trabajo **actual**, trabajo **propuesto** y trabajo **deducido**. Si una representación de sistema no refleja el comportamiento organizacional, reconocer la discrepancia en lugar de ocultarla.
+
+Distinguir explícitamente **conocimiento sustentado**, **desconocimiento** y **ausencia sustentada**. No saber qué antecede o sigue a un flujo, qué proceso lo contiene o qué cadena rodea un proceso **no implica que tales relaciones no existan**. Reconocer ese límite permite extender posteriormente la comprensión sin inventar continuidad ni aparentar completitud. No obliga a investigar inmediatamente todo lo que queda fuera.
 
 ## Cómo elaborar el modelo
 
-1. **Ubicar la cadena relevante ([Work Chain](../concepts/work-chain.md))**: qué trabajo conecta y qué límite del problema estudiaremos.
-2. **Reconocer el [Work Process](../concepts/work-process.md)** por su intención y resultado, no por la cantidad de funciones o pantallas.
-3. **Identificar [Work Flows](../concepts/work-flow.md) candidatos**: nombrar acciones por lo que significan para el trabajo (p. ej., «Registrar solicitud de soporte»), no por verbos CRUD o clases técnicas.
-4. **Examinar relaciones entre acciones**: orden necesario, bifurcaciones significativas, retornos, condiciones y consecuencias. No asumir linealidad universal.
-5. **Distinguir el nivel del proceso del nivel de cada acción**: comprender las relaciones significativas sin exigir conocer todas las decisiones internas de los Work Flows.
-6. **Contrastar con un caso real** y revisar la descomposición cuando la evidencia no coincida.
+1. **Elegir una isla de conocimiento suficientemente estable**: partir de una [Work Chain](../concepts/work-chain.md), un [Work Process](../concepts/work-process.md) o un [Work Flow](../concepts/work-flow.md), según dónde exista evidencia y claridad. No imponer una exploración de mayor a menor ni de menor a mayor.
+2. **Comprender su significado y alcance**: qué trabajo representa, qué propósito o resultado reconocible tiene y cuáles de esas afirmaciones están sustentadas.
+3. **Reconocer relaciones pertinentes**: otros niveles, acciones, condiciones, alternativas, retornos y consecuencias que la evidencia permita identificar, sin asumir secuencias o jerarquías completas.
+4. **Delimitar dónde acaba nuestro conocimiento**: diferenciar los vínculos conocidos, los desconocidos y aquellos cuya ausencia podamos justificar. Esto incluye lo que podría existir antes, después o alrededor de lo estudiado.
+5. **Extender la comprensión cuando aporte valor**: explorar relaciones hacia otras cadenas, procesos o flujos a partir de los límites reconocidos, sin completar niveles por obligación.
+6. **Contrastar y revisar**: utilizar casos reales y discrepancias para confirmar, refinar o cuestionar tanto la isla conocida como sus límites.
 
-Jerarquía candidata:
+Los conceptos distinguen niveles de significado, **no un orden obligatorio de descubrimiento**:
 
 ```text
 Work Chain
@@ -40,7 +46,7 @@ Work Chain
     Work Flow
 ```
 
-Un **[Work Flow](../concepts/work-flow.md)** es una acción semántica específica; **no** es el sinónimo de cualquier flecha en el diagrama ni un endpoint. Un [Work Process](../concepts/work-process.md) tampoco es una instancia de workflow administrada por un orquestador.
+Un **[Work Flow](../concepts/work-flow.md)** es una acción semántica específica, no cualquier flecha ni un endpoint. Un [Work Process](../concepts/work-process.md) no equivale a una instancia de workflow administrada por un orquestador. Podemos comprender bien un Work Flow sin conocer todavía su proceso o cadena, y viceversa.
 
 ## Límites del nivel de comprensión
 
@@ -50,11 +56,13 @@ Mantener las acciones reconocidas independientes del vocabulario técnico de la 
 
 ## Claridad esperada sobre el dominio
 
-Al recorrer este paso, deberíamos poder **explicar qué trabajo reconoce la organización, para qué lo realiza, qué resultados busca y cómo relaciona sus acciones semánticas para alcanzarlos**. Deberíamos distinguir una cadena de trabajo de un proceso y una acción específica, reconocer relaciones y condiciones relevantes, y saber qué detalles todavía pertenecen al estudio de cada Work Flow.
+Deberíamos poder **explicar una porción reconocible del trabajo, su significado y las relaciones que conocemos**, identificando por qué nuestra comprensión es suficientemente estable como punto de apoyo para explorar otros niveles.
 
-Esa comprensión puede existir y examinarse sin producir índices, documentos ni diagramas. La ausencia de una representación particular no demuestra ausencia de comprensión; tampoco una representación completa demuestra por sí sola que sea correcta.
+También deberíamos poder **señalar dónde termina nuestro conocimiento actual**: qué antecedentes, continuaciones o relaciones permanecen desconocidos, cuáles son hipótesis y qué ausencias podemos sostener con evidencia. **No conocer algo no equivale a que no exista**. Estos límites son parte del resultado del modelado, no errores que debamos ocultar o resolver inmediatamente.
 
-**Cómo examinar la comprensión:** ¿se puede explicar el proceso sin hablar de servicios o endpoints?, ¿cada [Work Flow](../concepts/work-flow.md) representa una acción reconocible?, ¿el diagrama mezcla pasos internos de otras acciones?, ¿las condiciones tienen respaldo?, ¿hay decisiones inventadas solo para completar el gráfico?
+La claridad no exige haber descubierto toda una [Work Chain](../concepts/work-chain.md), un [Work Process](../concepts/work-process.md) o todos sus [Work Flows](../concepts/work-flow.md), ni producir documentos, índices o diagramas.
+
+**Cómo examinar la comprensión:** ¿podemos explicar desde dónde partimos y por qué ese conocimiento es confiable?, ¿distinguimos los niveles sin imponer una dirección de estudio?, ¿podemos indicar qué sabemos que antecede o sigue y qué desconocemos?, ¿evitamos convertir una relación desconocida en una ausencia afirmada?, ¿podría otra persona extender nuestra comprensión desde los límites identificados sin tener que adivinar qué asumimos?
 
 ## Relación con los pasos siguientes
 
