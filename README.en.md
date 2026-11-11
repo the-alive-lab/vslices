@@ -90,7 +90,7 @@ A mechanism being applicable across several products does not by itself make the
 
 Current candidates:
 
-- [Work Modeling](mechanisms/work-modeling.md) (formerly “Action Flow”)
+- [Domain Modeling](mechanisms/domain-modeling.md) (formerly “Work Modeling” and “Action Flow”)
 - [Semantic Pressure](mechanisms/semantic-pressure.md) — Method-owned, suite-wide applicability
 - [Value Orientations](mechanisms/value-orientations.md) — current candidate model for three business-value priorities; historic [Least Resistance](mechanisms/path-of-least-resistance.md), [Most Continuity](mechanisms/path-of-most-continuity.md) and [Most Value](mechanisms/path-of-most-value.md) Path sources remain for provenance
 - [Documentary Reinterpretation](mechanisms/documentary-reinterpretation.md) — candidate impact reinterpretation through Docs Standard front-matter relations; not yet executable in Tooling
