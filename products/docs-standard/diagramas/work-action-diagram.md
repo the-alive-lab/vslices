@@ -17,7 +17,9 @@ La realización inicial distingue **acciones primarias** y **acciones incluidas*
 
 | Elemento | Notación Mermaid | Significado documental |
 |---|---|---|
-| **Inicio o fin** | `A(("Sample"))` | Delimita el comienzo o término del recorrido representado. El fin del recorrido no implica necesariamente el fin del Work Process. |
+| **Inicio** | `A@{ shape: sm-circ }` | Marca el comienzo del recorrido representado, sin afirmar que no exista trabajo anterior. |
+| **Fin** | `A@{ shape: framed-circle }` | Marca el término del recorrido representado, sin implicar necesariamente el fin del Work Process ni de otros trabajos. |
+| **Duda** | `A@{ shape: notch-rect, label: "¿Qué desconocemos?" }` | Hace visible una pregunta o un límite del conocimiento sobre el comportamiento del Work Flow, sin representarlo como acción, alternativa ya confirmada ni paso ejecutable. |
 | **Acción primaria** | `A["Sample"]` | Acción que constituye uno de los **objetivos reconocidos** dentro del Work Flow. Un Work Flow puede contener **varias acciones primarias**. |
 | **Acción incluida** | `A>"Sample"]` | Acción cuya realización **está comprendida dentro de una acción primaria**. No se representa como objetivo primario independiente. Toda acción incluida pertenece a una acción primaria. |
 | **Conector secuencial** | `A --> B` | Expresa una continuación entre elementos del recorrido. No determina por sí solo duración, transacciones, automatización ni mecanismo técnico. |
@@ -30,6 +32,12 @@ La acción **incluida** expresa *qué conlleva realizar una acción primaria*. S
 
 **Una acción incluida siempre pertenece a una primaria**, aunque la representación no necesariamente deba agotar sus detalles. La interpretación debe poder reconstruirse desde el recorrido y la explicación acompañante. Si la pertenencia resultara ambigua, debe aclararse; no inferirla únicamente de la disposición gráfica.
 
+### Representar lo desconocido
+
+El **nodo de duda** permite situar una incertidumbre cerca de aquello que se necesita investigar. No obliga a responderla antes de comunicar el Work Flow ni autoriza a completar acciones o relaciones por especulación. Una duda sobre cómo se busca una solicitud, por ejemplo, no significa que la búsqueda no exista o que haya un paso adicional de ejecución.
+
+Cuando sea útil para disponer visualmente una duda junto a su contexto, Mermaid admite `~~~` como **enlace invisible de disposición**. No es un conector secuencial ni tiene significado documental de dependencia, precedencia, inclusión o causalidad. La pertenencia de una acción incluida a una primaria tampoco se deduce de estos enlaces.
+
 ### Recorridos y conexiones
 
 Las alternativas visibles pueden expresar **distintas acciones primarias** disponibles dentro del Work Flow. Que dos recorridos partan del mismo inicio no implica que ambos se realicen, ni que exista una condición de decisión específica si no se ha reconocido una.
@@ -40,30 +48,33 @@ El nodo **Fin** termina el recorrido explicado; no certifica automáticamente el
 
 ## Realización inicial en Mermaid
 
-La referencia inicial utiliza `flowchart TD` y las figuras anteriores. **A diferencia de una elección meramente estética, las tres formas de nodo indicadas sí tienen la semántica documental definida en esta sección.** Mermaid es la realización gráfica actual, no la autoridad que crea esas categorías.
+La referencia inicial utiliza `flowchart TD` y las figuras anteriores. Los símbolos de **inicio, fin, duda, acción primaria y acción incluida** tienen los significados documentales definidos en esta sección, coherentes con los símbolos compartidos del [Work Coordination Diagram](work-coordination-diagram.md). Mermaid es la realización gráfica actual, no la autoridad que crea esas categorías.
 
 Ejemplo tomado del Work Flow [«Registro y seguimiento» de Serviu](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/flows/registrar-solicitud-de-soporte.md):
 
 ```mermaid
 flowchart TD
-    A((Inicio))
+    A@{ shape: sm-circ }
+    Z@{ shape: framed-circle }
+    dudaBusqueda@{ shape: notch-rect, label: "¿Cómo se buscan<br/>y consultan los tickets propios?" }
 
     A --> B1["Crear solicitud de soporte"]
     B1 --> C1>"Adjunta documentos y formaliza registro"]
-    C1 --> Z(("Fin"))
+    C1 --> Z
 
     A --> B2["Buscar solicitud de soporte propia"]
     B2 --> Z
+    dudaBusqueda ~~~ B2
 ```
 
-**Lectura del caso:** «Crear solicitud de soporte» y «Buscar solicitud de soporte propia» son **acciones primarias**. «Adjunta documentos y formaliza registro» es **una acción incluida en «Crear solicitud de soporte»**. La búsqueda de solicitudes propias es un recorrido alternativo al registro en este ejemplo; no crea un ticket ni activa por sí misma «Evaluación de solicitudes».
+**Lectura del caso:** «Crear solicitud de soporte» y «Buscar solicitud de soporte propia» son **acciones primarias**. «Adjunta documentos y formaliza registro» es **una acción incluida en «Crear solicitud de soporte»**. La búsqueda de solicitudes propias es un recorrido alternativo al registro en este ejemplo; no crea un ticket ni activa por sí misma «Evaluación de solicitudes». El nodo de duda junto a la búsqueda señala que **todavía no se ha precisado cómo se buscan y consultan los tickets propios**; no es una acción adicional ni un requisito para ejecutar la búsqueda.
 
 La distinción **primaria / incluida** corresponde al significado de las acciones, no a su posición física en el grafo. El hecho de que el ejemplo use un inicio y un fin comunes tampoco obliga a todos los Work Flows a compartir una única ruta ni un único resultado.
 
 ## Límites y conocimiento incompleto
 
 - Representar solamente acciones, recorridos y relaciones sustentados, diferenciando afirmaciones, hipótesis y desconocimiento.
-- La ausencia de una rama o retorno no prueba su imposibilidad. Tampoco la presencia de un único fin implica que todos los recorridos tengan idénticos efectos organizacionales.
+- Las dudas explícitas no representan operaciones del proceso; son límites reconocidos del conocimiento. La ausencia de una rama o retorno no prueba su imposibilidad. Tampoco la presencia de un único fin implica que todos los recorridos tengan idénticos efectos organizacionales.
 - No derivar pantallas, autorizaciones, estados persistidos, contratos, temporización ni mecanismos de orquestación a partir de la figura.
 - No elevar automáticamente acciones internas a Work Flows independientes. Revisar sus límites mediante Domain Modeling cuando exista evidencia que lo justifique.
 - Mantener la **proyección del proceso** en el [Work Coordination Diagram](work-coordination-diagram.md) y la **proyección interna** en este diagrama. Ambas pueden complementar una explicación, pero no se sustituyen mutuamente.
