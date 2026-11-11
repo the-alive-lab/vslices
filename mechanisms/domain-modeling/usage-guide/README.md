@@ -50,6 +50,18 @@ Consultar [Domain Modeling](../README.md) para la relación candidata `Work Flow
 
 La realización puede aportar evidencia que motive la revisión de [actores](../concepts/actor.md), [perfiles](../concepts/profile.md), procesos y flujos. Distinguir la comprensión anterior, la evidencia y la interpretación revisada, sin presentar la implementación como autoridad automática sobre el trabajo organizacional.
 
+## Perspectivas transversales de comprensión
+
+La investigación puede apoyarse en seis perspectivas: **intención** (para qué existe una acción), **activación** (en qué circunstancias se realiza), **información** (qué necesita conocerse), **comportamiento** (qué ocurre o se decide), **resultado** (qué cambia o se obtiene) y **consecuencias** (qué posibilidades, obligaciones o restricciones aparecen después).
+
+**No son campos obligatorios, una nueva taxonomía del dominio ni una secuencia que debamos completar.** Cada paso recurre a las preguntas pertinentes según su responsabilidad y la evidencia disponible:
+
+- **Paso 2:** reconocer acciones por su intención y resultado, y sus relaciones por las consecuencias que conocemos; las activaciones y condiciones pueden orientar dónde comienza o continúa el trabajo, sin profundizar todavía todo el comportamiento interno.
+- **Paso 4:** reconocer por qué, cuándo y bajo qué condiciones interviene cada perfil, qué información necesita si la conocemos y qué responsabilidad ejerce respecto de las acciones y sus resultados.
+- **Paso 5:** profundizar las seis perspectivas en el comportamiento del Work Flow, hasta donde el conocimiento y el propósito del estudio lo justifiquen.
+
+**Resultado y consecuencia no son sinónimos**: obtener algo mediante una acción y habilitar trabajo posterior pueden ser hechos diferentes. Las perspectivas sirven para ampliar o revisar la comprensión, no para atribuir datos que todavía desconocemos.
+
 ## Orden natural y revisión entre pasos
 
 Los pasos se presentan en un **orden natural de investigación**: el conocimiento obtenido en uno suele facilitar el siguiente. **No son etapas cerradas, ni su numeración prohíbe regresar a un paso anterior.**
