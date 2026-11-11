@@ -45,6 +45,22 @@ Separar este estudio de las decisiones de [System Realizations](../concepts/syst
 6. **Revisar el alcance de lo estudiado** cuando aparezcan tensiones: una decisión interna puede seguir siendo parte de la acción, o la evidencia puede mostrar otra acción con significado propio. No descomponer automáticamente cada detalle en nuevos Work Flows.
 7. **Conservar la comprensión alcanzada y continuar** hacia la pregunta siguiente cuando sea suficiente para el propósito actual, sin exigir exhaustividad ni artefactos documentales.
 
+## Representar el comportamiento para comprenderlo y comunicarlo
+
+Una representación gráfica puede ayudarnos tanto a **investigar relaciones que aún no comprendemos bien** como a **explicar con mayor claridad un comportamiento que ya conocemos**. Su aporte no depende exclusivamente de la dificultad, complejidad o incertidumbre del Work Flow: también puede hacer más legibles sus acciones internas, decisiones, alternativas, resultados y consecuencias para otras personas.
+
+**Un Work Flow no requiere un diagrama por el hecho de existir.** Podemos optar por uno cuando una representación gráfica aporta claridad a lo que queremos examinar o comunicar; y podemos prescindir de él cuando la explicación actual cumple bien ese propósito. No se exige diagrama, notación única ni formato documental.
+
+Distinguir los niveles que representamos:
+
+- Un [Work Coordination Diagram](../../../products/docs-standard/diagramas/work-coordination-diagram.md) puede representar **cómo se relacionan los Work Flows y perfiles** en el nivel de coordinación del trabajo.
+- Una representación **interna de un Work Flow**, cuando resulte pertinente, puede mostrar sus **acciones, decisiones, condiciones y resultados**, sin convertir automáticamente esos elementos en otros Work Flows ni en construcciones técnicas como `System Action`.
+- Cuando el comportamiento interno muestra una continuación hacia **otro Work Flow**, distinguir la decisión que ocurre dentro de la acción de la **relación entre Work Flows** que corresponde al modelo del proceso. Podemos comunicar ambos aspectos sin duplicar sus autoridades conceptuales.
+
+Por ejemplo, en el estudio de solicitudes de soporte, la distinción entre los alcances **Soporte** y **Mejora** se reconoce en **Evaluar solicitud de soporte** y determina su continuación hacia otros Work Flows. En **Supervisado y cierre de soluciones**, puede resultar esclarecedor representar cuándo se registra seguimiento y cuándo corresponde cerrar, siempre que se distingan las condiciones **ya comprendidas** de las que **todavía debemos contrastar**. En **Registrar solicitud de soporte**, un diagrama podría no aportar claridad adicional frente a una explicación suficiente.
+
+Estos ejemplos **no prescriben diagramas concretos ni afirman condiciones internas aún no validadas**. La representación debe conservar el significado, las incertidumbres y los límites del conocimiento; **no completar ramas, decisiones o acciones por conveniencia gráfica**.
+
 ## Claridad esperada sobre el dominio
 
 Deberíamos poder **explicar qué significa realizar el Work Flow, qué lo activa, qué sucede durante su realización, qué resultado produce y qué consecuencias tiene para el trabajo**, en la profundidad que permitan la evidencia y la pregunta estudiada.
