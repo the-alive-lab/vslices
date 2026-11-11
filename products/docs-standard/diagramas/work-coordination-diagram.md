@@ -90,7 +90,7 @@ swimlane-beta LR
         registrar["1. Registro y<br/>seguimiento"]
     end
 
-    subgraph analista ["Analista operacional"]
+    subgraph analista ["Evaluador operacional"]
         evaluar["2. Evaluación de<br/>solicitudes"]
     end
 
