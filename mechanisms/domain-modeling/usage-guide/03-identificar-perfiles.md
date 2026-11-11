@@ -25,30 +25,28 @@ Usar situaciones reales, procedimientos y testimonios pertinentes; distinguir **
 
 Una etiqueta como «interno» o «externo» **no constituye un [perfil](../concepts/profile.md) por sí sola**: caracteriza una forma contextual de participación. Evitar inferir [perfiles](../concepts/profile.md) de nombres de grupos de seguridad, pantallas o cargos contractuales. **No traducir [perfiles](../concepts/profile.md) a permisos** durante este paso.
 
-Si una acción no tiene ejecutor comprobado, registrarlo como **[perfil](../concepts/profile.md) por determinar**; no asignársela al [perfil](../concepts/profile.md) más cercano solo para colorear un carril.
+Si no conocemos quién ejecuta una acción, **reconocer esa responsabilidad como pendiente**; no atribuirla por conveniencia ni suponer que corresponde al [perfil](../concepts/profile.md) aparentemente más cercano.
 
 ## Cómo elaborar el modelo
 
 1. **Recorrer cada [Work Flow](../concepts/work-flow.md)** del proceso e identificar quién efectivamente actúa y quién participa.
 2. **Reconocer funciones recurrentes** que merecen un [perfil](../concepts/profile.md) contextual propio; no crear uno nuevo por cada persona o pantalla.
-3. **Relacionar [perfiles](../concepts/profile.md) con tipos de [actor](../concepts/actor.md)**: registrar qué posiciones permiten asumir cada función, sin confundir ambas clasificaciones.
+3. **Relacionar [perfiles](../concepts/profile.md) con tipos de [actor](../concepts/actor.md)**: comprender qué posiciones permiten asumir cada función, sin confundir ambas clasificaciones.
 4. **Distinguir participación y responsabilidad** en cada [Work Flow](../concepts/work-flow.md) cuando la evidencia lo permita; no imponer exclusividad, un único ejecutor ni categorías universales de responsabilidad.
 5. **Contrastar casos de frontera** y asignaciones discutidas; conservar preguntas abiertas.
-6. **Documentar cada [perfil](../concepts/profile.md) en su superficie propietaria** y enlazarlo desde la matriz o proyección del proceso; no duplicar definiciones.
+6. **Revisar las atribuciones de responsabilidad** ante casos reales, distinguiendo lo comprendido, lo hipotético y lo aún desconocido.
 
-Una matriz de apoyo puede relacionar **[Work Flow](../concepts/work-flow.md) → [perfil](../concepts/profile.md) ejecutor/[participantes](../concepts/participant.md) → tipos de [actor](../concepts/actor.md) compatibles → evidencia/estado**. No prescribe un esquema de almacenamiento ni un mecanismo de autorización.
+## Límites de la comprensión
 
-## Representación y ejemplos
+Reconocer un [perfil](../concepts/profile.md) no implica asignarle exclusividad sobre un [Work Flow](../concepts/work-flow.md), ni determinar los permisos necesarios para una realización de sistema. Un mismo participante puede desempeñar distintas funciones; la colaboración y los cambios de responsabilidad deben examinarse según el trabajo real.
 
-Una proyección de [Work Process](../concepts/work-process.md) **con carriles por [perfil](../concepts/profile.md)** puede ayudar a reconocer traspasos de responsabilidad, siempre que las asignaciones estén sustentadas. En Serviu se exploró Mermaid `swimlane-beta` con `redux-color` para diferenciar carriles: es una posibilidad de visualización, no una convención obligatoria del modelo.
+## Claridad esperada sobre el dominio
 
-No hacer del diagrama la única autoridad documental: el modelo de [perfiles](../concepts/profile.md) y sus relaciones se conserva en documentos enlazados.
+Al recorrer este paso, deberíamos poder **comprender qué funciones y responsabilidades participan en las acciones semánticas, qué tipos de actor pueden asumirlas y cómo se distribuyen, comparten o transfieren durante el trabajo**. Deberíamos distinguir a quien ejecuta una acción de otros participantes, cuando la evidencia permita hacerlo, y reconocer sin inventarlas las responsabilidades todavía inciertas.
 
-## Resultado examinable
+Esta claridad no depende de producir un catálogo de perfiles, una matriz de responsabilidades o un diagrama por carriles. Tampoco requiere resolver permisos ni identidades de sistema.
 
-Un catálogo contextual de [perfiles](../concepts/profile.md), cada uno con su significado, responsabilidades conocidas, tipos de [actor](../concepts/actor.md) relacionados y procedencia; además de relaciones documentadas entre [perfiles](../concepts/profile.md) y [Work Flows](../concepts/work-flow.md), con asignaciones **comprobadas, candidatas o pendientes**.
-
-**Comprobaciones:** ¿un [perfil](../concepts/profile.md) fue definido como permiso o grupo técnico?, ¿confundimos [actor](../concepts/actor.md) con [perfil](../concepts/profile.md)?, ¿inventamos responsables por necesidades visuales?, ¿el mismo [perfil](../concepts/profile.md) está definido de distintas maneras en dos documentos?, ¿es reconstruible la evidencia detrás de cada asignación?
+**Cómo examinar la comprensión:** ¿un [perfil](../concepts/profile.md) fue definido como permiso o grupo técnico?, ¿confundimos [actor](../concepts/actor.md) con [perfil](../concepts/profile.md)?, ¿inventamos responsables por necesidades visuales?, ¿el mismo [perfil](../concepts/profile.md) está definido de distintas maneras en dos documentos?, ¿es reconstruible la evidencia detrás de cada asignación?
 
 ## Relación con los pasos siguientes
 
