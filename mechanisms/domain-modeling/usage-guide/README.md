@@ -1,6 +1,6 @@
 # Guía de modelado de [Work Semantics](../concepts/work-semantics.md)
 
-**Estado:** guía de uso candidata — 2026-11-10; primeros tres pasos elaborados; pasos posteriores pendientes.  
+**Estado:** guía de uso candidata — 2026-11-10; primeros cuatro pasos elaborados; profundización y sistematización posteriores pendientes.  
 **Mecanismo propietario de la orientación:** [Domain Modeling](../README.md).  
 **Alcance:** comprender cómo una organización reconoce, organiza y coordina su trabajo, **antes** de decidir sus realizaciones de sistema. No es un estándar universal de diagramas ni un contrato de Framework.
 
@@ -24,21 +24,25 @@ El primer movimiento no es diseñar funcionalidades de sistema: es **reconocer q
 
 **Claridad esperada:** comprender una porción del trabajo y sus relaciones con suficiente estabilidad para extender el conocimiento, **identificando dónde termina nuestra comprensión actual**, sin confundir desconocimiento con inexistencia.
 
-### 3. Identificar los [perfiles](../concepts/profile.md) de los [Work Flows](../concepts/work-flow.md)
+### 3. Reconocer [perfiles](../concepts/profile.md) organizacionales
 
-[Guía detallada: identificar perfiles](03-identificar-perfiles.md). Examinar las responsabilidades y posiciones organizacionales que participan en cada [Work Flow](../concepts/work-flow.md); relacionarlas con [actores](../concepts/actor.md) sin derivar permisos técnicos.
+[Guía detallada: reconocer perfiles](03-identificar-perfiles.md). Comprender qué funciones y responsabilidades reconoce la organización y qué tipos de [actor](../concepts/actor.md) pueden desempeñarlas, sin exigir aún atribuirles acciones específicas.
 
-**Claridad esperada:** comprender qué funciones y responsabilidades participan en cada acción, quiénes pueden desempeñarlas y dónde quedan incertidumbres.
+**Claridad esperada:** comprender qué perfiles existen, qué significa cada uno y qué distinciones permanecen inciertas.
 
-### 4. Profundizar cada [Work Flow](../concepts/work-flow.md) por separado
+### 4. Relacionar [perfiles](../concepts/profile.md) con [Work Flows](../concepts/work-flow.md)
 
-Con el [Work Process](../concepts/work-process.md) y los [perfiles](../concepts/profile.md) reconocidos, profundizar la comprensión de cada [Work Flow](../concepts/work-flow.md): intención, disparador, [participantes](../concepts/participant.md), información necesaria, condiciones, decisiones internas, resultados y consecuencias observables.
+[Guía detallada: relacionar perfiles y Work Flows](04-relacionar-perfiles-con-work-flows.md). Examinar cómo participan los perfiles reconocidos en las acciones semánticas identificadas, qué responsabilidades ejercen y qué relaciones de participación podemos sostener. **No requiere un Work Process completo ni una notación específica.**
 
-Distinguir lo comprendido a nivel de proceso de aquello que requiere estudiar la acción concreta, sin imponer un formato para expresarlo.
+**Claridad esperada:** comprender qué perfiles intervienen en los Work Flows, de qué manera y bajo qué condiciones, identificando asignaciones sustentadas, candidatas y desconocidas.
 
-El nombre de una [Feature](https://github.com/the-alive-lab/vslices/blob/main/products/framework/work.md) o una operación CRUD no basta para demostrar que exista un [Work Flow](../concepts/work-flow.md) autónomo. Una acción que no cambia de etapa también puede tener significado de negocio.
+### 5. Profundizar cada [Work Flow](../concepts/work-flow.md)
 
-### 5. Relacionar la comprensión con [System Realizations](../concepts/system-realizations.md)
+Desde los Work Flows comprendidos y sus participantes conocidos, examinar con mayor detalle su intención, disparador, información necesaria, condiciones, decisiones internas, resultados y consecuencias observables, **sin exigir un formato de documentación**.
+
+Una [Feature](https://github.com/the-alive-lab/vslices/blob/main/products/framework/work.md) o una operación CRUD no demuestra por sí misma la existencia de un Work Flow autónomo.
+
+### 6. Relacionar la comprensión con [System Realizations](../concepts/system-realizations.md)
 
 Solo cuando exista una comprensión suficiente para tomar decisiones examinables, estudiar cómo sistematizar el trabajo. En esa elaboración pueden descubrirse **[Spaces](https://github.com/the-alive-lab/vslices/blob/main/products/framework/spaces.md), [Points](https://github.com/the-alive-lab/vslices/blob/main/products/framework/spaces.md), [Features](https://github.com/the-alive-lab/vslices/blob/main/products/framework/work.md), [Capabilities](https://github.com/the-alive-lab/vslices/blob/main/products/framework/work.md)**, restricciones y operaciones, mediante las definiciones y autoridades propias de VSlices.
 
@@ -54,11 +58,11 @@ La claridad alcanzada —no la producción de un documento, diagrama, catálogo,
 
 Estos pasos son orientaciones revisables, no fases rígidas ni formularios obligatorios. Frente a desacuerdos o incertidumbres, evitar convertir una interpretación provisional en un hecho.
 
-Los pasos 4 y 5 permanecen esbozados en este índice; sus guías individuales están pendientes de elaboración desde evidencia adicional.
+Los pasos 5 y 6 permanecen esbozados en este índice; sus guías individuales están pendientes de elaboración desde evidencia adicional.
 
 ## Evidencia de referencia
 
-El estudio de la ticketera de Serviu motivó estos primeros pasos: [actores](https://github.com/atom-dev-serviu/documentation/blob/main/actors/README.md), [gestión de solicitud de soporte](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/management-process.md) y [perfiles](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/profiles/README.md). Son ejemplos para contrastar la guía, no formatos de documentación exigidos.
+El estudio de la ticketera de Serviu aportó evidencia para los primeros pasos: [actores](https://github.com/atom-dev-serviu/documentation/blob/main/actors/README.md), [gestión de solicitud de soporte](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/management-process.md) y [perfiles](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/profiles/README.md). Son ejemplos para contrastar la guía, no formatos de documentación exigidos.
 
 ## Preguntas abiertas
 
