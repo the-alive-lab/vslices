@@ -1,0 +1,26 @@
+# Conceptos de Domain Modeling
+
+Este índice dirige a las **definiciones conceptuales** utilizadas por [Domain Modeling](../README.md) y sus [guías de uso](../usage-guide/README.md). El índice no constituye una segunda fuente de definición.
+
+## Contexto y participación
+
+- [Domain](domain.md): ámbito de conocimiento, influencia o actividad.
+- [Participante](participant.md): quien interviene concretamente en el trabajo.
+- [Actor](actor.md): posición contextual desde la que participa.
+- [Perfil](profile.md): función o responsabilidad contextual que un actor puede desempeñar.
+
+## Comprensión del trabajo
+
+- [Work Semantics](work-semantics.md): comprensión del trabajo desde la organización.
+- [Work Chain](work-chain.md): cadena de trabajo reconocida.
+- [Work Process](work-process.md): proceso que coordina acciones semánticas.
+- [Work Flow](work-flow.md): acción semántica específica en un proceso.
+
+## Realización sistematizada
+
+- [System Realizations](system-realizations.md): elaboración de realizaciones de sistema.
+- [System Process](system-process.md): coordinación de acciones de sistema.
+- [System Action](system-action.md): acción funcional de sistema (nombre candidato).
+- [System Step](system-step.md): operación concreta de realización.
+
+**Límites de autoridad:** Spaces, Points, Features, Capabilities, Grounding y Hosting pertenecen conceptualmente a [VSlices Framework](../../../products/framework/README.md); aquí se relacionan con Domain Modeling sin redefinirlos. Las relaciones entre conceptos y las preguntas abiertas se documentan en sus fuentes propietarias.
