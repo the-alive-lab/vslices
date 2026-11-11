@@ -19,6 +19,18 @@ Este paso combina la comprensión obtenida al [reconocer Work Chains, Work Proce
 - ¿Qué atribuciones están efectivamente comprendidas y cuáles todavía no conocemos?
 - ¿La participación observada cuestiona nuestros perfiles o nuestra comprensión del Work Flow?
 
+## Perspectivas útiles para comprender la participación
+
+Al relacionar un [perfil](../concepts/profile.md) con un [Work Flow](../concepts/work-flow.md), puede ayudarnos examinar:
+
+- **Intención de la participación:** ¿para qué interviene ese perfil en la acción?
+- **Activación y condiciones:** ¿cuándo participa y qué circunstancias cambian esa participación?
+- **Información:** ¿qué necesita conocer para intervenir, cuando esto ya sea observable?
+- **Comportamiento y responsabilidad:** ¿qué hace o decide en esa participación, sin profundizar todavía toda la acción?
+- **Resultado y consecuencias:** ¿qué responsabilidad ejerce sobre lo obtenido y qué participaciones posteriores se habilitan o cambian?
+
+No se trata de aplicar todas las perspectivas ni de repetir el [paso 5](README.md). Aquí el foco es **la relación entre la función organizacional y la acción semántica**, no la explicación exhaustiva del comportamiento del Work Flow. Si las respuestas todavía se desconocen, conservar esa incertidumbre.
+
 ## Evidencia y límites de inferencia
 
 Contrastar las participaciones con situaciones de trabajo, responsables organizacionales y evidencia disponible, distinguiendo **lo observado, lo acordado, las hipótesis y lo desconocido**.
