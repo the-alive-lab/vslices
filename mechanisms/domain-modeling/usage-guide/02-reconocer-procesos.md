@@ -48,6 +48,14 @@ Work Chain
 
 Un **[Work Flow](../concepts/work-flow.md)** es una acción semántica específica, no cualquier flecha ni un endpoint. Un [Work Process](../concepts/work-process.md) no equivale a una instancia de workflow administrada por un orquestador. Podemos comprender bien un Work Flow sin conocer todavía su proceso o cadena, y viceversa.
 
+## Perspectivas útiles para reconocer acciones y relaciones
+
+Al reconocer un [Work Flow](../concepts/work-flow.md), pueden orientarnos especialmente su **intención** (¿para qué existe?) y su **resultado** (¿qué cambia o se obtiene?). Para entender cómo se relaciona con otros, podemos examinar su **activación** (¿cuándo tiene sentido realizarlo?) y sus **consecuencias** (¿qué trabajo posterior habilita, restringe u obliga?).
+
+Distinguir **resultado** de **consecuencia** evita reducir el significado de una acción a su siguiente nodo: una cosa es lo que produce y otra lo que ese hecho permite o exige después. La **información** que circula entre acciones puede ofrecer pistas cuando sea conocida, sin exigir comprender todavía toda la información interna.
+
+Estas preguntas son **opcionales y parciales**, no una lista de atributos que deba completarse ni una invitación a diseñar el comportamiento interno antes del [paso 5](README.md). Lo que desconocemos, incluso si ocurre antes o después, sigue siendo un límite declarado y una oportunidad de extensión posterior.
+
 ## Límites del nivel de comprensión
 
 Una condición que relaciona acciones puede entenderse sin convertirla en una acción independiente. Cuando una decisión sea significativa a nivel del proceso, reconocerla como tal; si pertenece al comportamiento interno de un Work Flow, su examen puede quedar para una profundización posterior.
