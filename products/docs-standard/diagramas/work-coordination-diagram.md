@@ -58,11 +58,11 @@ config:
 ---
 swimlane-beta LR
     subgraph solicitante ["Solicitante de soporte"]
-        registrar["1. Registrar solicitud<br/>de soporte"]
+        registrar["1. Registro y<br/>seguimiento"]
     end
 
     subgraph analista ["Analista operacional"]
-        evaluar["2. Evaluar solicitud<br/>de soporte"]
+        evaluar["2. Evaluación de<br/>solicitudes"]
     end
 
     subgraph agente ["Agente de supervisión"]
