@@ -1,6 +1,6 @@
 # Guía de modelado de [Work Semantics](../concepts/work-semantics.md)
 
-**Estado:** guía de uso candidata — 2026-11-10; primeros cuatro pasos elaborados; profundización y sistematización posteriores pendientes.  
+**Estado:** guía de uso candidata — 2026-11-10; primeros cinco pasos elaborados; sistematización posterior pendiente.  
 **Mecanismo propietario de la orientación:** [Domain Modeling](../README.md).  
 **Alcance:** comprender cómo una organización reconoce, organiza y coordina su trabajo, **antes** de decidir sus realizaciones de sistema. No es un estándar universal de diagramas ni un contrato de Framework.
 
@@ -38,7 +38,9 @@ El primer movimiento no es diseñar funcionalidades de sistema: es **reconocer q
 
 ### 5. Profundizar cada [Work Flow](../concepts/work-flow.md)
 
-Desde los Work Flows comprendidos y sus participantes conocidos, examinar con mayor detalle su intención, disparador, información necesaria, condiciones, decisiones internas, resultados y consecuencias observables, **sin exigir un formato de documentación**.
+[Guía detallada: profundizar Work Flows](05-profundizar-work-flows.md). Examinar su **intención, activación, información, comportamiento, resultado y consecuencias**, partiendo de la evidencia disponible y sin exigir completar todas las perspectivas ni producir un formato documental.
+
+**Claridad esperada:** comprender qué significa realizar la acción, qué ocurre en ella, qué produce y qué consecuencias tiene, reconociendo los límites de lo que aún desconocemos.
 
 Una [Feature](https://github.com/the-alive-lab/vslices/blob/main/products/framework/work.md) o una operación CRUD no demuestra por sí misma la existencia de un Work Flow autónomo.
 
@@ -80,7 +82,7 @@ La claridad alcanzada —no la producción de un documento, diagrama, catálogo,
 
 Los pasos orientan la investigación, no son formularios obligatorios. Frente a desacuerdos o incertidumbres, evitar convertir una interpretación provisional en un hecho.
 
-Los pasos 5 y 6 permanecen esbozados en este índice; sus guías individuales están pendientes de elaboración desde evidencia adicional.
+El paso 6 permanece esbozado en este índice; su guía individual está pendiente de elaboración desde evidencia adicional.
 
 ## Evidencia de referencia
 
