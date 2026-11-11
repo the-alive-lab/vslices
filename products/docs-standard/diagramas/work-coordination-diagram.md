@@ -68,6 +68,7 @@ config:
 ---
 swimlane-beta LR
     subgraph solicitante ["Solicitante de soporte"]
+        inicio(("¿A que necesidad responde el flujo?"))
         registrar["1. Registro y<br/>seguimiento"]
     end
 
@@ -79,13 +80,13 @@ swimlane-beta LR
         aprobar["3. Aprobar solución<br/>operacional"]
         sync@{ shape: fork }
         supervisar["4. Supervisado y<br/>cierre de soluciones"]
+        fin((("Fin")))
     end
 
-    registrar --> evaluar
+    inicio --> registrar --> evaluar
     evaluar -.->|"Si es soporte"| sync
     evaluar -.->|"Si es mejora"| aprobar
-    aprobar --> sync
-    sync --> supervisar
+    aprobar --> sync --> supervisar --> fin
 ```
 
 Este ejemplo proviene del [Work Process «Gestión de solicitud de soporte» de Serviu](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/management-process.md). Ilustra **dos conexiones condicionales** (Soporte y Mejora), un salto del paso 2 al paso 4 en la ruta «Soporte» y la **convergencia de ambos recorridos mediante el nodo `sync`** antes de supervisión. Como las rutas son alternativas, `sync` representa aquí su reunión para continuar, **no una barrera que espere ambas**. **No hay Work Flows declarados simultáneos en este ejemplo**. Las acciones internas «Registrar seguimiento de solución» y «Cerrar solicitud de soporte» pertenecen al cuarto Work Flow; no son nodos adicionales en esta representación.
