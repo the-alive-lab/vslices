@@ -22,7 +22,8 @@ La realización inicial distingue **acciones primarias** y **acciones incluidas*
 | **Duda** | `A@{ shape: notch-rect, label: "¿Qué desconocemos?" }` | Hace visible una pregunta o un límite del conocimiento sobre el comportamiento del Work Flow, sin representarlo como acción, alternativa ya confirmada ni paso ejecutable. |
 | **Acción primaria** | `A["Sample"]` | Acción que constituye uno de los **objetivos reconocidos** dentro del Work Flow. Un Work Flow puede contener **varias acciones primarias**. |
 | **Acción incluida** | `A>"Sample"]` | Acción cuya realización **está comprendida dentro de una acción primaria**. No se representa como objetivo primario independiente. Toda acción incluida pertenece a una acción primaria. |
-| **Conector secuencial** | `A --> B` | Expresa una continuación entre elementos del recorrido. No determina por sí solo duración, transacciones, automatización ni mecanismo técnico. |
+| **Conector secuencial** | `A --> B` o `A -->|texto| B` | Expresa una continuación entre elementos del recorrido, con texto opcional. No determina por sí solo duración, transacciones, automatización ni mecanismo técnico. |
+| **Conector condicional** | `A -.-> B` o `A -.->|texto| B` | Expresa una continuación alternativa bajo una condición o elección reconocida, con texto opcional. No implica concurrencia ni ejecución de todas las ramas. |
 
 ### Objetivo y realización interna
 
@@ -42,13 +43,13 @@ Cuando sea útil para disponer visualmente una duda junto a su contexto, Mermaid
 
 Las alternativas visibles pueden expresar **distintas acciones primarias** disponibles dentro del Work Flow. Que dos recorridos partan del mismo inicio no implica que ambos se realicen, ni que exista una condición de decisión específica si no se ha reconocido una.
 
-**Por ahora solo se define el conector secuencial `-->`.** No se asignan significados especiales a conectores con cantidades distintas de guiones. Tampoco se definen todavía conectores condicionales, de concurrencia o de sincronización para este tipo de diagrama: se estudiarán cuando aparezcan casos que los necesiten.
+**Se definen conectores secuenciales (`-->`) y condicionales (`-.->`)**, ambos con o sin texto. El carácter condicional lo expresa el estilo del conector y no la presencia de una etiqueta. Estas convenciones se alinean con el [Work Coordination Diagram](work-coordination-diagram.md), pero aquí relacionan **acciones internas de un Work Flow** y no Work Flows del proceso. Una alternativa como «Guardar borrador» frente a «Registrar resultado» puede representarse con conectores condicionales sin inventar condiciones más específicas. No se asignan significados especiales a cantidades distintas de guiones ni se definen todavía reglas generales de concurrencia o sincronización para este tipo de diagrama.
 
 El nodo **Fin** termina el recorrido explicado; no certifica automáticamente el cierre de una entidad organizacional. Si una acción habilita otro Work Flow, esa consecuencia corresponde a la comprensión del Work Flow y a la coordinación entre Work Flows, no exige dibujar al siguiente Work Flow como una acción interna.
 
 ## Realización inicial en Mermaid
 
-La referencia inicial utiliza `flowchart TD` y las figuras anteriores. Los símbolos de **inicio, fin, duda, acción primaria y acción incluida** tienen los significados documentales definidos en esta sección, coherentes con los símbolos compartidos del [Work Coordination Diagram](work-coordination-diagram.md). Mermaid es la realización gráfica actual, no la autoridad que crea esas categorías.
+La referencia inicial utiliza `flowchart TD` y las figuras anteriores. Las alternativas condicionales se pueden representar con líneas discontinuas `-.->`, como ocurre cuando un trabajo puede guardarse como borrador o registrarse como resultado definitivo. Los símbolos de **inicio, fin, duda, acción primaria y acción incluida** tienen los significados documentales definidos en esta sección, coherentes con los símbolos compartidos del [Work Coordination Diagram](work-coordination-diagram.md). Mermaid es la realización gráfica actual, no la autoridad que crea esas categorías.
 
 Ejemplo tomado del Work Flow [«Registro y seguimiento» de Serviu](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/flows/registrar-solicitud-de-soporte.md):
 
@@ -56,18 +57,19 @@ Ejemplo tomado del Work Flow [«Registro y seguimiento» de Serviu](https://gith
 flowchart TD
     A@{ shape: sm-circ }
     Z@{ shape: framed-circle }
-    dudaBusqueda@{ shape: notch-rect, label: "¿Cómo se buscan<br/>y consultan los tickets propios?" }
+    dudaBusqueda@{ shape: notch-rect, label: "¿Qué información de seguimiento<br/>se presenta y bajo qué condiciones?" }
 
     A --> B1["Crear solicitud de soporte"]
-    B1 --> C1>"Adjunta documentos y formaliza registro"]
+    B1 --> C1>"Adjuntar evidencias (opcional) y formalizar registro"]
     C1 --> Z
 
     A --> B2["Buscar solicitud de soporte propia"]
-    B2 --> Z
+    B2 --> C2>"Filtrar por ID del ticket, sistema y/o módulo; y tipo de incidencia"]
+    C2 --> Z
     dudaBusqueda ~~~ B2
 ```
 
-**Lectura del caso:** «Crear solicitud de soporte» y «Buscar solicitud de soporte propia» son **acciones primarias**. «Adjunta documentos y formaliza registro» es **una acción incluida en «Crear solicitud de soporte»**. La búsqueda de solicitudes propias es un recorrido alternativo al registro en este ejemplo; no crea un ticket ni activa por sí misma «Evaluación de solicitudes». El nodo de duda junto a la búsqueda señala que **todavía no se ha precisado cómo se buscan y consultan los tickets propios**; no es una acción adicional ni un requisito para ejecutar la búsqueda.
+**Lectura del caso:** «Crear solicitud de soporte» y «Buscar solicitud de soporte propia» son **acciones primarias**. «Adjuntar evidencias (opcional) y formalizar registro» es **una acción incluida en «Crear solicitud de soporte»**; filtrar es una acción incluida en la búsqueda. La búsqueda de solicitudes propias es un recorrido alternativo al registro en este ejemplo; no crea un ticket ni activa por sí misma «Evaluación de solicitudes». El nodo de duda junto a la búsqueda señala que **todavía no se han precisado la información de seguimiento presentada ni las condiciones de consulta**; no es una acción adicional ni un requisito para ejecutar la búsqueda.
 
 La distinción **primaria / incluida** corresponde al significado de las acciones, no a su posición física en el grafo. El hecho de que el ejemplo use un inicio y un fin comunes tampoco obliga a todos los Work Flows a compartir una única ruta ni un único resultado.
 
@@ -89,6 +91,6 @@ El uso de este diagrama es **opcional**; la suficiencia del conocimiento depende
 
 ## Preguntas abiertas
 
-- ¿Cómo conviene expresar gráficamente condiciones, decisiones, resultados o concurrencia cuando aparezca evidencia que lo requiera?
+- ¿Qué convenciones adicionales podrían requerir condiciones compuestas, decisiones, resultados o concurrencia cuando aparezca evidencia que lo justifique?
 - ¿Cómo hacer explícita la pertenencia de acciones incluidas en diagramas más complejos sin reducirla a su orden secuencial?
 - ¿Qué otras realizaciones pueden preservar las distinciones entre acciones primarias e incluidas sin depender de Mermaid?
