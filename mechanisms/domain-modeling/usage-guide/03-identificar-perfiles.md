@@ -1,4 +1,4 @@
-# Paso 3 — Identificar [perfiles](../concepts/profile.md) [participantes](../concepts/participant.md) en los [Work Flows](../concepts/work-flow.md)
+# Paso 3 — Reconocer perfiles organizacionales
 
 **Estado:** guía candidata, elaborada a partir del modelado organizacional de Serviu (2026-11-10).  
 **Pertenece a:** [Guía de uso de Work Semantics](README.md).  
@@ -6,18 +6,17 @@
 
 ## Propósito
 
-Identificar **desde qué función o responsabilidad organizacional los [actores](../concepts/actor.md) ejecutan, coordinan o participan en los [Work Flows](../concepts/work-flow.md)** reconocidos. Un [perfil](../concepts/profile.md) describe una posición funcional en un contexto de trabajo; no define por sí solo una cuenta, un permiso ni una clase de usuario.
+Reconocer **qué funciones y responsabilidades organizacionales tienen significado propio en el trabajo** y qué tipos de [actor](../concepts/actor.md) pueden desempeñarlas en el contexto estudiado.
 
-Este paso relaciona los [actores](01-reconocer-actores.md) y los [procesos y Work Flows](02-reconocer-procesos.md) ya reconocidos, sin volverlos definiciones subordinadas a un mismo archivo.
+Un [perfil](../concepts/profile.md) no es una cuenta, permiso o clase de usuario. En este paso buscamos **comprender qué perfiles existen y qué expresan**, sin exigir todavía su asignación a todos los [Work Flows](../concepts/work-flow.md). Relacionarlos con acciones concretas corresponde al [paso 4](04-relacionar-perfiles-con-work-flows.md).
 
 ## Preguntas que orientan
 
-- ¿Qué [perfil](../concepts/profile.md) realiza la acción? ¿Quién responde por su resultado, si es distinto?
-- ¿Qué otros [perfiles](../concepts/profile.md) intervienen, asesoran, autorizan o reciben sus consecuencias?
-- ¿Puede un tipo de [actor](../concepts/actor.md) desempeñar este [perfil](../concepts/profile.md) en el contexto estudiado? ¿Puede hacerlo más de un tipo?
-- ¿Cambian las responsabilidades según el proceso, condición o etapa?
-- ¿Qué asignaciones están confirmadas por la organización y cuáles son hipótesis?
-- ¿Existe un caso en el que una misma persona desempeñe varios [perfiles](../concepts/profile.md) sin alterar las definiciones?
+- ¿Qué funciones distingue la organización en este ámbito de trabajo y qué significado tiene cada una?
+- ¿Qué responsabilidades permiten reconocer esas funciones sin definirlas a partir de un permiso técnico?
+- ¿Qué tipos de actor pueden asumir una misma función? ¿Puede una persona desempeñar diferentes perfiles?
+- ¿Qué ejemplos reales permiten distinguir dos perfiles que parecen similares?
+- ¿Qué perfiles están sustentados y cuáles son solamente nombres o hipótesis?
 
 ## Evidencia y límites
 
@@ -29,12 +28,12 @@ Si no conocemos quién ejecuta una acción, **reconocer esa responsabilidad como
 
 ## Cómo elaborar el modelo
 
-1. **Recorrer cada [Work Flow](../concepts/work-flow.md)** del proceso e identificar quién efectivamente actúa y quién participa.
-2. **Reconocer funciones recurrentes** que merecen un [perfil](../concepts/profile.md) contextual propio; no crear uno nuevo por cada persona o pantalla.
-3. **Relacionar [perfiles](../concepts/profile.md) con tipos de [actor](../concepts/actor.md)**: comprender qué posiciones permiten asumir cada función, sin confundir ambas clasificaciones.
-4. **Distinguir participación y responsabilidad** en cada [Work Flow](../concepts/work-flow.md) cuando la evidencia lo permita; no imponer exclusividad, un único ejecutor ni categorías universales de responsabilidad.
-5. **Contrastar casos de frontera** y asignaciones discutidas; conservar preguntas abiertas.
-6. **Revisar las atribuciones de responsabilidad** ante casos reales, distinguiendo lo comprendido, lo hipotético y lo aún desconocido.
+1. **Reconocer funciones organizacionales** en situaciones conocidas, sin exigir partir de un proceso completo ni recorrer cada Work Flow.
+2. **Distinguir perfiles con significado propio** por sus responsabilidades contextuales, no por personas, cargos, pantallas o grupos de acceso.
+3. **Relacionar perfiles con tipos de [actor](../concepts/actor.md)** cuando sea pertinente, sin confundir ambas clasificaciones.
+4. **Contrastar casos de frontera**: responsabilidades compartidas, una misma persona en funciones distintas o funciones que cambian según el contexto.
+5. **Reconocer límites e incertidumbres** de la clasificación, evitando inventar responsabilidades para completar una lista.
+6. **Revisar las distinciones** cuando la evidencia del trabajo muestre que dos funciones se confundieron o que falta reconocer alguna.
 
 ## Límites de la comprensión
 
@@ -42,15 +41,15 @@ Reconocer un [perfil](../concepts/profile.md) no implica asignarle exclusividad 
 
 ## Claridad esperada sobre el dominio
 
-Al recorrer este paso, deberíamos poder **comprender qué funciones y responsabilidades participan en las acciones semánticas, qué tipos de actor pueden asumirlas y cómo se distribuyen, comparten o transfieren durante el trabajo**. Deberíamos distinguir a quien ejecuta una acción de otros participantes, cuando la evidencia permita hacerlo, y reconocer sin inventarlas las responsabilidades todavía inciertas.
+Deberíamos poder **explicar qué perfiles organizacionales reconocemos, qué funciones o responsabilidades representan y desde qué tipos de actor pueden ejercerse**, diferenciando la comprensión sustentada de las hipótesis y vacíos todavía abiertos.
 
-Esta claridad no depende de producir un catálogo de perfiles, una matriz de responsabilidades o un diagrama por carriles. Tampoco requiere resolver permisos ni identidades de sistema.
+No necesitamos haber asignado cada perfil a un Work Flow: **esa relación se examina en el [paso 4](04-relacionar-perfiles-con-work-flows.md)**. Tampoco necesitamos un catálogo, matriz, documento ni diagrama para considerar alcanzada esta claridad.
 
-**Cómo examinar la comprensión:** ¿un [perfil](../concepts/profile.md) fue definido como permiso o grupo técnico?, ¿confundimos [actor](../concepts/actor.md) con [perfil](../concepts/profile.md)?, ¿inventamos responsables por necesidades visuales?, ¿el mismo [perfil](../concepts/profile.md) está definido de distintas maneras en dos documentos?, ¿es reconstruible la evidencia detrás de cada asignación?
+**Cómo examinar la comprensión:** ¿definimos un perfil por su función o por permisos técnicos?, ¿lo confundimos con un tipo de actor o cargo?, ¿podemos distinguir perfiles por evidencia sin depender de sus nombres?, ¿sabemos qué perfiles permanecen hipotéticos o insuficientemente comprendidos?
 
 ## Relación con los pasos siguientes
 
-Al profundizar cada [Work Flow](../concepts/work-flow.md) se podrán identificar condiciones y [participantes](../concepts/participant.md) adicionales; al sistematizar el trabajo se estudiarán identidades y autorizaciones técnicas **sin sustituir retrospectivamente** los [perfiles](../concepts/profile.md) organizacionales.
+El [paso 4](04-relacionar-perfiles-con-work-flows.md) relaciona los perfiles reconocidos con los Work Flows estudiados. Esa relación puede revelar nuevos perfiles o cuestionar sus definiciones; las identidades y autorizaciones técnicas se examinarán en la sistematización sin sustituir retrospectivamente los perfiles organizacionales.
 
 ## Evidencia de referencia
 
