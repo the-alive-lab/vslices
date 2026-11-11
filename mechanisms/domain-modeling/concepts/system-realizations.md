@@ -6,6 +6,8 @@
 
 **Durante esta elaboración** se descubren y expresan conceptos, comportamientos, restricciones y capacidades; no forman una tercera rama paralela del mecanismo. Pueden emplearse **Spaces, Points, Features y Capabilities**, cuya definición y autoridad pertenecen a [VSlices Framework](../../../products/framework/README.md).
 
+Durante la exploración del paso 6, VSlices proporciona por defecto las burbujas de clasificación **Space, Feature y Capability**; su uso, ampliación y límites están orientados por la [guía del paso 6](../usage-guide/README.md) y la definición de [burbujas de clasificación](burbujas-de-clasificacion.md). Estas burbujas clasifican conceptos, no definen capas arquitectónicas.
+
 Durante la exploración del paso 6, [Coherencia](coherencia.md) y [Cohesión](cohesion.md) pueden examinarse como **propiedades del modelo** al nombrar conceptos y formar agrupaciones candidatas. [Acoplamiento](acoplamiento.md) tiene una entrada reservada para el paso 7 y su estudio sobre la división de la solución; todavía no se define aquí cómo aplicarlo.
 
 La descomposición candidata distingue [System Process](system-process.md), [System Action](system-action.md) y [System Step](system-step.md), sin exigir correspondencias uno a uno, fronteras de despliegue ni automatización de transformaciones.
