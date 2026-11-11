@@ -36,7 +36,7 @@ without automatically acquiring authority over the mechanism's base meaning.
 
 ## Current candidates
 
-- [Domain Modeling](domain-modeling.md) — mecanismo candidato que parte de Work Semantics y desarrolla System Realizations, descubriendo conceptos y capacidades de VSlices; antes «Work Modeling» y «Action Flow»
+- [Domain Modeling](domain-modeling/README.md) — mecanismo candidato que parte de Work Semantics y desarrolla System Realizations, descubriendo conceptos y capacidades de VSlices; antes «Work Modeling» y «Action Flow»
 - [Semantic Pressure](semantic-pressure.md) — owned by Method, applicable across the suite
 - [Path of Least Resistance](path-of-least-resistance.md)
 - [Path of Most Continuity](path-of-most-continuity.md)
