@@ -57,7 +57,7 @@ Distinguir los niveles que representamos:
 - Una representación **interna de un Work Flow**, cuando resulte pertinente, puede mostrar sus **acciones, decisiones, condiciones y resultados**, sin convertir automáticamente esos elementos en otros Work Flows ni en construcciones técnicas como `System Action`.
 - Cuando el comportamiento interno muestra una continuación hacia **otro Work Flow**, distinguir la decisión que ocurre dentro de la acción de la **relación entre Work Flows** que corresponde al modelo del proceso. Podemos comunicar ambos aspectos sin duplicar sus autoridades conceptuales.
 
-Por ejemplo, en el estudio de solicitudes de soporte, la distinción entre los alcances **Soporte** y **Mejora** se reconoce en **Evaluar solicitud de soporte** y determina su continuación hacia otros Work Flows. En **Supervisado y cierre de soluciones**, puede resultar esclarecedor representar cuándo se registra seguimiento y cuándo corresponde cerrar, siempre que se distingan las condiciones **ya comprendidas** de las que **todavía debemos contrastar**. En **Registrar solicitud de soporte**, un diagrama podría no aportar claridad adicional frente a una explicación suficiente.
+Por ejemplo, en el estudio de solicitudes de soporte, la distinción entre los alcances **Soporte** y **Mejora** se reconoce en **Evaluar solicitud de soporte** y determina su continuación hacia otros Work Flows. En **Supervisado y cierre de soluciones**, puede resultar esclarecedor representar cuándo se registra seguimiento y cuándo corresponde cerrar, siempre que se distingan las condiciones **ya comprendidas** de las que **todavía debemos contrastar**. En **Registro y seguimiento**, un diagrama puede ayudar a distinguir el registro formal de la consulta de solicitudes propias, sin presuponer que consultar provoca otra transición del proceso.
 
 Estos ejemplos **no prescriben diagramas concretos ni afirman condiciones internas aún no validadas**. La representación debe conservar el significado, las incertidumbres y los límites del conocimiento; **no completar ramas, decisiones o acciones por conveniencia gráfica**.
 
@@ -80,18 +80,18 @@ La [guía general](README.md#orden-natural-y-revisión-entre-pasos) presenta los
 
 Volver a un paso anterior **no significa que el estudio previo haya sido inútil o incorrecto**: la nueva evidencia puede ampliar una comprensión que antes era suficientemente estable. Revisar solamente lo materialmente afectado, con coherencia respecto del objetivo general, y preservar cuando corresponda **comprensión anterior → evidencia o tensión → revisión → comprensión posterior**. Luego podemos retomar la profundización.
 
-## Ejemplo de investigación: Registrar solicitud de soporte
+## Ejemplo de investigación: Registro y seguimiento
 
-En el [Work Process de gestión de solicitud de soporte de Serviu](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/management-process.md) reconocimos «Registrar solicitud de soporte» como acción semántica. **Las siguientes son preguntas, no respuestas validadas sobre Serviu:**
+En el [Work Process de gestión de solicitud de soporte de Serviu](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/management-process.md) reconocimos «Registro y seguimiento» como Work Flow, que comprende el registro formal y la consulta de tickets creados por el solicitante. **Las siguientes son preguntas, no respuestas validadas sobre Serviu:**
 
 | Perspectiva | Pregunta para investigar |
 |---|---|
-| Intención | ¿Qué significa para Serviu registrar una solicitud? |
-| Activación | ¿Cuándo y por qué alguien inicia una solicitud de soporte? |
-| Información | ¿Qué antecedentes se necesitan para reconocer esa solicitud? |
-| Comportamiento | ¿Qué evaluaciones o decisiones ocurren durante el registro? |
-| Resultado | ¿Qué significa que la solicitud quede registrada? |
-| Consecuencias | ¿Qué trabajo queda habilitado, pendiente o restringido después? |
+| Intención | ¿Qué significa para Serviu registrar una solicitud y consultar su seguimiento? |
+| Activación | ¿Cuándo alguien registra una solicitud o consulta una ya creada? |
+| Información | ¿Qué antecedentes exige el registro y qué información permite seguir una solicitud propia? |
+| Comportamiento | ¿Cómo se distinguen el registro de una solicitud y la consulta de sus antecedentes? |
+| Resultado | ¿Qué obtiene el solicitante al registrar o al consultar una solicitud existente? |
+| Consecuencias | ¿Qué trabajo habilita el registro y qué consecuencias tiene la consulta? |
 
 Si descubrimos que una clasificación interna tiene significado organizacional independiente, **no la promovemos automáticamente a otro Work Flow**: contrastamos primero su significado y, si corresponde, revisamos el [paso 2](02-reconocer-procesos.md).
 
