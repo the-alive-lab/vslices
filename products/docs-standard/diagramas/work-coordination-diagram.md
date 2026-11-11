@@ -67,17 +67,16 @@ swimlane-beta LR
 
     subgraph agente ["Agente de supervisión"]
         aprobar["3. Aprobar solución<br/>operacional"]
-        supervisar["4. Supervisado de<br/>solución"]
-        cerrar["5. Cierre de ticket"]
+        supervisar["4. Supervisado y<br/>cierre de soluciones"]
     end
 
     registrar --> evaluar
     evaluar -->|"Si es soporte"| supervisar
     evaluar -->|"Si es mejora"| aprobar
-    aprobar --> supervisar --> cerrar
+    aprobar --> supervisar
 ```
 
-Este ejemplo proviene del [Work Process «Gestión de solicitud de soporte» de Serviu](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/management-process.md). Ilustra **dos conexiones condicionales** y un salto del paso 2 al paso 4 en la ruta «Soporte». **No hay acciones declaradas simultáneas en este ejemplo**.
+Este ejemplo proviene del [Work Process «Gestión de solicitud de soporte» de Serviu](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/management-process.md). Ilustra **dos conexiones condicionales** y un salto del paso 2 al paso 4 en la ruta «Soporte». **No hay Work Flows declarados simultáneos en este ejemplo**. Las acciones internas «Registrar seguimiento de solución» y «Cerrar solicitud de soporte» pertenecen al cuarto Work Flow; no son nodos adicionales en esta representación.
 
 La ubicación física automática de Mermaid no constituye una segunda autoridad sobre el orden ni sobre la simultaneidad. `swimlane-beta` es una realización de la representación, **no la definición de Work Coordination Diagram**; otras notaciones futuras podrían preservar su semántica.
 
