@@ -12,6 +12,10 @@ VSlices comparte la noción de *domain* asociada a Eric Evans y DDD, **no** una 
 
 El modelado es **progresivo y revisable**: comprender el trabajo orienta la sistematización; los conceptos, comportamientos y capacidades se descubren durante la elaboración de realizaciones de sistema; la evidencia obtenida puede exigir revisar la comprensión original. Esto no implica una traducción automática entre niveles ni una secuencia rígida.
 
+## Recorrido y revisión
+
+La [guía de uso](usage-guide/README.md) presenta un **orden natural para investigar el dominio**, no fases irreversibles. Los hallazgos posteriores pueden motivar el retorno a un paso anterior para revisar únicamente el conocimiento afectado, siempre de manera coherente con la pregunta y el objetivo general de la investigación. Una revisión material distingue la comprensión previa, la evidencia que la cuestiona y la comprensión revisada; no obliga a reiniciar el recorrido ni a alterar la responsabilidad conceptual de cada paso.
+
 ## Objetivo
 
 Preservar la continuidad semántica entre la comprensión del trabajo y las realizaciones estudiadas, sin confundir significado organizacional, construcción conceptual, responsabilidad técnica y decisiones de implementación.
