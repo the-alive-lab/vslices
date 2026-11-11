@@ -18,11 +18,11 @@ El primer movimiento no es diseñar funcionalidades de sistema: es **reconocer q
 
 **Claridad esperada:** comprender quiénes participan, desde qué posiciones y cómo cambian según el contexto, distinguiendo lo conocido de lo hipotético.
 
-### 2. Reconocer los procesos semánticos de trabajo
+### 2. Reconocer Work Chains, Work Processes y Work Flows
 
-[Guía detallada: reconocer procesos](02-reconocer-procesos.md). Identificar las cadenas, los procesos y los [Work Flows](../concepts/work-flow.md) que la organización reconoce, distinguiendo propósitos, resultados y relaciones entre acciones.
+[Guía detallada: reconocer el trabajo y sus límites](02-reconocer-procesos.md). Partir de cualquiera de los tres niveles que permita establecer una **isla de conocimiento suficientemente estable**; comprender sus significados y relaciones sin imponer un orden de descubrimiento. Reconocer expresamente lo que sabemos, lo que desconocemos y las ausencias que podemos justificar.
 
-**Claridad esperada:** comprender qué trabajo realiza la organización, para qué lo hace y cómo coordina acciones semánticas para lograr sus resultados.
+**Claridad esperada:** comprender una porción del trabajo y sus relaciones con suficiente estabilidad para extender el conocimiento, **identificando dónde termina nuestra comprensión actual**, sin confundir desconocimiento con inexistencia.
 
 ### 3. Identificar los [perfiles](../concepts/profile.md) de los [Work Flows](../concepts/work-flow.md)
 
