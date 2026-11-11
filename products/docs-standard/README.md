@@ -15,6 +15,11 @@ Preserve useful knowledge and continuity without requiring documentary ceremony.
 
 The types' [root questions](root-question-inventory.md) are extracted from the normative [vslices/docs-standard](https://github.com/vslices/docs-standard). Branches emerge and stabilize progressively through observed Semantic Pressure, never from a requirement to complete an exhaustive tree. Continuity Paths have no intrinsic core/supporting/contextual or primary/secondary rank; select N paths according to real continuity needs.
 
+## Diagramas
+
+- [Diagramas — índice](diagramas/README.md): convenciones de representación documental, independientes de los conceptos modelados.
+- [Work Coordination Diagram](diagramas/work-coordination-diagram.md): proyección de Work Flows, perfiles, orden lógico y conectores secuenciales o condicionales.
+
 ## Concepts migrated from historical public product guidance
 
 - [Principles](principles.md) — why to preserve knowledge and how to distinguish responsibilities.
