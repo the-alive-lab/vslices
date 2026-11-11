@@ -45,7 +45,7 @@ flowchart TD
     B1 --> C1>"Adjunta documentos y formaliza registro"]
     C1 --> Z(("Fin"))
     
-    A ---> B2["Buscar solicitud de soporte propia"]
+    A --> B2["Buscar solicitud de soporte propia"]
     B2 --> Z
 ```
 
