@@ -20,6 +20,14 @@ Este índice dirige a las **definiciones conceptuales** utilizadas por [Domain M
 
 - [Continuidad y movimientos de elaboración](continuity.md): correspondencias candidatas, revisión, ejemplo DS 49 y límites de arquitectura.
 
+## Propiedades examinables del modelo
+
+- [Coherencia](coherencia.md): compatibilidad de significado, propósito y relaciones entre conceptos.
+- [Cohesión](cohesion.md): relaciones que justifican considerar conceptos conjuntamente, incluidas razones de cambio compartidas.
+- [Acoplamiento](acoplamiento.md): entrada reservada para su elaboración en el paso 7; no definido operativamente todavía.
+
+Estas entradas son candidatas y conservan alcances distintos. Coherencia y cohesión se examinan inicialmente en el paso 6; no anticipar el análisis del acoplamiento.
+
 ## Realización sistematizada
 
 - [System Realizations](system-realizations.md): elaboración de realizaciones de sistema.
