@@ -1,8 +1,8 @@
 # Action Flow — denominación histórica
 
-**Estado:** denominación original; posteriormente revisada como `Work Modeling` y finalmente **[Domain Modeling](domain-modeling.md)** (2026-11-10).
+**Estado:** denominación original; posteriormente revisada como `Work Modeling` y finalmente **[Domain Modeling](domain-modeling/README.md)** (2026-11-10).
 
-Esta entrada preserva enlaces históricos. La definición vigente del mecanismo candidato, sus ámbitos, jerarquías, relaciones y trayectoria pertenecen exclusivamente a [Domain Modeling](domain-modeling.md).
+Esta entrada preserva enlaces históricos. La definición vigente del mecanismo candidato, sus ámbitos, jerarquías, relaciones y trayectoria pertenecen exclusivamente a [Domain Modeling](domain-modeling/README.md).
 
 **Razón de la primera revisión:** `Action Flow` resaltaba la secuencia de acciones, aunque el mecanismo comprendía procesos, participantes, responsabilidades y consecuencias; no todo trabajo modelable requiere un flujo.
 
@@ -10,4 +10,4 @@ Esta entrada preserva enlaces históricos. La definición vigente del mecanismo 
 
 **Procedencia:** revisiones acordadas por Hernán y Limen el 2026-11-10. Las versiones anteriores permanecen en el historial Git.
 
-**Para agentes:** utilizar [Domain Modeling](domain-modeling.md) como única definición vigente. No inferir equivalencia automática con taxonomías o técnicas de DDD ni mantener definiciones paralelas.
+**Para agentes:** utilizar [Domain Modeling](domain-modeling/README.md) como única definición vigente. No inferir equivalencia automática con taxonomías o técnicas de DDD ni mantener definiciones paralelas.
