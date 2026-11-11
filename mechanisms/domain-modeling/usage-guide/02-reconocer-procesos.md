@@ -29,7 +29,7 @@ Conservar la separación entre trabajo **actual**, trabajo **propuesto** y traba
 2. **Reconocer el [Work Process](../concepts/work-process.md)** por su intención y resultado, no por la cantidad de funciones o pantallas.
 3. **Identificar [Work Flows](../concepts/work-flow.md) candidatos**: nombrar acciones por lo que significan para el trabajo (p. ej., «Registrar solicitud de soporte»), no por verbos CRUD o clases técnicas.
 4. **Examinar relaciones entre acciones**: orden necesario, bifurcaciones significativas, retornos, condiciones y consecuencias. No asumir linealidad universal.
-5. **Representar el proceso a su nivel**: reflejar las acciones y relaciones suficientes; dejar decisiones operativas internas para el documento de cada [Work Flow](../concepts/work-flow.md).
+5. **Distinguir el nivel del proceso del nivel de cada acción**: comprender las relaciones significativas sin exigir conocer todas las decisiones internas de los Work Flows.
 6. **Contrastar con un caso real** y revisar la descomposición cuando la evidencia no coincida.
 
 Jerarquía candidata:
@@ -42,17 +42,19 @@ Work Chain
 
 Un **[Work Flow](../concepts/work-flow.md)** es una acción semántica específica; **no** es el sinónimo de cualquier flecha en el diagrama ni un endpoint. Un [Work Process](../concepts/work-process.md) tampoco es una instancia de workflow administrada por un orquestador.
 
-## Representación y ejemplos
+## Límites del nivel de comprensión
 
-El diagrama del **[Work Process](../concepts/work-process.md)** pertenece a su documento propietario. Puede ser un grafo simple de acciones con condiciones en los enlaces. No agregar obligatoriamente nodos de decisión si basta una condición en la relación; tampoco prohibirlos cuando expresen una decisión de negocio significativa.
+Una condición que relaciona acciones puede entenderse sin convertirla en una acción independiente. Cuando una decisión sea significativa a nivel del proceso, reconocerla como tal; si pertenece al comportamiento interno de un Work Flow, su examen puede quedar para una profundización posterior.
 
-Mantener los nombres del trabajo independientes del lenguaje técnico de la implementación. El detalle de entrada, evaluación y consecuencia de una acción individual se examinará al **profundizar su [Work Flow](../concepts/work-flow.md)**, no repitiendo el diagrama global.
+Mantener las acciones reconocidas independientes del vocabulario técnico de la implementación. Comprender la relación general entre acciones no exige resolver todavía todas sus entradas, decisiones internas y consecuencias específicas.
 
-## Resultado examinable
+## Claridad esperada sobre el dominio
 
-Un índice de cadenas y procesos, y **un documento propietario por [Work Process](../concepts/work-process.md)** con: alcance, propósito, resultado, [Work Flows](../concepts/work-flow.md) que lo integran, relaciones relevantes, evidencia, nivel de certeza y preguntas abiertas. El diagrama es **una proyección**, no la única fuente del significado.
+Al recorrer este paso, deberíamos poder **explicar qué trabajo reconoce la organización, para qué lo realiza, qué resultados busca y cómo relaciona sus acciones semánticas para alcanzarlos**. Deberíamos distinguir una cadena de trabajo de un proceso y una acción específica, reconocer relaciones y condiciones relevantes, y saber qué detalles todavía pertenecen al estudio de cada Work Flow.
 
-**Comprobaciones:** ¿se puede explicar el proceso sin hablar de servicios o endpoints?, ¿cada [Work Flow](../concepts/work-flow.md) representa una acción reconocible?, ¿el diagrama mezcla pasos internos de otras acciones?, ¿las condiciones tienen respaldo?, ¿hay decisiones inventadas solo para completar el gráfico?
+Esa comprensión puede existir y examinarse sin producir índices, documentos ni diagramas. La ausencia de una representación particular no demuestra ausencia de comprensión; tampoco una representación completa demuestra por sí sola que sea correcta.
+
+**Cómo examinar la comprensión:** ¿se puede explicar el proceso sin hablar de servicios o endpoints?, ¿cada [Work Flow](../concepts/work-flow.md) representa una acción reconocible?, ¿el diagrama mezcla pasos internos de otras acciones?, ¿las condiciones tienen respaldo?, ¿hay decisiones inventadas solo para completar el gráfico?
 
 ## Relación con los pasos siguientes
 
