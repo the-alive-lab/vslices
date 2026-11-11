@@ -11,7 +11,7 @@ The [public-glossary reconciliation](glossary-reconciliation-2026-10-09.md) pres
 
 ## Relación con Domain Modeling
 
-[Domain Modeling](../../mechanisms/domain-modeling.md) es un mecanismo candidato de la Suite: parte de **Work Semantics** y elabora **System Realizations**, descubriendo durante esa elaboración conceptos, comportamientos y capacidades. **Framework mantiene** la autoridad conceptual sobre Spaces, Work, Grounding y Hosting; no son capas de DDD ni una tercera perspectiva paralela del mecanismo. Compartir la noción de *domain* con Eric Evans no impone la metodología ni la taxonomía de DDD a VSlices.
+[Domain Modeling](../../mechanisms/domain-modeling/README.md) es un mecanismo candidato de la Suite: parte de **Work Semantics** y elabora **System Realizations**, descubriendo durante esa elaboración conceptos, comportamientos y capacidades. **Framework mantiene** la autoridad conceptual sobre Spaces, Work, Grounding y Hosting; no son capas de DDD ni una tercera perspectiva paralela del mecanismo. Compartir la noción de *domain* con Eric Evans no impone la metodología ni la taxonomía de DDD a VSlices.
 
 ## Framework organizational surfaces
 
