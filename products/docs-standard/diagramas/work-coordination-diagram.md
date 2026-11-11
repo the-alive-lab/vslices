@@ -72,8 +72,8 @@ swimlane-beta LR
     end
 
     registrar --> evaluar
-    evaluar -->|"Si es soporte"| sync
-    evaluar -->|"Si es mejora"| aprobar
+    evaluar -.->|"Si es soporte"| sync
+    evaluar -.->|"Si es mejora"| aprobar
     aprobar --> sync
     sync --> supervisar
 ```
