@@ -54,8 +54,38 @@ Este paso puede revelar preguntas internas de un Work Flow que merezcan profundi
 
 No prescribe todavía la transformación hacia [System Realizations](../concepts/system-realizations.md), ni los contratos de autorización, ni la propiedad técnica de las acciones.
 
-## Evidencia de referencia
+## Ejemplo opcional para expresar el conocimiento
 
-En la [ticketera de Serviu](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/management-process.md), el Work Process ya representa dos asignaciones de perfil **candidatas**, mientras otras acciones tienen participación pendiente de determinar. El uso de carriles allí responde a la necesidad de examinar el caso; **no define cómo deben elaborarse todos los dominios**.
+El [Work Coordination Diagram](../../../products/docs-standard/diagramas/work-coordination-diagram.md) permite **mostrar las relaciones entre Work Flows y perfiles ya reconocidos**. A diferencia del ejemplo parcial del [paso 2](02-reconocer-procesos.md), aquí los carriles pueden representar perfiles sustentados por el conocimiento organizacional.
 
-Las denominaciones de algunas acciones del diagrama de Serviu todavía difieren de su índice histórico de Work Flows. Esa diferencia debe resolverse con evidencia antes de atribuir responsabilidades definitivas.
+El siguiente ejemplo reproduce la distribución representada en el [Work Process «Gestión de solicitud de soporte» de Serviu](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/management-process.md):
+
+```mermaid
+---
+config:
+  theme: redux-color
+---
+swimlane-beta LR
+    subgraph solicitante ["Solicitante de soporte"]
+        registrar["1. Registrar solicitud<br/>de soporte"]
+    end
+
+    subgraph analista ["Analista operacional"]
+        evaluar["2. Evaluar solicitud<br/>de soporte"]
+    end
+
+    subgraph agente ["Agente de supervisión"]
+        aprobar["3. Aprobar solución<br/>operacional"]
+        supervisar["4. Supervisado de<br/>solución"]
+        cerrar["5. Cierre de ticket"]
+    end
+
+    registrar --> evaluar
+    evaluar -->|"Si es soporte"| supervisar
+    evaluar -->|"Si es mejora"| aprobar
+    aprobar --> supervisar --> cerrar
+```
+
+La diferencia que interesa examinar en este paso **no es la herramienta ni el orden de los nodos**, sino la claridad adicional sobre **qué perfil participa en cada Work Flow** y cómo cambia la participación a lo largo del trabajo. Las relaciones y numeraciones se interpretan según la [definición canónica de Docs Standard](../../../products/docs-standard/diagramas/work-coordination-diagram.md), sin redefinir sus reglas aquí.
+
+El diagrama es una **posible forma de documentar la comprensión**, no una entrega obligatoria del paso 4. Las denominaciones «Supervisado de solución» y «Cierre de ticket» todavía difieren de las del índice histórico de Work Flows de Serviu; la equivalencia semántica continúa pendiente de contraste.
