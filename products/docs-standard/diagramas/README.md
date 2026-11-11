@@ -5,7 +5,7 @@ Esta superficie reúne **definiciones de representación documental**. Describe 
 ## Diagramas definidos
 
 - [Work Coordination Diagram](work-coordination-diagram.md) — representación de Work Flows, perfiles, posiciones de orden lógico y relaciones entre acciones del proceso.
-- [Work Flow Behavior Diagram](work-flow-behavior-diagram.md) — representación opcional del comportamiento interno de un Work Flow: acciones, recorridos y alternativas reconocidos.
+- [Work Action Diagram](work-action-diagram.md) — representación opcional del comportamiento interno de un Work Flow: acciones, recorridos y alternativas reconocidos.
 
 ## Alcance y autoridad
 
