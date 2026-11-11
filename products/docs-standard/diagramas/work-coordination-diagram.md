@@ -67,13 +67,15 @@ swimlane-beta LR
 
     subgraph agente ["Agente de supervisión"]
         aprobar["3. Aprobar solución<br/>operacional"]
+        sync@{ shape: fork }
         supervisar["4. Supervisado y<br/>cierre de soluciones"]
     end
 
     registrar --> evaluar
-    evaluar -->|"Si es soporte"| supervisar
+    evaluar -->|"Si es soporte"| sync
     evaluar -->|"Si es mejora"| aprobar
-    aprobar --> supervisar
+    aprobar --> sync
+    sync --> supervisar
 ```
 
 Este ejemplo proviene del [Work Process «Gestión de solicitud de soporte» de Serviu](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/management-process.md). Ilustra **dos conexiones condicionales** y un salto del paso 2 al paso 4 en la ruta «Soporte». **No hay Work Flows declarados simultáneos en este ejemplo**. Las acciones internas «Registrar seguimiento de solución» y «Cerrar solicitud de soporte» pertenecen al cuarto Work Flow; no son nodos adicionales en esta representación.
