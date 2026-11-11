@@ -49,6 +49,12 @@ No hace falta haber elaborado un catálogo o documento para alcanzar esta clarid
 
 **Cómo examinar la comprensión:** ¿la clasificación depende indebidamente de la situación contractual?, ¿está escrita como si una persona fuera siempre del mismo tipo?, ¿se inventaron permisos?, ¿podemos reconstruir por qué se distinguió cada [actor](../concepts/actor.md)?
 
+## Ejemplo opcional de representación posterior
+
+Si posteriormente se utiliza un [Work Coordination Diagram](../../../products/docs-standard/diagramas/work-coordination-diagram.md) para expresar el trabajo conocido, **no es necesario crear más de un carril**. Un carril puede bastar para el ámbito representado, sin inventar perfiles adicionales solo para completar la visualización.
+
+Esta posibilidad **no es un resultado exigido por el paso 1**: reconocer [actores](../concepts/actor.md) no equivale a haber reconocido [perfiles](../concepts/profile.md) ni [Work Flows](../concepts/work-flow.md). Los carriles del Work Coordination Diagram corresponden a perfiles, no a tipos de actor. Por eso no se presenta aquí un diagrama de Work Flows como si ya se conocieran.
+
 ## Relación con los pasos siguientes
 
 [Reconocer procesos](02-reconocer-procesos.md) revela dónde aparece la participación de los [actores](../concepts/actor.md). [Identificar perfiles](03-identificar-perfiles.md) precisa qué responsabilidades desempeñan en los [Work Flows](../concepts/work-flow.md). Ambas observaciones pueden obligarnos a revisar la clasificación inicial.
