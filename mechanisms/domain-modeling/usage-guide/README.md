@@ -50,13 +50,23 @@ Consultar [Domain Modeling](../README.md) para la relación candidata `Work Flow
 
 La realización puede aportar evidencia que motive la revisión de [actores](../concepts/actor.md), [perfiles](../concepts/profile.md), procesos y flujos. Distinguir la comprensión anterior, la evidencia y la interpretación revisada, sin presentar la implementación como autoridad automática sobre el trabajo organizacional.
 
+## Orden natural y revisión entre pasos
+
+Los pasos se presentan en un **orden natural de investigación**: el conocimiento obtenido en uno suele facilitar el siguiente. **No son etapas cerradas, ni su numeración prohíbe regresar a un paso anterior.**
+
+Si durante cualquier paso aparece evidencia pertinente que amplía o cuestiona una comprensión previa, podemos **volver al paso afectado, revisar lo que corresponda y continuar**. Por ejemplo, al profundizar un [Work Flow](../concepts/work-flow.md) en el paso 5 podríamos reconocer otra acción semántica (revisar el paso 2), una función organizacional antes desconocida (paso 3) o una participación diferente (paso 4).
+
+La revisión debe ser **coherente con la pregunta y el objetivo general del estudio**, sustentarse en lo descubierto y afectar solamente las distinciones que la evidencia realmente cuestiona. No hace falta rehacer todos los pasos ni completar artificialmente lo que seguimos desconociendo.
+
+Cuando exista un cambio material en la interpretación, preservar la relación **comprensión anterior → nueva evidencia o tensión → revisión → comprensión posterior**, sin fingir que el conocimiento actualizado siempre estuvo disponible. Poder retomar un paso no transforma la guía en un procedimiento documental obligatorio ni altera la responsabilidad propia de cada paso.
+
 ## Criterio de las guías por paso
 
 Cada paso distingue **propósito**, **preguntas para comprender**, **evidencia y límites de inferencia**, **cómo examinar el dominio**, **claridad esperada sobre el dominio** y **preguntas para revisar esa comprensión**.
 
 La claridad alcanzada —no la producción de un documento, diagrama, catálogo, matriz o formato— es el resultado buscado. Las formas de representación, conservación y comunicación del conocimiento son **responsabilidades independientes de esta guía**. Pueden apoyar el examen, pero no determinan por sí solas si comprendemos el dominio.
 
-Estos pasos son orientaciones revisables, no fases rígidas ni formularios obligatorios. Frente a desacuerdos o incertidumbres, evitar convertir una interpretación provisional en un hecho.
+Los pasos orientan la investigación, no son formularios obligatorios. Frente a desacuerdos o incertidumbres, evitar convertir una interpretación provisional en un hecho.
 
 Los pasos 5 y 6 permanecen esbozados en este índice; sus guías individuales están pendientes de elaboración desde evidencia adicional.
 
@@ -71,4 +81,4 @@ El estudio de la ticketera de Serviu aportó evidencia para los primeros pasos: 
 - Cómo representar variantes y condiciones sin imponer una notación universal.
 - Qué otros conceptos de Domain Modeling requiere la evidencia más allá de este recorrido inicial de [Work Semantics](../concepts/work-semantics.md).
 
-Esta guía describe el **primer recorrido de estudio**; no afirma que los [actores](../concepts/actor.md), procesos o [perfiles](../concepts/profile.md) se descubran en un orden inmutable.
+Esta guía describe un **recorrido natural, revisitable y no exhaustivo**; no afirma que los [actores](../concepts/actor.md), procesos o [perfiles](../concepts/profile.md) se descubran en un orden inmutable.
