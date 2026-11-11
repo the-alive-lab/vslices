@@ -16,25 +16,25 @@ El primer movimiento no es diseñar funcionalidades de sistema: es **reconocer q
 
 [Guía detallada: reconocer actores](01-reconocer-actores.md). Identificar quiénes participan y desde qué posición contextual lo hacen, sin confundir [actor](../concepts/actor.md) con [participante](../concepts/participant.md), [perfil](../concepts/profile.md) o identidad técnica.
 
-**Resultado:** tipos de [actor](../concepts/actor.md) reconocibles y sus fuentes, con incertidumbres explícitas.
+**Claridad esperada:** comprender quiénes participan, desde qué posiciones y cómo cambian según el contexto, distinguiendo lo conocido de lo hipotético.
 
 ### 2. Reconocer los procesos semánticos de trabajo
 
 [Guía detallada: reconocer procesos](02-reconocer-procesos.md). Identificar las cadenas, los procesos y los [Work Flows](../concepts/work-flow.md) que la organización reconoce, distinguiendo propósitos, resultados y relaciones entre acciones.
 
-**Resultado:** procesos navegables y acciones semánticas candidatas, con sus relaciones justificadas.
+**Claridad esperada:** comprender qué trabajo realiza la organización, para qué lo hace y cómo coordina acciones semánticas para lograr sus resultados.
 
 ### 3. Identificar los [perfiles](../concepts/profile.md) de los [Work Flows](../concepts/work-flow.md)
 
 [Guía detallada: identificar perfiles](03-identificar-perfiles.md). Examinar las responsabilidades y posiciones organizacionales que participan en cada [Work Flow](../concepts/work-flow.md); relacionarlas con [actores](../concepts/actor.md) sin derivar permisos técnicos.
 
-**Resultado:** [perfiles](../concepts/profile.md) contextualizados y relaciones con [actores](../concepts/actor.md) y acciones, diferenciando asignaciones comprobadas y pendientes.
+**Claridad esperada:** comprender qué funciones y responsabilidades participan en cada acción, quiénes pueden desempeñarlas y dónde quedan incertidumbres.
 
 ### 4. Profundizar cada [Work Flow](../concepts/work-flow.md) por separado
 
-Con el [Work Process](../concepts/work-process.md) y los [perfiles](../concepts/profile.md) reconocidos, elaborar **un documento propietario por [Work Flow](../concepts/work-flow.md)**. Examinar su intención, disparador, [participantes](../concepts/participant.md), información necesaria, condiciones, decisiones internas, resultados y consecuencias observables.
+Con el [Work Process](../concepts/work-process.md) y los [perfiles](../concepts/profile.md) reconocidos, profundizar la comprensión de cada [Work Flow](../concepts/work-flow.md): intención, disparador, [participantes](../concepts/participant.md), información necesaria, condiciones, decisiones internas, resultados y consecuencias observables.
 
-No repetir el diagrama general del proceso dentro de cada [Work Flow](../concepts/work-flow.md). Enlazar al proceso padre, al [perfil](../concepts/profile.md) correspondiente y a las fuentes que justifican el significado de la acción.
+Distinguir lo comprendido a nivel de proceso de aquello que requiere estudiar la acción concreta, sin imponer un formato para expresarlo.
 
 El nombre de una [Feature](https://github.com/the-alive-lab/vslices/blob/main/products/framework/work.md) o una operación CRUD no basta para demostrar que exista un [Work Flow](../concepts/work-flow.md) autónomo. Una acción que no cambia de etapa también puede tener significado de negocio.
 
@@ -44,40 +44,21 @@ Solo cuando exista una comprensión suficiente para tomar decisiones examinables
 
 Consultar [Domain Modeling](../README.md) para la relación candidata `Work Flow → System Process` y la elaboración `System Process → System Action → System Step`. **No asumir mapeos uno a uno**.
 
-La realización puede aportar evidencia que motive la revisión de [actores](../concepts/actor.md), [perfiles](../concepts/profile.md), procesos y flujos. Registrar **posición anterior → evidencia → revisión → posición posterior** sin presentar la implementación como autoridad automática sobre el trabajo organizacional.
+La realización puede aportar evidencia que motive la revisión de [actores](../concepts/actor.md), [perfiles](../concepts/profile.md), procesos y flujos. Distinguir la comprensión anterior, la evidencia y la interpretación revisada, sin presentar la implementación como autoridad automática sobre el trabajo organizacional.
 
-## Estructura compartida de las guías por paso
+## Criterio de las guías por paso
 
-Los documentos de los tres primeros pasos distinguen **propósito**, **preguntas para comprender**, **evidencia y límites de inferencia**, **forma de elaborar el modelo**, **resultado examinable** y **criterios para revisar**. No son formularios obligatorios ni fases cerradas. Ante desacuerdos, conservar las interpretaciones y su procedencia hasta resolverlos.
+Cada paso distingue **propósito**, **preguntas para comprender**, **evidencia y límites de inferencia**, **cómo examinar el dominio**, **claridad esperada sobre el dominio** y **preguntas para revisar esa comprensión**.
 
-Los pasos 4 y 5 permanecen descritos de forma inicial en este índice; **sus guías individuales están pendientes** de elaboración a partir de evidencia adicional. No interpretar su ausencia como retiro conceptual.
+La claridad alcanzada —no la producción de un documento, diagrama, catálogo, matriz o formato— es el resultado buscado. Las formas de representación, conservación y comunicación del conocimiento son **responsabilidades independientes de esta guía**. Pueden apoyar el examen, pero no determinan por sí solas si comprendemos el dominio.
 
-## Convenciones de representación
+Estos pasos son orientaciones revisables, no fases rígidas ni formularios obligatorios. Frente a desacuerdos o incertidumbres, evitar convertir una interpretación provisional en un hecho.
 
-Un diagrama es una **proyección de un modelo**, no el modelo mismo.
+Los pasos 4 y 5 permanecen esbozados en este índice; sus guías individuales están pendientes de elaboración desde evidencia adicional.
 
-Para un [Work Process](../concepts/work-process.md) puede usarse un diagrama de actividades con **carriles por [perfil](../concepts/profile.md)** si se conoce quién actúa y el renderizador lo soporta. `swimlane-beta` con `redux-color` en Mermaid es una opción visual **comprobada para el caso de documentación de Serviu en GitHub (2026-11-10)**, no una obligación técnica o conceptual para VSlices.
+## Evidencia de referencia
 
-El diagrama debería conservar acciones semánticas, relaciones y condiciones relevantes. **No confundir tipos de [actor](../concepts/actor.md) (p. ej. interno/externo) con [perfiles](../concepts/profile.md) ejecutores**. No introducir carriles de [perfiles](../concepts/profile.md) ficticios como si fueran definiciones organizacionales aprobadas; marcar expresamente la incertidumbre cuando haga falta.
-
-Las notaciones, colores y configuración del renderizador pueden cambiar sin cambiar el significado del trabajo.
-
-## Organización documental y trazabilidad
-
-- **Índices / README de ámbito:** orientan hacia documentos propietarios; no duplican diagramas, listas detalladas ni definiciones.
-- **[Actores](../concepts/actor.md):** tipos de participación, con su procedencia y clasificación contextual.
-- **Perfiles:** catálogo contextual y una definición por [perfil](../concepts/profile.md); relacionan tipos de [actores](../concepts/actor.md) y responsabilidades sin asumir permisos.
-- **Procesos:** documento propietario de cada [Work Process](../concepts/work-process.md) y su representación general.
-- **[Work Flows](../concepts/work-flow.md):** documentos propietarios de cada acción semántica, referenciados desde el proceso.
-- **Evidencia técnica:** separar los comportamientos de sistema observados de las definiciones del trabajo.
-
-Al crear o revisar documentos, registrar fuentes, fecha de observación si importa, decisiones acordadas, hipótesis y preguntas abiertas. Conservar enlaces y trayectoria de cambios en Git. Una decisión no se vuelve verdadera por aparecer en un diagrama.
-
-## Ejemplo de referencia sin duplicación
-
-En Serviu se inició por tipos de [actores](https://github.com/atom-dev-serviu/documentation/blob/main/actors/README.md), luego el [Work Process de gestión de solicitud de soporte](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/management-process.md), y se estableció un catálogo contextual de [perfiles de ticketera](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/profiles/README.md). Sus [Work Flows](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/flows/README.md) serán profundizados por separado.
-
-Este caso es **evidencia para revisar la guía**, no una definición obligatoria de todos los dominios ni una copia de sus diagramas.
+El estudio de la ticketera de Serviu motivó estos primeros pasos: [actores](https://github.com/atom-dev-serviu/documentation/blob/main/actors/README.md), [gestión de solicitud de soporte](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/management-process.md) y [perfiles](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/profiles/README.md). Son ejemplos para contrastar la guía, no formatos de documentación exigidos.
 
 ## Preguntas abiertas
 
