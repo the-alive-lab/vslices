@@ -67,8 +67,9 @@ config:
   theme: redux-color
 ---
 swimlane-beta LR
+    dudaInicio@{ shape: notch-rect, label: "¿Que procesos activan este?" }
+
     subgraph solicitante ["Solicitante de soporte"]
-        dudaInicio@{ shape: notch-rect, label: "¿Que procesos activan este?" }
         inicio@{ shape: sm-circ }
         registrar["1. Registro y<br/>seguimiento"]
     end
