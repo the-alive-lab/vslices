@@ -88,16 +88,15 @@ swimlane-beta LR
 
     subgraph agente ["Agente de supervisión"]
         aprobar["3. Aprobar solución<br/>operacional"]
-        supervisar["4. Supervisado de<br/>solución"]
-        cerrar["5. Cierre de ticket"]
+        supervisar["4. Supervisado y<br/>cierre de soluciones"]
     end
 
     registrar --> evaluar
     evaluar -->|"Si es soporte"| supervisar
     evaluar -->|"Si es mejora"| aprobar
-    aprobar --> supervisar --> cerrar
+    aprobar --> supervisar
 ```
 
 La diferencia que interesa examinar en este paso **no es la herramienta ni el orden de los nodos**, sino la claridad adicional sobre **qué perfil participa en cada Work Flow** y cómo cambia la participación a lo largo del trabajo. Las relaciones y numeraciones se interpretan según la [definición canónica de Docs Standard](../../../products/docs-standard/diagramas/work-coordination-diagram.md), sin redefinir sus reglas aquí.
 
-El diagrama es una **posible forma de documentar la comprensión**, no una entrega obligatoria del paso 4. Las denominaciones «Supervisado de solución» y «Cierre de ticket» todavía difieren de las del índice histórico de Work Flows de Serviu; la equivalencia semántica continúa pendiente de contraste.
+El diagrama es una **posible forma de documentar la comprensión**, no una entrega obligatoria del paso 4. En la revisión de Serviu, los antiguos nodos «Supervisado de solución» y «Cierre de ticket» se consolidaron en **«Supervisado y cierre de soluciones»**. Las acciones internas «Registrar seguimiento de solución» y «Cerrar solicitud de soporte» se estudian en la [profundización de ese Work Flow](https://github.com/atom-dev-serviu/documentation/blob/main/organization/tickets/flows/supervisado-y-cierre-de-soluciones.md), no como nodos separados.
